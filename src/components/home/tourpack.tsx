@@ -78,7 +78,7 @@ export default function TourPack({ data }: any) {
         {(Domestic ? data?.tours1 : data?.tours2)?.map((cards: any) => (
           <SwiperSlide
             key={cards.id}
-            className="mb-16 w-full shadow-lg group rounded-xl overflow-hidden"
+            className="mb-16 w-full shadow-lg group rounded-xl bg-white overflow-hidden"
           >
             {/* Card Content */}
             <div className="w-full md:h-64 h-44 mb-2   overflow-hidden relative">
@@ -91,7 +91,7 @@ export default function TourPack({ data }: any) {
                 className="transition-all duration-500 w-full h-full object-cover group-hover:scale-110"
               />
             </div>
-<div className="px-5 py-3 text-left bg-white">
+<div className="px-5 py-3 text-left ">
 <p className="mb-2"><span className="py-1 px-3   w-max text-xs font-bold text-black bg-yellow-400  rounded-md shadow-lg"> ★ 5.0</span> <span className="text-zinc-500 text-base">{"  ("}400 reviews{")"}</span></p>
             <h4 className="font-bold text-black text-xl mb-2">
               {cards?.title}
