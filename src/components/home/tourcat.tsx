@@ -80,7 +80,7 @@ export default function TourCat({ data }: any) {
             className="mb-16 text-center w-full group p-3"
           >
             {/* Card Content */}
-            <div className="w-full md:h-96 h-80 mb-2 rounded-full md:rounded-[135px] overflow-hidden relative">
+            <div className="md:w-full md:h-96 mx-auto h-44 w-44 mb-2 rounded-full md:rounded-[135px] overflow-hidden relative">
               <Image
                 src={cards.img}
                 alt="tour"
