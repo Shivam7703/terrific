@@ -38,7 +38,7 @@ export default function HomeBanner({ data }: any) {
         ))}
       </Marquee>}
 
-      <div className="w-full h-full text-white absolute top-0 left-0 bg-[#00000048] z-10 flex justify-center items-center flex-col gap-6">
+      <div className="w-full h-full text-white absolute top-0 left-0 bg-[#00000034] z-10 flex justify-center items-center flex-col gap-6">
       <AnimatePresence>
       <motion.div
                   
