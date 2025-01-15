@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+.bg-gradient1{
+  background: linear-gradient(90deg, rgba(215, 255, 250, 0.913), rgba(249, 221, 255, 0.795), rgba(255, 196, 227, 0.845), rgb(255, 170, 170) );
+}
+
+.bg-back{
+  background: url(../assets/home/background-1.jpg);
+}
+
+.font1, h2{
+  font-family: var(--font1);
+  font-optical-sizing: auto;
+}
+
+.hill-bg {
+  background:linear-gradient(90deg, rgba(255, 255, 255, 0.728), rgba(255, 255, 255, 0.842)), url(../assets/home/hills-bg.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.swiperstyle1 {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    content: "";
+    background-color: #ffffff !important;
+  }
+}
+body{
+  width: 100%;
+  overflow-x: hidden!important;
+}
+
+section{
+  width: 100%;
+  overflow: hidden!important;
+}
+
+.swiper-pagination-bullet {
+  height: 11px!important; width: 11px!important;
+  opacity: 1!important;
+  border: 1px solid #8A0101;
+  background: rgb(236, 236, 236) !important;
+}
+.swiper-pagination-bullet-active {
+  background: #8A0101 !important;
+}
+
+.animate-x{
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateX(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+
+/* animation */
+.hover14 {
+  position: relative;
+}
+.hover14::before {
+  position: absolute;
+  top: 0;
+  left: -99%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.568) 100%
+  );
+  transform: skewX(-45deg);
+}
+.hover14:hover::before {
+  animation: shine 0.55s ease-in-out;
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
