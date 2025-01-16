@@ -112,12 +112,12 @@ const Header = ({ header }: any) => {
       }`}>
         <div className="flex items-center relative cursor-pointer text-3xl justify-between w-full">
         <Link href={header?.href || "/"}>
-            <Image src={logo2} alt="logo" className="w-[120px] object-contain" />
+            <Image src={isAtTop ? logo2 : logo} alt="logo" className="w-[120px] object-contain" />
           </Link>
           {isMobileMenuOpen ? (
-            <VscChromeClose onClick={handleMobileMenu} className={isAtTop ? "text-white" : "text-white"} />
+            <VscChromeClose onClick={handleMobileMenu} className={isAtTop ? "text-white" : "text-black"} />
           ) : (
-            <IoMenu onClick={handleMobileMenu} className={isAtTop ? "text-white" : "text-white"} />
+            <IoMenu onClick={handleMobileMenu} className={isAtTop ? "text-white" : "text-black"} />
           )}
          
         </div>

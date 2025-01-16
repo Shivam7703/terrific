@@ -10,7 +10,7 @@ export default function GettoKnow({aboutdata}:any) {
     <motion.div  variants={staggerContainer(0.1, 0)} // Adjusted stagger settings
     initial="hidden"
     whileInView="show"
-    viewport={{ once: true, amount: 0.2 }} className='lg:p-28 sm:p-12 px-7 py-11 max-w-[1580px] mx-auto flex flex-wrap items-stretch justify-between gap-y-7 bg-white' >
+    viewport={{ once: true, amount: 0.2 }} className='lg:p-28 sm:p-12 px-7 py-11 max-w-[1580px] mx-auto flex flex-wrap items-stretch justify-between gap-y-7 bg-white overflow-hidden' >
       
 
       <motion.div     variants={fadeIn("right", "tween", 0.3, 1)}
