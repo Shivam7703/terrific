@@ -11,7 +11,7 @@ import { cloude } from "@/assets";
 
 export default function HomeBanner({ data }: any) {
   return (
-    <section className="relative md:h-[100vh] h-[94vh] w-full ">
+    <section className="relative md:h-[105vh] h-[94vh] w-full ">
        <Image
               src={cloude}
               alt={`cloud`}
@@ -25,7 +25,7 @@ export default function HomeBanner({ data }: any) {
       {data?.imgs && 
       <Marquee className="w-full h-full" speed={50} gradient={false} gradientWidth={0}>
         {data?.imgs?.map((bnr: any) => (
-          <div key={bnr?.id} className="md:h-[100vh] h-[94vh]">
+          <div key={bnr?.id} className="md:h-[105vh] h-[94vh]">
             <Image
               src={bnr?.img}
               alt={`banner-image`}
@@ -38,7 +38,7 @@ export default function HomeBanner({ data }: any) {
         ))}
       </Marquee>}
 
-      <div className="w-full h-full text-white absolute top-0 left-0 bg-[#00000034] z-10 flex justify-center items-center flex-col gap-6">
+      <div className="w-full h-full text-white absolute top-0 left-0 bg-[#00000056] z-10 flex justify-center items-center flex-col gap-6">
       <AnimatePresence>
       <motion.div
                   

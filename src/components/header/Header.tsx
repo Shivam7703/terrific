@@ -10,6 +10,7 @@ import Image from "next/image";
 import { logo, logo2 } from "@/assets";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { usePathname } from "next/navigation";
+import { headercountry } from "@/data/homeData";
 
 
 
@@ -78,12 +79,12 @@ const Header = ({ header }: any) => {
     <header
       className={`fixed top-0 left-0 w-screen z-50 transition-all duration-300 
         ${isVisible ? "translate-y-0" : "-translate-y-full"}
-        ${isAtTop ? "bg-transparent text-color1" : "bg-white shadow-lg"}`}
+        ${isAtTop ? "bg-[#00000032] text-color1" : "bg-[#000000de] shadow-lg"}`}
     >
-      <div className="hidden md:flex items-center justify-between h-24 md:h-20 px-5 lg:px-10">
+      <div className="hidden md:flex items-center justify-between lg:border-b lg:border-white h-24 md:h-20 px-5 lg:px-10">
         <Link href={header?.href || "/"}>
           <Image
-            src={isAtTop ? logo2 : logo}
+            src={isAtTop ? logo2 : logo2}
             alt="logo"
             className="h-[12vw] max-h-20 w-min object-contain md:h-20"
           />
@@ -96,6 +97,14 @@ const Header = ({ header }: any) => {
         />
         <RightSide onTop={isAtTop}/>
       </div>
+<div className="max-lg:hidden flex max-w-[1250px] mx-auto py-3  justify-between gap-1">
+  {headercountry?.map((count)=>(
+    <div key={count?.id} className="text-center text-white">
+<Link href={count?.slug || "#"}><Image src={count?.img} alt="package" height={60} width={40}/>
+<p className="text-xs">{count.label}</p></Link>
+    </div>
+  ))}
+</div>
 
       {/* Mobile Section */}
       <div className={`flex md:hidden w-screen items-center  justify-between h-20 px-3 ${
@@ -103,12 +112,12 @@ const Header = ({ header }: any) => {
       }`}>
         <div className="flex items-center relative cursor-pointer text-3xl justify-between w-full">
         <Link href={header?.href || "/"}>
-            <Image src={isAtTop ? logo2 : logo} alt="logo" className="w-[120px] object-contain" />
+            <Image src={logo2} alt="logo" className="w-[120px] object-contain" />
           </Link>
           {isMobileMenuOpen ? (
-            <VscChromeClose onClick={handleMobileMenu} className={isAtTop ? "text-white" : "text-black"} />
+            <VscChromeClose onClick={handleMobileMenu} className={isAtTop ? "text-white" : "text-white"} />
           ) : (
-            <IoMenu onClick={handleMobileMenu} className={isAtTop ? "text-white" : "text-black"} />
+            <IoMenu onClick={handleMobileMenu} className={isAtTop ? "text-white" : "text-white"} />
           )}
          
         </div>

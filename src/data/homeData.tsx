@@ -1,4 +1,4 @@
-import {  about2, about3, banner1, banner2, banner3, banner4, banner5, banner6, banner7, car, cl1, cli1, cli2, cli3, faq, logo2 } from "@/assets";
+import {  about2, about3, banner1, banner2, banner3, banner4, banner5, banner6, banner7, car, cl1, cli1, cli2, cli3, faq, logo2,nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11 } from "@/assets";
 import {  FaMapLocationDot} from "react-icons/fa6";
 import { GiDeadEye } from "react-icons/gi";
 import { LiaBullseyeSolid } from "react-icons/lia";
@@ -8,6 +8,67 @@ import { MdAttachEmail, MdWifiCalling3, } from "react-icons/md";
 
 
 // homepage
+export const headercountry=[{
+  id:1,
+  img:nav1,
+label:"Azerbaizan",
+slug:"#"
+},
+{
+  id:2,
+  img:nav2,
+label:"Bali",
+slug:"#"
+},{
+  id:3,
+  img:nav3,
+label:"Bhutan",
+slug:"#"
+},{
+  id:4,
+  img:nav4,
+label:"Dubai",
+slug:"#"
+},{
+  id:5,
+  img:nav5,
+label:"Japan",
+slug:"#"
+},{
+  id:6,
+  img:nav6,
+label:"Malaysia",
+slug:"#"
+},{
+  id:7,
+  img:nav7,
+label:"Nepal",
+slug:"#"
+},{
+  id:8,
+  img:nav8,
+label:"Singapore",
+slug:"#"
+},{
+  id:9,
+  img:nav9,
+label:"Sri Lanka",
+slug:"#"
+},
+{
+  id:10,
+  img:nav10,
+label:"Thailand",
+slug:"#"
+},
+{
+  id:11,
+  img:nav11,
+label:"Vietnam",
+slug:"#"
+},
+]
+
 export const navItemsArray = [
   { id: 1, label: "About", href: "about"},
   { id: 2, label: "Packages", href: "services",

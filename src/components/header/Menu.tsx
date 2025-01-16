@@ -7,7 +7,7 @@ const Menu = ({ activeItemId, onItemClick, onTop }: any) => {
   return (
     <ul
       className={`hidden items-center lg:gap-x-5 md:gap-x-0 font-medium ${
-        onTop ? "text-white" : "text-black"
+        onTop ? "text-white" : "text-white"
       } md:flex`}
     >
       {navItemsArray?.map((item: any) => (

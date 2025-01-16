@@ -1,5 +1,16 @@
 import logo from "@/assets/logo.jpg";
 import logo2 from "@/assets/logo-white.png";
+import nav1 from "@/assets/home/azerbaizan.png";
+import nav2 from "@/assets/home/bali 1.png";
+import nav3 from "@/assets/home/bhutan.png";
+import nav4 from "@/assets/home/dubai.png";
+import nav5 from "@/assets/home/japan.png";
+import nav6 from "@/assets/home/malaysia.png";
+import nav7 from "@/assets/home/nepal.png";
+import nav8 from "@/assets/home/singapore.png";
+import nav9 from "@/assets/home/sri-lanka.png";
+import nav10 from "@/assets/home/thailand.png";
+import nav11 from "@/assets/home/vietnam.png";
 import banner1 from "@/assets/home/Bannner1.jpg";
 import banner2 from "@/assets/home/Bannner2.jpg";
 import banner3 from "@/assets/home/Bannner3.jpg";
@@ -28,5 +39,5 @@ import footerimg from "@/assets/home/footer.png";
 
 
 export {
-    logo , logo2, banner1, banner2,banner3,banner4,banner5,banner6,banner7,cloude, about, about2,about3, cli1, cli2, cli3, car, partner, whychoose, cl1, faq, footerimg
+    logo , logo2, banner1, banner2,banner3,banner4,banner5,banner6,banner7,cloude, about, about2,about3, cli1, cli2, cli3, car, partner, whychoose, cl1, faq, footerimg, nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11
    }
