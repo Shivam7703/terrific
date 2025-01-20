@@ -1,6 +1,6 @@
 import React from "react";
-import { AiFillCloseSquare } from "react-icons/ai";
-import { FaCircleCheck, FaLocationDot, FaSquareCheck } from "react-icons/fa6";
+import { FaWindowClose } from "react-icons/fa";
+import {  FaLocationDot, FaSquareCheck } from "react-icons/fa6";
 import { GrUploadOption } from "react-icons/gr";
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
 
@@ -37,31 +37,31 @@ export default function MainContent() {
 {/* description */}
       <div className="bg-zinc-50 shadow-lg space-y-2 rounded-xl p-4 sm:p-7">
         <h2 className="sm:text-3xl text-xl font-medium text-color1">Description</h2>
-        <p className="font-medium sm:text-base text-zinc-500">Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and Europe, including Los Angeles, New York, Chicago, Toronto, and London. Each concert will showcase her unique blend of pop and ethereal soundscapes, bringing her music to life in a way you've never seen before.</p>
+        <p className="font-medium sm:text-sm text-zinc-500 text-xs">Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and Europe, including Los Angeles, New York, Chicago, Toronto, and London. Each concert will showcase her unique blend of pop and ethereal soundscapes, bringing her music to life in a way you've never seen before.</p>
       </div>
 
 {/* highlights */}
 <div className="bg-zinc-50 shadow-lg space-y-3 rounded-xl p-4 sm:p-7">
         <h2 className="sm:text-3xl text-xl font-medium text-color1">Highlights</h2>
-        <p className="flex gap-2  text-zinc-500 text-base sm:text-lg items-center h-max"><GrUploadOption  className="p-1 sm:p-2 rounded-full text-2xl sm:text-3xl text-color1  bg-[#a52a2a22]"/>Exclusive merchandise available at each show</p>
+        <p className="flex gap-2  text-zinc-500 text-sm sm:text-lg items-center h-max"><GrUploadOption  className="p-1 sm:p-2 rounded-full text-2xl sm:text-3xl text-color1  bg-[#a52a2a22]"/>Exclusive merchandise available at each show</p>
 
-        <p className="flex gap-2  text-zinc-500 text-base sm:text-lg items-center h-max"><GrUploadOption  className="p-1 sm:p-2 rounded-full text-2xl sm:text-3xl text-color1 bg-[#a52a2a22]"/>Exclusive merchandise available at each show</p>
+        <p className="flex gap-2  text-zinc-500 text-sm sm:text-lg items-center h-max"><GrUploadOption  className="p-1 sm:p-2 rounded-full text-2xl sm:text-3xl text-color1 bg-[#a52a2a22]"/>Exclusive merchandise available at each show</p>
 
-        <p className="flex gap-2  text-zinc-500 text-base sm:text-lg items-center h-max"><GrUploadOption  className="p-1 sm:p-2 rounded-full text-2xl sm:text-3xl text-color1 bg-[#a52a2a22]"/>Exclusive merchandise available at each show</p>
+        <p className="flex gap-2  text-zinc-500 text-sm sm:text-lg items-center h-max"><GrUploadOption  className="p-1 sm:p-2 rounded-full text-2xl sm:text-3xl text-color1 bg-[#a52a2a22]"/>Exclusive merchandise available at each show</p>
       </div>
 
       {/* Itinerary */}
       <div className="bg-zinc-50 shadow-lg rounded-xl p-4 sm:p-7">
         <h2 className="sm:text-3xl text-xl font-medium mb-3 text-color1">Itinerary</h2>
        <div className="p-4 bg-white rounded-xl space-y-3">
-       <div className="flex items-center gap-3 sm:gap-5 pb-2 border-b border-zinc-300"><div className="sm:min-w-14 sm:h-14 min-w-10 h-10 flex justify-center items-center sm:text-2xl text-xl text-white bg-color1">01</div><div><h3 className="text-base sm:text-lg mb-2 font-bold">Day 1, Kickoff in Los Angeles</h3><p className="font-medium sm:text-base text-zinc-500">Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and Europe, including Los Angeles, New York, Chicago, Toronto, and London.</p></div>
+       <div className="flex items-center gap-3 sm:gap-5 pb-2 border-b border-zinc-300"><div className="sm:min-w-14 sm:h-14 min-w-10 h-10 flex justify-center items-center sm:text-2xl text-xl text-white bg-color1">01</div><div><h3 className="text-base sm:text-lg mb-2 font-bold">Day 1, Kickoff in Los Angeles</h3><p className="font-medium sm:text-base text-zinc-500 text-xs">Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and Europe, including Los Angeles, New York, Chicago, Toronto, and London.</p></div>
         </div>
 
-        <div className="flex items-center gap-3 sm:gap-5 pb-2 border-b border-zinc-300"><div className="sm:min-w-14 sm:h-14 min-w-10 h-10 flex justify-center items-center sm:text-2xl text-xl text-white bg-color1">02</div><div><h3 className="text-base sm:text-lg mb-2 font-bold">Day 2, Kickoff in Los Angeles</h3><p className="font-medium sm:text-base text-zinc-500">Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and Europe, including Los Angeles, New York, Chicago, Toronto, and London.</p></div>
+        <div className="flex items-center gap-3 sm:gap-5 pb-2 border-b border-zinc-300"><div className="sm:min-w-14 sm:h-14 min-w-10 h-10 flex justify-center items-center sm:text-2xl text-xl text-white bg-color1">02</div><div><h3 className="text-base sm:text-lg mb-2 font-bold">Day 2, Kickoff in Los Angeles</h3><p className="font-medium sm:text-base text-zinc-500 text-xs">Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and Europe, including Los Angeles, New York, Chicago, Toronto, and London.</p></div>
         </div>
-        <div className="flex items-center gap-3 sm:gap-5 pb-2 border-b border-zinc-300"><div className="sm:min-w-14 sm:h-14 min-w-10 h-10 flex justify-center items-center sm:text-2xl text-xl text-white bg-color1">03</div><div><h3 className="text-base sm:text-lg mb-2 font-bold">Day 3, Kickoff in Los Angeles</h3><p className="font-medium sm:text-base text-zinc-500">Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and Europe, including Los Angeles, New York, Chicago, Toronto, and London.</p></div>
+        <div className="flex items-center gap-3 sm:gap-5 pb-2 border-b border-zinc-300"><div className="sm:min-w-14 sm:h-14 min-w-10 h-10 flex justify-center items-center sm:text-2xl text-xl text-white bg-color1">03</div><div><h3 className="text-base sm:text-lg mb-2 font-bold">Day 3, Kickoff in Los Angeles</h3><p className="font-medium sm:text-base text-zinc-500 text-xs">Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and Europe, including Los Angeles, New York, Chicago, Toronto, and London.</p></div>
         </div>
-        <div className="flex items-center gap-3 sm:gap-5 pb-2 border-b border-zinc-300"><div className="sm:min-w-14 sm:h-14 min-w-10 h-10 flex justify-center items-center sm:text-2xl text-xl text-white bg-color1">04</div><div><h3 className="text-base sm:text-lg mb-2 font-bold">Day 4, Kickoff in Los Angeles</h3><p className="font-medium sm:text-base text-zinc-500">Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and Europe, including Los Angeles, New York, Chicago, Toronto, and London.</p></div>
+        <div className="flex items-center gap-3 sm:gap-5 pb-2 border-b border-zinc-300"><div className="sm:min-w-14 sm:h-14 min-w-10 h-10 flex justify-center items-center sm:text-2xl text-xl text-white bg-color1">04</div><div><h3 className="text-base sm:text-lg mb-2 font-bold">Day 4, Kickoff in Los Angeles</h3><p className="font-medium sm:text-base text-zinc-500 text-xs">Kicking off on April 1, 2025, the "DreamsTour" will take Luna to major cities across North America and Europe, including Los Angeles, New York, Chicago, Toronto, and London.</p></div>
         </div>
        </div>
       </div>
@@ -69,7 +69,7 @@ export default function MainContent() {
       {/* include & exclude */}
       <div className="bg-zinc-50 shadow-lg gap-y-3 flex flex-wrap justify-between rounded-xl p-4 sm:p-7">
         <h2 className="sm:text-3xl text-xl font-medium text-color1 w-full">Includes & Excludes</h2>
-        <div className="space-y-3 max-w-[49%]">
+        <div className="space-y-3 max-w-[49.4%]">
         <p className="flex gap-2  text-zinc-700 text-xs !leading-[1.3] sm:text-lg h-max"><FaSquareCheck  className=" text-xl sm:text-2xl text-green-600  "/>Exclusive merchandise available at each show</p>
 
         <p className="flex gap-2  text-zinc-700 text-xs !leading-[1.3] sm:text-lg h-max"><FaSquareCheck  className=" text-xl sm:text-2xl text-green-600 "/>Exclusive merchandise available at each show</p>
@@ -77,12 +77,12 @@ export default function MainContent() {
         <p className="flex gap-2  text-zinc-700 text-xs !leading-[1.3] sm:text-lg h-max"><FaSquareCheck  className=" text-xl sm:text-2xl text-green-600 "/>Exclusive merchandise available at each show</p>
       </div> 
 
-      <div className="space-y-3 max-w-[49%]">
-        <p className="flex gap-2  text-zinc-700 text-xs !leading-[1.3] sm:text-lg h-max"><AiFillCloseSquare  className=" text-xl sm:text-2xl text-red-600  "/>Exclusive merchandise available at each show</p>
+      <div className="space-y-3 max-w-[49.4%]">
+        <p className="flex gap-2  text-zinc-700 text-xs !leading-[1.3] sm:text-lg h-max"><FaWindowClose  className=" text-xl sm:text-2xl text-red-600  "/>Exclusive merchandise available at each show</p>
 
-        <p className="flex gap-2  text-zinc-700 text-xs !leading-[1.3] sm:text-lg h-max"><AiFillCloseSquare  className=" text-xl sm:text-2xl text-red-600 "/>Exclusive merchandise available at each show</p>
+        <p className="flex gap-2  text-zinc-700 text-xs !leading-[1.3] sm:text-lg h-max"><FaWindowClose  className=" text-xl sm:text-2xl text-red-600 "/>Exclusive merchandise available at each show</p>
 
-        <p className="flex gap-2  text-zinc-700 text-xs !leading-[1.3] sm:text-lg h-max"><AiFillCloseSquare  className=" text-xl sm:text-2xl text-red-600 "/>Exclusive merchandise available at each show</p>
+        <p className="flex gap-2  text-zinc-700 text-xs !leading-[1.3] sm:text-lg h-max"><FaWindowClose  className=" text-xl sm:text-2xl text-red-600 "/>Exclusive merchandise available at each show</p>
       </div>
       </div>
     </div>
