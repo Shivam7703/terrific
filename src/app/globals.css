@@ -111,3 +111,14 @@ section{
     left: 125%;
   }
 }
+
+/* swiper package */
+.packI .swiper-slide-thumb-active img{
+  filter: brightness(120%)!important;
+  border: 2px solid #8A0101;
+}
+.packI .swiper-slide img {
+  filter: brightness(70%);
+}
+
+

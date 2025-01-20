@@ -100,7 +100,7 @@ const Header = ({ header }: any) => {
 <div className="max-lg:hidden flex max-w-[1250px] mx-auto py-3  justify-between gap-1">
   {headercountry?.map((count)=>(
     <div key={count?.id} className="text-center text-white">
-<Link href={count?.slug || "#"}><Image src={count?.img} alt="package" height={60} width={40}/>
+<Link href={count?.slug || "#"}><Image src={count?.img} alt="package" className="mx-auto" height={50} width={40}/>
 <p className="text-xs">{count.label}</p></Link>
     </div>
   ))}

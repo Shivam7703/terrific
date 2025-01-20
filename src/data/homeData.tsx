@@ -71,7 +71,7 @@ slug:"#"
 
 export const navItemsArray = [
   { id: 1, label: "About", href: "about"},
-  { id: 2, label: "Packages", href: "services",
+  { id: 2, label: "Packages", href: "packages",
     subNav:[{
       id: 1, label: "Package1", href: "bio-diesel"
     },
