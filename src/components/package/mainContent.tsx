@@ -1,10 +1,16 @@
-import React from "react";
+import { faqData } from "@/data/homeData";
+import React, { useState } from "react";
 import { FaWindowClose } from "react-icons/fa";
-import {  FaLocationDot, FaSquareCheck } from "react-icons/fa6";
+import {  FaChevronDown, FaLocationDot, FaSquareCheck } from "react-icons/fa6";
 import { GrUploadOption } from "react-icons/gr";
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
 
 export default function MainContent() {
+   const [expandedCity, setExpandedCity] = useState<number | null>(null);
+  
+    function toggleCity(cityId: number) {
+      setExpandedCity((prev) => (prev === cityId ? null : cityId)); // Toggles FAQ visibility for cities
+    }
   return (
     <div className="sm:space-y-8 mt-5 sm:mt-11 space-y-4 ">
       <div>
@@ -85,6 +91,48 @@ export default function MainContent() {
         <p className="flex gap-2  text-zinc-700 text-sm !leading-[1.3] sm:text-lg h-max"><FaWindowClose  className=" text-xl sm:text-2xl text-red-600 "/>Exclusive merchandise available at each show</p>
       </div>
       </div>
+
+
+      {/* location */}
+<div className="bg-zinc-50 shadow-lg  rounded-xl p-4 sm:p-7">
+<h2 className="sm:text-3xl text-xl font-medium mb-3 text-color1 w-full">Location</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448196.52633258584!2d76.76357436215976!3d28.643684626335453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1737436060319!5m2!1sen!2sin"  height="450" className="w-full"  loading="lazy"></iframe>
+</div>
+
+
+  {/* Faq */}
+  <div className="bg-zinc-50 shadow-lg  rounded-xl p-4 sm:p-7">
+<h2 className="sm:text-3xl text-xl font-medium mb-3 text-color1 w-full">Frequently Asked Question</h2>
+{faqData?.faqs.map((city) => (
+                <div key={city.id} className="mt-8 border-b pb-4">
+                  {/* FAQ Question */}
+                  <div
+                    onClick={() => toggleCity(city.id)}
+                    className="flex justify-between items-center cursor-pointer text-lg text-zinc-800  font-bold"
+                  >
+                    {city.que}
+
+                    <FaChevronDown className={` duration-300 ${expandedCity === city.id ? "rotate-180 text-color1" :"text-zinc-700"}`} />
+                   
+                  </div>
+
+                  {/* FAQ Answer with Transition */}
+                  <div
+                    className={`overflow-hidden transition-all duration-1000 ${
+                      expandedCity === city.id
+                        ? "max-h-screen mt-3 space-y-4"
+                        : "max-h-0"
+                    }`}
+                  >
+                    <p className="md:text-lg text-sm font-medium text-zinc-700">
+                      {city.ans}
+                    </p>
+                   
+                  </div>
+                </div>
+              ))}
+</div>
+
     </div>
   );
 }
