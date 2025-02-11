@@ -7,6 +7,7 @@ import { Hometourcatdata, Hometourpackdata, testimonialData} from "@/data/homeDa
 import Testimonials from '@/components/home/testimonial';
 import TourPack from '@/components/home/tourpack';
 import TourCat from '@/components/home/tourcat';
+import DestinationForm from '@/components/destination/form';
 
 
 function page() {

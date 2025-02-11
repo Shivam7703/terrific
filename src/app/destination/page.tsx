@@ -11,6 +11,7 @@ import DestinationAbout from '@/components/destination/aboutPlace';
 import TodoSection from '@/components/destination/todo';
 import Activity from '@/components/destination/activity';
 import GettoKnow from '@/components/home/getToKnow';
+import DestinationForm from '@/components/destination/form';
 
 
 function page() {
@@ -25,6 +26,7 @@ function page() {
     <TourPack data={Hometourpackdata}/>
     <Testimonials data={testimonialData}/>
 <GettoKnow aboutdata={GetKnowdata}/>
+<DestinationForm/>
 
     </div>
   )

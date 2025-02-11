@@ -18,7 +18,7 @@ export default function Packagedetail() {
 
       <div className="md:sticky  top-8 md:w-[30%] w-full">
         <div className="bg-zinc-50 shadow-lg space-y-3 rounded-xl mb-4 sm:mb-7 p-4 sm:p-7">
-                <h2 className="sm:text-3xl text-xl font-medium text-color1">Why Choose Us</h2>
+                <h3 className="sm:text-3xl text-xl font-medium text-color1">Why Choose Us</h3>
                 <p className="flex gap-2 text-base text-zinc-600 sm:text-lg items-center h-max"><GrUploadOption  className="p-1 sm:p-2 rounded-full text-2xl sm:text-3xl text-color1  bg-[#a52a2a22]"/>Exclusive merchandise available at each show</p>
         
                 <p className="flex gap-2 text-base text-zinc-600 sm:text-lg items-center h-max"><GrUploadOption  className="p-1 sm:p-2 rounded-full text-2xl sm:text-3xl text-color1 bg-[#a52a2a22]"/>Exclusive merchandise available at each show</p>
