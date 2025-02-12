@@ -73,10 +73,22 @@ export const navItemsArray = [
   { id: 1, label: "About", href: "about"},
   { id: 2, label: "Packages", href: "packages",
     subNav:[{
-      id: 1, label: "Package1", href: "bio-diesel"
+      id: 1, label: "domestic", href: "bio-diesel",
+      subNav:[{
+        id: 1, label: "package1", href: "bio-diesel"
+      },
+      {
+        id: 2, label: "package2", href: "bio-petrol"
+      },]
     },
     {
-      id: 2, label: "Package2", href: "bio-petrol"
+      id: 2, label: "International", href: "bio-petrol",
+      subNav:[{
+        id: 1, label: "package1", href: "bio-diesel"
+      },
+      {
+        id: 2, label: "package2", href: "bio-petrol"
+      },]
     },
     {
       id: 3, label: "Package3", href: "bio-cng"

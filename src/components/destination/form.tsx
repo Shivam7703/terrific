@@ -70,7 +70,7 @@ export default function DestinationForm() {
 
               <button
                 type="submit"
-                className="rounded-full mx-auto text-white font-bold text-base py-3 px-8 mt-3 w-max bg-color1 hover:bg-black duration-300"
+                className="rounded-full mx-auto text-white font-bold text-base py-3 px-8 mt-3 w-max bg-color1 hover:bg-color2 duration-300"
               >
                 Submit Now &nbsp;→
               </button>

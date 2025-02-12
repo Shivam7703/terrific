@@ -18,7 +18,7 @@ export default function FaqSection() {
     <motion.div  variants={staggerContainer(0.1, 0)} // Adjusted stagger settings
     initial="hidden"
     whileInView="show"
-    viewport={{ once: true, amount: 0.2 }} className='lg:p-28 sm:p-12 px-7 py-11 max-w-[1650px] mx-auto flex flex-wrap items-stretch justify-between gap-y-7 bg-back' >
+    viewport={{ once: true, amount: 0.2 }} className='lg:p-28 sm:p-12 px-7 py-11 max-w-[1650px] mx-auto flex flex-wrap items-stretch justify-between gap-y-7 bg-back overflow-hidden' >
       
 
       <motion.div
@@ -44,7 +44,7 @@ export default function FaqSection() {
                   <div
                     className={`overflow-hidden transition-all duration-1000 ${
                       expandedCity === city.id
-                        ? "max-h-screen mt-3 space-y-4"
+                        ? "max-h-14 mt-3 space-y-4"
                         : "max-h-0"
                     }`}
                   >
