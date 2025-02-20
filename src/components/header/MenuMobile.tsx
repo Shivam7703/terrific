@@ -1,6 +1,6 @@
-// MenuMobile.tsx
 import React, { useState } from "react";
 import Link from "next/link";
+import { IoIosArrowDown } from "react-icons/io";
 import { navItemsArray } from "@/data/homeData";
 
 interface NavItem {
@@ -8,93 +8,141 @@ interface NavItem {
   label: string;
   href: string;
   subNav?: NavItem[];
-  iconImage?: string;
 }
 
 interface MenuMobileProps {
-  navItemsArray: NavItem[];
-  setIsMobileMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  setIsMobileMenuOpen: (value: boolean) => void;
   activeItemId: string | null;
-  onItemClick: (itemId: string, href: string) => void;
-  onTop: Boolean; // Update this line
+  onItemClick: (href: string) => void;
+  onTop: boolean;
 }
 
 const MenuMobile: React.FC<MenuMobileProps> = ({
-  onTop,
+  setIsMobileMenuOpen,
   activeItemId,
   onItemClick,
+  onTop
 }) => {
+  // Track both level 1 and level 2 open submenus
+  const [openMenus, setOpenMenus] = useState<{
+    level1: string | null;
+    level2: string | null;
+  }>({
+    level1: null,
+    level2: null
+  });
+
+  const toggleLevel1 = (itemId: string) => {
+    setOpenMenus(prev => ({
+      level1: prev.level1 === itemId ? null : itemId,
+      level2: null // Reset level 2 when toggling level 1
+    }));
+  };
+
+  const toggleLevel2 = (itemId: string) => {
+    setOpenMenus(prev => ({
+      ...prev,
+      level2: prev.level2 === itemId ? null : itemId
+    }));
+  };
+
+  const handleItemClick = (href: string) => {
+    onItemClick(href);
+    setIsMobileMenuOpen(false);
+  };
+
   return (
-    <ul className="w-full flex flex-col ">
-      {navItemsArray.map((item) => (
-        <li key={item.id}>
-          <Link
-            href={item.href}
-            className={`block px-4 ${
-              onTop ? "text-white" : "text-black"
-            } bg-opacity-30 backdrop-blur-xl  py-2 ${
-              activeItemId === item.href ? "bg-white" : "bg-transparent"
-            }`}
-            onClick={() => onItemClick(item.id.toString(), item.href)}
-          >
-            {item.label}
-          </Link>
+    <ul className="w-full flex flex-col">
+      {navItemsArray?.map((item: NavItem) => (
+        <li key={item.id} className="border-b border-gray-100/20 last:border-none">
+          <div className="w-full">
+            {/* Level 1 Menu Item */}
+            <div
+              className={`flex items-center justify-between px-4 py-3 cursor-pointer
+                ${activeItemId === item.href ? " text-color1" : ""}
+                ${onTop ? "text-white hover:text-color2" : "text-black hover:text-color1"}
+              `}
+              onClick={() => {
+                if (item.subNav && item.subNav.length > 0) {
+                  toggleLevel1(item.id.toString());
+                } else {
+                  handleItemClick(item.href);
+                }
+              }}
+            >
+              <Link href={item.href} className="font transition-all duration-300">
+                {item.label}
+              </Link>
+              {item.subNav && item.subNav.length > 0 && (
+                <IoIosArrowDown
+                  className={`transition-transform duration-300 ${
+                    openMenus.level1 === item.id.toString() ? "rotate-180" : "rotate-0"
+                  }`}
+                />
+              )}
+            </div>
+
+            {/* Level 1 Submenu */}
+            {item.subNav && openMenus.level1 === item.id.toString() && (
+              <div
+                className={`w-full ${
+                  onTop ? " " : "bg-white"
+                }`}
+              >
+                {item.subNav.map((subItem: NavItem) => (
+                  <div key={subItem.id}>
+                    {/* Level 2 Menu Item */}
+                    <div
+                      className={`flex items-center justify-between px-8 py-2 cursor-pointer
+                        ${activeItemId === subItem.href ? "  text-color1" : ""}
+                        ${onTop ? "text-white hover:text-color2" : "text-black hover:text-color1"}
+                      `}
+                      onClick={() => {
+                        if (subItem.subNav && subItem.subNav.length > 0) {
+                          toggleLevel2(subItem.id.toString());
+                        } else {
+                          handleItemClick(subItem.href);
+                        }
+                      }}
+                    >
+                      <span className="whitespace-nowrap">{subItem.label}</span>
+                      {subItem.subNav && subItem.subNav.length > 0 && (
+                        <IoIosArrowDown
+                          className={`transition-transform duration-300 ${
+                            openMenus.level2 === subItem.id.toString() ? "rotate-180" : "rotate-0"
+                          }`}
+                        />
+                      )}
+                    </div>
+
+                    {/* Level 2 Submenu */}
+                    {subItem.subNav && openMenus.level2 === subItem.id.toString() && (
+                      <div
+                        className={`w-full `}
+                      >
+                        {subItem.subNav.map((level2Item: NavItem) => (
+                          <Link
+                            key={level2Item.id}
+                            href={level2Item.href}
+                            className={`block px-12 py-2 transition-all duration-300
+                              ${activeItemId === level2Item.href ? " text-color1" : ""}
+                              ${onTop ? "text-white hover:text-color2" : "text-black hover:text-color1"}
+                            `}
+                            onClick={() => handleItemClick(level2Item.href)}
+                          >
+                            <span className="whitespace-nowrap">{level2Item.label}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
         </li>
       ))}
     </ul>
-  );
-};
-
-interface SingleNavItemProps {
-  item: NavItem;
-  setIsMobileMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  activeItemId: string | null;
-  onItemClick: (itemId: string, href: string) => void; // Update this line
-}
-
-const SingleNavItem: React.FC<SingleNavItemProps> = ({
-  item,
-  activeItemId,
-  onItemClick,
-}) => {
-  const [isItemOpen, setItemOpen] = useState(false);
-
-  const toggleItem = () => {
-    setItemOpen(!isItemOpen);
-    onItemClick(item.id.toString(), item.href); // Update this line
-  };
-
-  // ... rest of the component rewhites the same
-
-  return (
-    <>
-      <Link
-        onClick={toggleItem}
-        href={item.href ?? "#"}
-        className={`relative px-5 py-3 transition-all border-b-2 border-zinc-200 hover:bg-color1 hover:text-white ${
-          activeItemId === item.id.toString() ? "text-green3" : "text-black"
-        }`}
-      ></Link>
-
-      {isItemOpen && item.subNav && item.subNav.length !== 0 && (
-        <div className="z-10 w-auto flex-col gap-1 rounded-lg bg-white py-3 transition-all flex">
-          {item.subNav.map((ch, i) => (
-            <Link
-              key={i}
-              href={ch.href ?? "#"}
-              className={`flex cursor-pointer items-center py-1 pl-6 pr-8 hover:bg-color2 hover:text-white ${
-                activeItemId === ch.id.toString()
-                  ? "text-color2"
-                  : "text-blue-950"
-              }`}
-              onClick={() => onItemClick(ch.id.toString(), ch.href)} // Update this line
-            >
-              {/* ... */}
-            </Link>
-          ))}
-        </div>
-      )}
-    </>
   );
 };
 

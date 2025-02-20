@@ -70,42 +70,84 @@ slug:"#"
 ]
 
 export const navItemsArray = [
-  { id: 1, label: "About", href: "about"},
-  { id: 2, label: "Packages", href: "packages",
+  { id: 1, label: "Home", href: "/"},
+
+  { id: 2, label: "About Us", href: "about"},
+  { id: 3, label: "Destination", href: "destination",
     subNav:[{
-      id: 1, label: "domestic", href: "bio-diesel",
-      subNav:[{
-        id: 1, label: "package1", href: "bio-diesel"
-      },
-      {
-        id: 2, label: "package2", href: "bio-petrol"
-      },]
+      id: 1, label: "Domestic", href: "#",
+      subNav:[
+        { id: 1, label: "Golden Triangle", href: "golden-triangle" },
+        { id: 2, label: "Andaman & Nicobar", href: "andaman-nicobar" },
+        { id: 3, label: "Kashmir", href: "kashmir" },
+        { id: 4, label: "Sikkim & Darjeeling", href: "sikkim-darjeeling" },
+        { id: 5, label: "Kerala", href: "kerala" },
+        { id: 6, label: "Goa", href: "goa" },
+        { id: 7, label: "Leh-Ladakh", href: "leh-ladakh" },
+        { id: 8, label: "Manali", href: "manali" },
+        { id: 9, label: "Mysore-Ooty", href: "mysore-ooty" },
+        { id: 10, label: "JimCorbett & Nainital", href: "jimcorbett-nainital" },
+        { id: 11, label: "Rajasthan", href: "rajasthan" }
+    ]
+    
     },
     {
-      id: 2, label: "International", href: "bio-petrol",
-      subNav:[{
-        id: 1, label: "package1", href: "bio-diesel"
-      },
-      {
-        id: 2, label: "package2", href: "bio-petrol"
-      },]
+      id: 2, label: "International", href: "#",
+      subNav:[
+        { id: 1, label: "Dubai", href: "dubai" },
+        { id: 2, label: "Thailand", href: "thailand" },
+        { id: 3, label: "Singapore", href: "singapore" },
+        { id: 4, label: "Azerbaijan-BAKU", href: "azerbaijan-baku" },
+        { id: 5, label: "Malaysia", href: "malaysia" },
+        { id: 6, label: "BALI-Indonesia", href: "bali-indonesia" },
+        { id: 7, label: "Sri-Lanka", href: "sri-lanka" },
+        { id: 8, label: "Vietnam", href: "vietnam" },
+        { id: 9, label: "Nepal", href: "nepal" },
+        { id: 10, label: "Bhutan", href: "bhutan" },
+        { id: 11, label: "Maldives", href: "maldives" },
+        { id: 12, label: "Japan", href: "japan" },
+        { id: 13, label: "Greece", href: "greece" },
+        { id: 14, label: "Turkey", href: "turkey" }
+    ]
+    
     },
-    {
-      id: 3, label: "Package3", href: "bio-cng"
-    }]
+   ]
   },
-  { id: 2, label: "Destination", href: "services",
+  { id: 4, label: "Packages", href: "packages",
     subNav:[{
-      id: 1, label: "Destination11", href: "bio-diesel"
+      id: 1, label: "Domestic", href: "#",
+      subNav:[
+        { id: 1, label: "Golden Triangel Tour", href: "golden-triangel-tour" },
+        { id: 2, label: "Jodhpur – Jaisalmer Tour", href: "jodhpur-jaisalmer-tour" },
+        { id: 3, label: "Paradise on Earth – Kashmir Tour", href: "paradise-on-earth-kashmir-tour" },
+        { id: 4, label: "The Andaman Tour", href: "the-andaman-tour" },
+        { id: 5, label: "Goa Tour", href: "goa-tour" },
+        { id: 6, label: "Ladakh Tour", href: "ladakh-tour" },
+        { id: 7, label: "South India Temple Tour 5N 6D", href: "south-india-temple-tour-5n-6d" },
+        { id: 8, label: "Exotic kerala Tour 3 N | 4 D", href: "exotic-kerala-tour-3n-4d" },
+        { id: 9, label: "Exotic kerala Tour 7 N | 8 D", href: "exotic-kerala-tour-7n-8d" },
+        { id: 10, label: "Darjeeling Tour", href: "darjeeling-tour" },
+        { id: 11, label: "Assam Magalya Tour", href: "assam-magalya-tour" },
+        { id: 12, label: "Dajeeling Gangtok Tour", href: "darjeeling-gangtok-tour" },
+        { id: 13, label: "South India Tour", href: "south-india-tour" }
+    ]    
     },
     {
-      id: 2, label: "Destination12", href: "bio-petrol"
+      id: 2, label: "International", href: "#",
+      subNav:[
+        { id: 1, label: "Vietnam Tours", href: "vietnam-tours" },
+        { id: 2, label: "Bali Discovery Trip", href: "bali-discovery-trip" },
+        { id: 3, label: "Best of Turkey", href: "best-of-turkey" },
+        { id: 4, label: "Enchanting Sri Lanka", href: "enchanting-sri-lanka" },
+        { id: 5, label: "Greece Tour", href: "greece-tour" },
+        { id: 6, label: "Mesmerizing Japan", href: "mesmerizing-japan" },
+        { id: 7, label: "Thailand Tour", href: "thailand-tour" },
+        { id: 8, label: "Dubai Tour", href: "dubai-tour" },
+        { id: 9, label: "Singapore Tour", href: "singapore-tour" }
+    ]  
     },
-    {
-      id: 3, label: "Destination13", href: "bio-cng"
-    }]
-  },
-  { id: 4, label: "Price Comparison", href: "pricing"},
+   ]
+     },
   { id: 5, label: "Blogs", href: "blogs"},
   { id: 6, label: "Contact Us", href: "contact-us"},
 ];
