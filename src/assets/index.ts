@@ -31,6 +31,7 @@ import whychoose from "@/assets/home/whychoose.png";
 import cl1 from "@/assets/home/test-1.jpg";
 import faq from "@/assets/home/faq.png";
 import footerimg from "@/assets/home/footer.png";
+import contact from "@/assets/contact/why3.webp";
 
 
 
@@ -39,5 +40,5 @@ import footerimg from "@/assets/home/footer.png";
 
 
 export {
-    logo , logo2, banner1, banner2,banner3,banner4,banner5,banner6,banner7,cloude, about, about2,about3, cli1, cli2, cli3, car, partner, whychoose, cl1, faq, footerimg, nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11
+    logo , logo2, banner1, banner2,banner3,banner4,banner5,banner6,banner7,cloude, about, about2,about3, cli1, cli2, cli3, car, partner, whychoose, cl1, faq, footerimg, nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11, contact
    }

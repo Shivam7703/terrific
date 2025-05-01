@@ -17,14 +17,15 @@ export default function Home() {
     < >
     {HomeBannerData && <HomeBanner data ={HomeBannerData}/>}
     <Homepackages data = {homepackagedata}/>
-    <div className="hill-bg w-full bg-opacity-25 pb-7 md:pb-14">
+    <div className="hill-bg w-full bg-opacity-25 ">
     <TourCat data={Hometourcatdata}/>
    <TourPack data={Hometourpackdata}/>
    <CountDown data={countDown}/>
-   </div>
     <AboutSection aboutdata={aboutdata}/>
     <Trusted data={trusted}/>
     <Testimonials data={testimonialData}/>
+    </div>
+
 <FaqSection/>
 <GettoKnow aboutdata={GetKnowdata}/>
 

@@ -49,11 +49,11 @@ export default function HomeBanner({ data }: any) {
                       transition={{ easings: ["easeIn", "easeOut"] }}
                       className="max-w-3xl text-center space-y-6">
 
-{data.title &&  <motion.h2 className="lg:text-8xl md:text-6xl font-bold mb-8 text-5xl font1">
+{data.title &&  <motion.h2 className="lg:text-8xl md:text-6xl font-bold mb-8 text-5xl px-5 font1">
                         {data?.title}
                       </motion.h2>}
                  
-                   <motion.p className="md:text-lg text-base "> {data?.para}
+                   <motion.p className="md:text-lg text-base px-5"> {data?.para}
                    </motion.p>
                    
                

@@ -45,7 +45,7 @@ export default function Testimonials({data} :any) {
   };
 
   return (
-    <section className=" lg:p-28 sm:p-12 p-7 bg-back text-center relative slider1 flex flex-col items-center">
+    <section className=" lg:p-28 sm:p-12 p-7 text-center relative slider1 flex flex-col items-center">
     
       <TopHeading title={data?.title} para={data?.para} />
 

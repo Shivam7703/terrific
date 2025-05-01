@@ -7,14 +7,15 @@ import Link from "next/link";
 import { cloude } from "@/assets";
 
 
-export default function DestinationBanner({ img, title, para, slug }: any) {
+export default function AllBanner({ img, title, para, slug }: any) {
   return (
     <section className="relative md:h-[80vh] h-[65vh] w-full ">
        <Image
               src={cloude}
               alt={`cloud`}
               className="w-full   absolute -bottom-7 left-0 z-30"
-            /> <Image
+            />
+             <Image
             src={cloude}
             alt={`cloud`}
             className="w-full   absolute -bottom-7 left-0 z-30"
@@ -43,7 +44,7 @@ export default function DestinationBanner({ img, title, para, slug }: any) {
                         {title}
                       </motion.h2>}
                       <p className="lg:text-xl  mb-5 text-lg">{para}</p>
-              <p className="text-white">Home / Package / <span className="text-color2">{slug}</span></p>
+              <p className="text-white">Home / <span className="text-color2">{slug}</span></p>
                       </motion.div>
         </AnimatePresence>
         

@@ -37,6 +37,7 @@ body {
   background:linear-gradient(90deg, rgba(255, 255, 255, 0.728), rgba(255, 255, 255, 0.842)), url(../assets/home/hills-bg.png);
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -122,3 +123,15 @@ section{
 }
 
 
+@keyframes scaleAnimation {
+  0%, 100% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.07);
+  }
+}
+
+.animate-scale {
+  animation: scaleAnimation 2s infinite ease-in-out;
+}

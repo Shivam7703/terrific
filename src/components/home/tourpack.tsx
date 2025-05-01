@@ -4,14 +4,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
 import TopHeading from "../global/topHeading";
 import { useState } from "react";
 import { ImLocation } from "react-icons/im";
+import { Destinationdata } from "@/data/destination";
 
-export default function TourPack({ data }: any) {
+export default function TourPack() {
   const [Domestic, setDomestic] = useState(true);
 
   const uniqueId = "tourpack123";
@@ -47,7 +48,8 @@ export default function TourPack({ data }: any) {
   return (
     <section className="lg:px-28 sm:p-12 p-7 text-center relative slider1">
       {/* Top Heading */}
-      <TopHeading title={data?.title} para={data?.para} />
+      <TopHeading title={`Destination Categories
+`} para={"Choose from our wide range of national and international travel packages. From the culturally rich Golden-Triangle to the dazzling Goa, we have everything for a traveler."} />
 
       {/* Domestic/International Buttons */}
       <div className="flex flex-wrap items-center justify-center mt-7 w-full gap-3 max-w-md mx-auto">
@@ -75,7 +77,7 @@ export default function TourPack({ data }: any) {
         {...swiperOptions}
         className={`mySwiper md:mt-16 mt-9 w-full max-w-fit px-5 ${uniqueId}`}
       >
-        {(Domestic ? data?.tours1 : data?.tours2)?.map((cards: any) => (
+        {(Domestic ? Destinationdata?.domestic : Destinationdata?.international)?.map((cards: any) => (
           <SwiperSlide
             key={cards.id}
             className="mb-16 w-full shadow-lg group rounded-xl bg-white overflow-hidden"
@@ -94,20 +96,20 @@ export default function TourPack({ data }: any) {
 <div className="px-5 py-3 text-left ">
 <p className="mb-2"><span className="py-1 px-3   w-max text-xs font-bold text-black bg-yellow-400  rounded-md shadow-lg"> ★ 5.0</span> <span className="text-zinc-500 text-base">{"  ("}400 reviews{")"}</span></p>
             <h4 className="font-bold text-black text-xl mb-2">
-              {cards?.title}
+              {cards?.name}
             </h4>
             <p className="text-xs text-zinc-500 font-medium mb-3 pb-2 border-b border-zinc-300">
-              {cards?.para}
+              {cards?.about?.para.slice(0, 85)}...
             </p>
 
             <p className=" text-zinc-900 flex gap-2 items-center mb-3 pb-2 border-b border-zinc-300">
-            <ImLocation className="text-color1" /> {cards?.location}
+            <ImLocation className="text-color1" /> {cards?.name}
             </p>
 
 <div className="flex justify-between items-center mb-2">
-    <p className="text-zinc-700"><span className="text-xl font-bold text-color1">{cards?.price}</span>/ Night</p>
+    <p className="text-zinc-700"><span className="text-xl font-bold text-color1">$300</span>/ Night</p>
 
-    <Link href={cards?.slug || "/"} className="w-max">
+    <Link href={`/destination/${cards?.name.replace(/\s+/g, '-').toLowerCase() || "#"}?categorys=${Domestic?"domestic":"international"}`} className="w-max">
               
                 <p className="text-sm font-medium text-black hover:text-color2 hover:border-b duration-300">Know More</p>
               

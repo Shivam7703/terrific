@@ -3,24 +3,24 @@ import React from "react";
 function Form({ contactdata }: any) {
   return (
     <section className="lg:p-28 sm:p-12 p-7 bg-back relative">
-      <div className="flex items-stretch flex-wrap max-w-5xl mx-auto shadow-xl sticky z-20">
+      <div className="flex items-stretch flex-wrap max-w-6xl mx-auto shadow-xl sticky z-20">
         {contactdata && (
-          <div className="md:w-[35%] px-7 py-10 w-full bg-green3 text-white">
-            <h4 className="mb-3 font-bold text-xl md:text-2xl">
+          <div className="md:w-[37%] px-7 py-10 w-full bg-color1 text-white">
+            <h4 className="mb-3 font-bold font1 text-2xl md:text-3xl">
               {contactdata?.title}
             </h4>
-            <p>{contactdata?.para}</p>
+            <p className="text-lg">{contactdata?.para}</p>
             <div className="mt-6 space-y-6">
               {contactdata?.detail?.map((data: any) => (
                 <div
                   key={data.id}
                   className="flex group duration-300 group-hover:border-color2 gap-5 md:gap-8 py-2 md:py-4 border-b border-[#ffffffb5] items-center"
                 >
-                  <div className="text-3xl md:text-4xl group-hover:text-color2 duration-300">
+                  <div className="text-3xl md:text-4xl group-hover:text-color2 group-hover:-scale-x-100  duration-300">
                     {data?.icon}
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-color2 group-hover:text-white duration-300 mb-1">
+                    <h3 className="text-xl font2 font-bold text-color2 group-hover:text-white duration-300 mb-1">
                       {data?.title}
                     </h3>
                     <a
@@ -38,11 +38,11 @@ function Form({ contactdata }: any) {
           </div>
         )}
 
-        <div className="md:w-[65%] px-7 py-10 w-full bg-white">
-          <h3 className="mb-3 font-bold text-xl md:text-2xl text-green3">
+        <div className="md:w-[63%] md:px-16  px-7 py-10 w-full bg-white">
+          <h3 className="mb-3 font-bold text-2xl md:text-3xl font1 text-color1">
             Send Us Message
           </h3>
-          <p className="text-zinc-600 font-semibold mb-4">
+          <p className="text-zinc-600 font-semibold mb-4 text-lg ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem.
           </p>
           <form action="contact.php" method="POST" className=" w-full mt-6">
@@ -95,7 +95,7 @@ function Form({ contactdata }: any) {
 
               <button
                 type="submit"
-                className="rounded-lg mb-3 -mt-1 text-white font-bold text-base py-4 px-6 w-max bg-green3 hover:bg-black duration-300"
+                className="rounded-lg mb-3 -mt-1 text-white font-bold text-base py-4 px-6 w-max bg-color1 hover:bg-black duration-300"
               >
                 Submit Now &nbsp;→
               </button>
@@ -104,9 +104,9 @@ function Form({ contactdata }: any) {
         </div>
       </div>
 
-      <div className=" w-full md:h-[250px] h-64"></div>
+      <div className=" w-full md:h-[350px] h-64"></div>
 
-      <div className="absolute z-10 left-0 bottom-0 w-full md:h-[550px] h-80">
+      <div className="absolute z-10 left-0 bottom-0 w-full md:h-[550px] h-72">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.70783721605!2d77.09038143184443!3d28.60854037240093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bf3b54fb5f5%3A0x3c779acafc7267bb!2sRZ-105%20BLOCK-%20C%2C%20DABRI%20EXTENSION%20EAST!5e0!3m2!1sen!2sin!4v1727546752016!5m2!1sen!2sin"
           width="100%"

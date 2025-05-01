@@ -1,80 +1,116 @@
 "use client";
-import React from "react";
+
+import React, { useState } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
-import { fadeIn, staggerContainer } from "@/utils/motion";
-import { banner7 } from "@/assets";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import TodoSection from "./todo";
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
+import TopHeading from "../global/topHeading";
 
-export default function Activity() {
+export default function Activity({ data }: any) {
+  const [pic, setPic] = useState(data?.things?.[0]?.img || "");
+  const [text, setText] = useState(data?.things?.[0]?.text || "");
+  const [heading, setHeading] = useState(data?.things?.[0]?.title || "");
+
+  function todoChange(img: any, text: any, heading: any) {
+    setPic(img);
+    setText(text);
+    setHeading(heading);
+  }
+
+  const uniqueId = "todoo123";
+
+  const swiperOptions = {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: `.${uniqueId}-next`,
+      prevEl: `.${uniqueId}-prev`,
+    },
+    loop: true,
+    modules: [Autoplay, Pagination, Navigation],
+    breakpoints: {
+      140: { slidesPerView: 1 },
+      824: { slidesPerView: 2 },
+    },
+  };
+
   return (
-    <motion.div
-      variants={staggerContainer(0.1, 0)} // Adjusted stagger settings
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: true, amount: 0.2 }}
-      className="lg:px-28 lg:pb-16 sm:px-12 px-7 pb-11 max-w-[1580px] mx-auto flex flex-wrap items-stretch justify-between gap-y-7 bg-white"
-    >
-      <motion.div
-        variants={fadeIn("left", "tween", 0.3, 1)}
-        className="sm:w-[48%] w-full flex justify-between"
-      >
-        
-          <motion.div
-            variants={fadeIn("right", "tween", 0.3, 1)}
-            className="w-[45%]  min-h-32 relative group"
+    <>
+      {/* Swiper Cards */}
+      <section className="lg:px-28 md:p-20 text-center sm:p-16 p-7 max-w-[1580px] mx-auto relative bg-white">
+        <TopHeading 
+          title={data?.heading} 
+          para={"Explore the top 6 exciting things to do on your tour, offering unforgettable moments, local experiences, and highlights you simply can't miss."} 
+        />
+
+        <div className="relative">
+          <Swiper
+            {...swiperOptions}
+            className={`mySwiper md:-mb-16 md:mt-14 mt-9 w-full md:border-b border-black/55 text-left max-w-fit px-5 ${uniqueId}`}
           >
-            <div className="space-y-7 overflow-hidden  relative h-full ">
-              <Image
-                src={banner7}
-                alt="About"
-                className="absolute top-0 left-0 h-full w-full hover:scale-110 duration-300 rounded-xl object-cover"
-              />
-            </div>
-          </motion.div>
+            {data?.things?.map((card: any) => (
+              <SwiperSlide key={card.id} className="md:mb-16 mb-7 w-full group p-3">
+                <div className="w-full flex justify-between">
+                  {/* Image */}
+                  <div className="w-[45%] min-h-32 relative group">
+                    <div className="space-y-7 overflow-hidden relative h-full">
+                      <Image
+                        src={card?.img}
+                        alt={"destination"}
+                        className="absolute top-0 left-0 h-full w-full hover:scale-110 duration-300 rounded-xl object-cover"
+                      />
+                    </div>
+                  </div>
 
-          <div className="w-[49%]  space-y-3">
-            <h3 className="text-color1 font-bold text-lg font1 md:text-2xl !leading-[1.1]">
-              Things To Do In Thailand
-            </h3>
+                  {/* Text */}
+                  <div className="w-[49%] space-y-3">
+                    <h3 className="text-black font-bold text-lg font1 md:text-3xl !leading-[1.1]">
+                      {card?.title.slice(0, 15)}...
+                    </h3>
 
-            <p className="text-zinc-600 ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae aspernatur voluptates eos quibusdam corrupti mollitia
-              ipsa veritatis, illo,
-            </p>
-          </div>
-        </motion.div>
+                    <p className="text-zinc-600">
+                      {card?.text.slice(0, 85)}.....
+                      <span
+                        className="text-color1 font-semibold hover:text-color2 cursor-pointer"
+                        onClick={() =>
+                          todoChange(card?.img, card?.text, card?.title)
+                        }
+                      >
+                        Know More
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
 
-        <motion.div
-        variants={fadeIn("left", "tween", 0.3, 1)}
-        className="sm:w-[48%] w-full flex justify-between"
-      >
-        
-          <motion.div
-            variants={fadeIn("right", "tween", 0.3, 1)}
-            className="w-[45%]  min-h-32 relative group"
+          <div
+            className={`${uniqueId}-next absolute z-30 p-3 hover:bg-color1 bg-color2 shadow-md text-white right-6 bottom-4 max-md:scale-75 max-md:-bottom-2 cursor-pointer`}
           >
-            <div className=" overflow-hidden  relative h-full ">
-              <Image
-                src={banner7}
-                alt="About"
-                className="absolute top-0 left-0 h-full w-full hover:scale-110 duration-300 rounded-xl object-cover"
-              />
-            </div>
-          </motion.div>
-
-          <div className="w-[49%]  space-y-3">
-            <h3 className="text-color1 font-bold font1 text-lg md:text-2xl !leading-[1.1]">
-              Things To Do In Thailand
-            </h3>
-
-            <p className="text-zinc-600 ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Molestiae aspernatur voluptates eos quibusdam corrupti mollitia
-              ipsa veritatis, illo,
-            </p>
+            <FaArrowRightLong className="text-xl font-bold" />
           </div>
-        </motion.div>
-      </motion.div>
+          <div
+            className={`${uniqueId}-prev absolute z-20 hover:bg-color1 p-3 bg-color2 shadow-md text-white left-6 bottom-4 max-md:scale-75 max-md:-bottom-2 cursor-pointer`}
+          >
+            <FaArrowLeftLong className="text-xl font-bold" />
+          </div>
+        </div>
+      </section>
+      <TodoSection title={heading} para={text} img={pic} />
+    </>
   );
 }

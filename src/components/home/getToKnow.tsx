@@ -10,7 +10,7 @@ export default function GettoKnow({aboutdata}:any) {
     <motion.div  variants={staggerContainer(0.1, 0)} // Adjusted stagger settings
     initial="hidden"
     whileInView="show"
-    viewport={{ once: true, amount: 0.2 }} className='lg:p-28 sm:p-12 px-7 py-11 max-w-[1580px] mx-auto flex flex-wrap items-stretch justify-between gap-y-7 bg-white overflow-hidden' >
+    viewport={{ once: true, amount: 0.2 }} className='lg:p-28 sm:p-12 px-7 py-11 max-w-[1580px] mx-auto flex flex-wrap items-stretch justify-between gap-y-7  overflow-hidden bg-white' >
       
 
       <motion.div     variants={fadeIn("right", "tween", 0.3, 1)}
@@ -28,12 +28,12 @@ export default function GettoKnow({aboutdata}:any) {
 
       {aboutdata?.para && <p className='text-zinc-600 text-sm md:text-base'>{aboutdata?.para}</p>}
       
-      <ul className='gap-3 flex max-sm:flex-wrap'>
+      <ul className='justify-between flex flex-wrap'>
       {aboutdata?.vision?.map((data :any) => (
-        <li key={data.id} className='p-4  space-y-3 group hover:shadow-xl duration-300  rounded-xl text-black'>
+        <li key={data.id} className='p-4  space-y-3 sm:w-[49%] w-full group shadow-xl duration-300  rounded-xl text-black'>
             <div className='group-hover:text-color2  duration-300  md:text-3xl text-color1'>{data?.icon}
 </div>
-<div><h3 className='text-xl mb-1 font-bold group-hover:ml-3 group-hover:text-color1 duration-300 text-zinc-800'>{data.heading}</h3>
+<div><h3 className='text-xl mb-1 font-bold group-hover:text-color1 duration-300 text-zinc-800'>{data.heading}</h3>
 <p className='font-medium text-zinc-600'>{data.text}</p></div>
 </li>
       ))}
