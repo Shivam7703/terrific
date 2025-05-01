@@ -9,7 +9,7 @@ import Testimonials from "@/components/home/testimonial";
 import TourCat from "@/components/home/tourcat";
 import TourPack from "@/components/home/tourpack";
 import Trusted from "@/components/home/trusted";
-import { aboutdata, countDown, GetKnowdata, HomeBannerData, homepackagedata, Hometourcatdata, Hometourpackdata, testimonialData, trusted } from "@/data/homeData";
+import { aboutdata, countDown, GetKnowdata, HomeBannerData, homepackagedata, testimonialData, trusted } from "@/data/homeData";
 
 
 export default function Home() {
@@ -18,8 +18,8 @@ export default function Home() {
     {HomeBannerData && <HomeBanner data ={HomeBannerData}/>}
     <Homepackages data = {homepackagedata}/>
     <div className="hill-bg w-full bg-opacity-25 ">
-    <TourCat data={Hometourcatdata}/>
-   <TourPack data={Hometourpackdata}/>
+    <TourCat />
+   <TourPack />
    <CountDown data={countDown}/>
     <AboutSection aboutdata={aboutdata}/>
     <Trusted data={trusted}/>
