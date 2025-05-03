@@ -1,11 +1,9 @@
 "use client";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { blogData } from "@/data/homeData";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
 import TopHeading from "../global/topHeading";
@@ -13,7 +11,7 @@ import TopHeading from "../global/topHeading";
 export default function Blogs() {
  
   return (
-    <section className=" lg:px-28 sm:p-12 p-7  text-center ">
+    <section className=" lg:px-28 md:px-20 sm:p-14 p-7  text-center ">
             <TopHeading title={blogData?.title} para={blogData?.para} />
 
             <div className="relative md:mt-11 mt-4 flex justify-between flex-wrap items-center gap-y-4">
@@ -37,7 +35,7 @@ export default function Blogs() {
                 </h3>
               
                 <Link
-                  href={"#"}
+                  href={`blogs/${cards.title.replace(/\s+/g, '-').toLowerCase()}`}
                   className=" duration-500 hover:text-color2 text-center  text-sm"
                 >
                   Read More

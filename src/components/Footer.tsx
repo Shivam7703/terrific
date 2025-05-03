@@ -114,7 +114,7 @@ export default function Footer({ footer }: any) {
             <strong>Phone: </strong>&nbsp;+91 1234567890
           </p>
           <p className=" transition:all text-base text-zinc-200 duration-300 hover: hover:text-main ">
-            <strong>E-mail: </strong>&nbsp;info@bharatecofuel.in
+            <strong>E-mail: </strong>&nbsp;ops@terrifictrip.com
           </p>
           <p className=" transition:all text-base text-zinc-200 duration-300 hover: hover:text-main ">
             <strong>Address: </strong>&nbsp;A-60, SECTOR-58 NOIDA, UP-201301,
