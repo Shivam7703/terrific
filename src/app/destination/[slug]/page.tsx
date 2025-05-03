@@ -1,18 +1,15 @@
 import React from 'react';
-import { packagedata } from '@/data/packages';
-import Packagedetail from '@/components/package/packagedetails';
 import Attraction from '@/components/package/Attraction';
-import { GetKnowdata, Hometourcatdata, Hometourpackdata, testimonialData} from "@/data/homeData";
+import {  testimonialData} from "@/data/homeData";
 import Testimonials from '@/components/home/testimonial';
 import TourPack from '@/components/home/tourpack';
-import TourCat from '@/components/home/tourcat';
 import DestinationAbout from '@/components/destination/aboutPlace';
-import TodoSection from '@/components/destination/todo';
 import Activity from '@/components/destination/activity';
-import GettoKnow from '@/components/home/getToKnow';
 import DestinationForm from '@/components/destination/form';
 import { Destinationdata } from '@/data/destination';
 import AllBanner from '@/components/banner';
+import Whychoose from '@/components/destination/whychoose';
+import TourCat from '@/components/home/tourcat';
 
 
 type Props = {
@@ -45,11 +42,12 @@ const singledestination = filterData.find((service: any) => {
    <DestinationAbout data={singledestination?.about}/>
    <Attraction heading={singledestination?.attraction?.heading} data={singledestination?.attraction?.places}/>
    <Activity data={singledestination?.topThings}/>
-   {/* <TourCat/> */}
+   <TourCat/>
     <TourPack />
     <Testimonials data={testimonialData}/>
-<GettoKnow aboutdata={GetKnowdata}/>
-<DestinationForm/>
+    <Whychoose data ={singledestination?.whychoose}/>
+    
+    <DestinationForm/>
 
     </div>
   )

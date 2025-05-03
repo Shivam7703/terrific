@@ -12,13 +12,12 @@ function page() {
   return (
     <>
        <AllBanner img={aboutPage?.img}
-            title={aboutPage?.title} slug={aboutPage?.slug} para={"lorem isit amet consectetur adipisicing elit. Eveniet enim nihil expedita voluptas quidem dolorem eligendi, praesentium perferendis fugiat perspiciatis."}/>
+            title={aboutPage?.title} slug={aboutPage?.slug} para={aboutPage?.para}/>
             <Section1/>
             <Mission/>
-            <div className='bg-blue-100 sm:pb-14 pb-3'><GettoKnow aboutdata={GetKnowdata}/>
+              <GettoKnow aboutdata={aboutPage?.why}/>
             <CountDown data={countDown}/>
 
-            </div>
     <Testimonials data={testimonialData}/>
     <Trusted data={trusted}/>
 

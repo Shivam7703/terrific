@@ -6,10 +6,8 @@ import {
   banner5,
   banner6,
   banner7,
-  whychoose,
 } from "@/assets";
-import { img } from "motion/react-client";
-import { title } from "process";
+
 
 export const Destinationdata = {
   domestic: [
@@ -1573,6 +1571,7 @@ export const Destinationdata = {
         ],
       },
     },
+
     {
       id: 11,
       name: "Rajasthan",
@@ -2487,7 +2486,6 @@ export const Destinationdata = {
         ],
       },
     },    
-
 
     {
       id: 6,
@@ -3428,6 +3426,1294 @@ export const Destinationdata = {
           },
         ],
       },
+    },
+
+    {
+      id: 13,
+      name: "Bhutan",
+      img: banner6,
+      about: {
+        title: "Bhutan - The Last Himalayan Kingdom",
+        img: banner3,
+        para:
+          "In the Eastern Himalayas, Bhutan is a land where tradition and modernity coexist harmoniously. Known for its breathtaking landscapes, rich culture, and commitment to gross national happiness, Bhutan offers travelers a unique and serene experience.",
+      },
+      attraction: {
+        heading: "Top 9 Attractions in Bhutan",
+        places: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Paro Taktsang (Tiger’s Nest Monastery)",
+            text: "Perched on a cliffside 3,000 feet above the Paro Valley, this iconic monastery is a spiritual haven and a testament to Bhutanese architecture.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Punakha Dzong",
+            text: "Situated at the confluence of two rivers, this majestic fortress is renowned for its intricate woodwork and historical significance.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Buddha Dordenma Statue",
+            text: "Standing at 169 feet, this massive bronze statue overlooks Thimphu and houses over 100,000 smaller Buddha statues within.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Thimphu’s Tashichho Dzong",
+            text: "A grand fortress that serves as the seat of the government and the monastic body, blending administrative and religious functions.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Phobjikha Valley",
+            text: "A glacial valley known for its scenic beauty and as the winter home of the endangered black-necked cranes.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Dochula Pass",
+            text: "Offering panoramic views of the Himalayas, this pass is adorned with 108 memorial chortens and is a popular stopover.",
+          },
+          {
+            id: 7,
+            img: banner5,
+            title: "Bumthang Valley",
+            text: "Often referred to as the spiritual heartland of Bhutan, it boasts ancient temples and monasteries amidst lush landscapes.",
+          },
+          {
+            id: 8,
+            img: banner5,
+            title: "Chele La Pass",
+            text: "The highest motorable pass in Bhutan, providing stunning views of Mount Jomolhari and vibrant prayer flags fluttering in the wind.",
+          },
+          {
+            id: 9,
+            img: banner5,
+            title: "Haa Valley",
+            text: "A secluded valley offering pristine nature, traditional villages, and a glimpse into Bhutan’s untouched rural life.",
+          },
+        ],
+      },
+      topThings: {
+        heading: "Top 6 Things to Do in Bhutan",
+        things: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Attend a Traditional Tshechu Festival",
+            text: "Experience vibrant masked dances and cultural performances that reflect Bhutanese spirituality and heritage.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Embark on a Trekking Adventure",
+            text: "Explore trails like the Druk Path or Snowman Trek, traversing through alpine meadows, forests, and remote villages.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Visit Local Handicraft Markets",
+            text: "Discover Bhutanese artistry through hand-woven textiles, intricate wood carvings, and traditional paper products.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Participate in a Traditional Archery Match",
+            text: "Engage with locals in Bhutan’s national sport, witnessing the unique blend of competition and festivity.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Relax in a Traditional Hot Stone Bath",
+            text: "Soothe your muscles in a bath infused with local herbs and heated stones, a rejuvenating Bhutanese tradition.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Explore the Culinary Delights",
+            text: "Savor dishes like Ema Datshi (chili and cheese stew), red rice, and momos, offering a taste of Bhutanese flavors.",
+          },
+        ],
+      },
+      whychoose: {
+        img: banner1,
+        img2: banner2,
+        data: [
+          {
+            id: 1,
+            title: "Customized Itineraries",
+            text: "Tailored experiences to match your interests and preferences.",
+          },
+          {
+            id: 2,
+            title: "Expert Local Guides",
+            text: "Knowledgeable guides providing deep insights into Bhutanese culture and history.",
+          },
+          {
+            id: 3,
+            title: "Comfortable Accommodations",
+            text: "Handpicked hotels and homestays ensure a cozy stay.",
+          },
+          {
+            id: 4,
+            title: "Sustainable Travel",
+            text: "Committed to responsible tourism that benefits local communities and preserves the environment.",
+          },
+          {
+            id: 5,
+            title: "Seamless Logistics",
+            text: "We handle all the details for a hassle-free journey from permits to transportation.",
+          },
+        ],
+      },
+    },
+
+    {
+      id: 14,
+      name: "Malaysia",
+      img: banner6,
+      about: {
+        title: "Malaysia -A Tapestry of Cultures and Natural Wonders",
+        img: banner3,
+        para:
+          "Malaysia is a vibrant blend of modern cities, colonial architecture, lush rainforests, and pristine beaches. From the bustling streets of Kuala Lumpur to the serene islands of Langkawi, Malaysia offers a diverse array of experiences for every traveler.",
+      },
+      attraction: {
+        heading: "Top 9 Attractions in Malaysia",
+        places: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Petronas Twin Towers, Kuala Lumpur",
+            text: "Once the tallest buildings in the world, these iconic twin towers dominate the Kuala Lumpur skyline and offer panoramic city views from the skybridge.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Batu Caves, Selangor",
+            text: "A series of limestone caves housing Hindu temples and shrines, guarded by a towering golden statue of Lord Murugan.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "George Town, Penang",
+            text: "A UNESCO World Heritage Site known for its well-preserved colonial architecture, vibrant street art, and delectable street food.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Langkawi Island",
+            text: "An archipelago of 99 islands featuring white-sand beaches, clear waters, and attractions like the Langkawi Sky Bridge.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Cameron Highlands",
+            text: "A cool-climate hill station renowned for its tea plantations, strawberry farms, and scenic hiking trails.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Taman Negara National Park",
+            text: "One of the world's oldest rainforests, offering jungle treks, canopy walks, and opportunities to spot exotic wildlife.",
+          },
+          {
+            id: 7,
+            img: banner5,
+            title: "Mount Kinabalu, Sabah",
+            text: "Malaysia's highest peak attracts climbers and nature enthusiasts to its diverse ecosystems and challenging trails.",
+          },
+          {
+            id: 8,
+            img: banner5,
+            title: "Perhentian Islands, Terengganu",
+            text: "A paradise for snorkelers and divers, with crystal-clear waters, coral reefs, and abundant marine life.",
+          },
+          {
+            id: 9,
+            img: banner5,
+            title: "Malacca City",
+            text: "A historical city reflecting a blend of Portuguese, Dutch, and British colonial influences, with attractions like A Famosa and Jonker Street.",
+          },
+        ],
+      },
+      topThings: {
+        heading: "Top 6 Things to Do in Malaysia",
+        things: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Explore Kuala Lumpur's Markets",
+            text: "Wander through bustling markets like Petaling Street and Central Market for local crafts, souvenirs, and street food.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Taste Malaysian Cuisine",
+            text: "Savor a fusion of Malay, Chinese, and Indian flavors with dishes like nasi lemak, char kway teow, and roti canai.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Visit the Islamic Arts Museum Malaysia",
+            text: "Discover one of Southeast Asia's premier museums dedicated to Islamic art and culture.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Take a River Cruise in Malacca",
+            text: "Enjoy a scenic boat ride along the Malacca River, passing by historical buildings and vibrant murals.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Dive in Sipadan Island",
+            text: "Experience world-class diving in this marine sanctuary, home to diverse marine species and stunning coral reefs.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Attend a Cultural Festival",
+            text: "Participate in colorful festivals like Thaipusam, Hari Raya, or Chinese New Year, showcasing Malaysia's multicultural heritage.",
+          },
+        ],
+      },
+      whychoose: {
+        img: banner1,
+        img2: banner2,
+        data: [
+          {
+            id: 1,
+            title: "Customized Itineraries",
+            text: "Tailored experiences to match your interests and preferences.",
+          },
+          {
+            id: 2,
+            title: "Expert Local Guides",
+            text: "Knowledgeable guides providing deep insights into Malaysia's culture and history.",
+          },
+          {
+            id: 3,
+            title: "Comfortable Accommodations",
+            text: "Handpicked hotels and resorts ensure a cozy stay.",
+          },
+          {
+            id: 4,
+            title: "Seamless Logistics",
+            text: "From transportation to activity bookings, we handle all the details for a hassle-free journey.",
+          },
+          {
+            id: 5,
+            title: "Culinary Experiences",
+            text: "Opportunities to indulge in Malaysia's diverse and flavorful cuisine.",
+          },
+        ],
+      },
+    },
+
+    {
+      id: 15,
+      name: "Nepal",
+      img: banner6,
+      about: {
+        title: "Nepal -A Land of Mountains, Culture & Spirituality",
+        img: banner3,
+        para:
+          "Nepal is a breathtaking mix of Himalayan peaks, ancient temples, and rich traditions. From Mount Everest to the serene beauty of Pokhara, Nepal offers adventure and cultural immersion for all travelers.",
+      },
+      attraction: {
+        heading: "Top 9 Attractions in Nepal",
+        places: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Mount Everest & Everest Base Camp",
+            text: "The world’s highest peak, attracting trekkers and mountaineers from across the globe.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Kathmandu Valley",
+            text: "Home to UNESCO-listed sites like Swayambhunath (Monkey Temple), Pashupatinath Temple, and Boudhanath Stupa.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Pokhara",
+            text: "A lakeside paradise offering scenic views, paragliding, and caves.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Lumbini",
+            text: "The birthplace of Buddha, a major pilgrimage site with monasteries and meditation centers.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Chitwan National Park",
+            text: "A wildlife sanctuary known for rhinos, tigers, and jungle safaris.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Bhaktapur",
+            text: "A beautifully preserved medieval city known for its temples and pottery culture.",
+          },
+          {
+            id: 7,
+            img: banner5,
+            title: "Annapurna Circuit",
+            text: "A trekking hotspot that offers diverse landscapes, villages, and Himalayan vistas.",
+          },
+          {
+            id: 8,
+            img: banner5,
+            title: "Nagarkot",
+            text: "A hilltop getaway providing panoramic views of the Himalayas.",
+          },
+          {
+            id: 9,
+            img: banner5,
+            title: "Gosaikunda Lake",
+            text: "A sacred, high-altitude lake surrounded by trekking trails.",
+          },
+        ],
+      },
+      topThings: {
+        heading: "Top 6 Things to Do in Nepal",
+        things: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Trekking in the Himalayas",
+            text: "Experience legendary trails like Everest Base Camp and Annapurna Circuit.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "White-water Rafting in the Trishuli River",
+            text: "Thrill-seekers can enjoy exciting rapids and beautiful gorges.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Explore Thamel Market in Kathmandu",
+            text: "Shop for handicrafts, gear, and local snacks in this lively bazaar.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Take a Mountain Flight over Everest",
+            text: "Get an unforgettable aerial view of the world’s tallest peaks.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Try Authentic Nepali Cuisine",
+            text: "Savor local dishes like momo dumplings and dal bhat.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Join a Meditation or Yoga Retreat",
+            text: "Find inner peace in the spiritual heartland of the Himalayas.",
+          },
+        ],
+      },
+      whychoose: {
+        img: banner1,
+        img2: banner2,
+        data: [
+          {
+            id: 1,
+            title: "Tailored Trekking and Cultural Itineraries",
+            text: "Designed to match your adventure level and interests.",
+          },
+          {
+            id: 2,
+            title: "Expert Local Guides",
+            text: "For safe and insightful exploration of Nepal's diverse terrain and traditions.",
+          },
+          {
+            id: 3,
+            title: "Comfortable Stays",
+            text: "Scenic lodges and guesthouses with warm hospitality.",
+          },
+          {
+            id: 4,
+            title: "Hassle-Free Logistics",
+            text: "We manage everything from permits to transport and accommodations.",
+          },
+          {
+            id: 5,
+            title: "Immersive Cultural Experiences",
+            text: "Engage deeply with Nepalese heritage, rituals, and lifestyle.",
+          },
+        ],
+      },
+    },
+
+    {
+      id: 16,
+      name: "Maldives",
+      img: banner6,
+      about: {
+        title: "Maldives -A Tropical Paradise of Islands & Serenity",
+        img: banner3,
+        para:
+          "The Maldives is a dreamy blend of pristine beaches, turquoise waters, and luxurious resorts. Whether you seek romance, relaxation, or thrilling marine adventures, the Maldives is the ultimate island getaway.",
+      },
+      attraction: {
+        heading: "Top 9 Attractions in the Maldives",
+        places: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Malé",
+            text: "The vibrant capital with bustling markets, mosques, and cultural sites.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Vaadhoo Island",
+            text: "Famous for its stunning 'Sea of Stars' bioluminescent beach.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Maafushi",
+            text: "A local island offering authentic Maldivian experiences and budget-friendly stays.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Banana Reef",
+            text: "A diving hotspot with colorful coral reefs and diverse marine life.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Ari Atoll",
+            text: "A paradise for snorkelers featuring crystal-clear waters and vibrant aquatic life.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Hanifaru Bay",
+            text: "A marine sanctuary where manta rays gather in large numbers.",
+          },
+          {
+            id: 7,
+            img: banner5,
+            title: "Addu City",
+            text: "A serene getaway with historic charm and stunning beaches.",
+          },
+          {
+            id: 8,
+            img: banner5,
+            title: "Biyadhoo Island",
+            text: "Known for its breathtaking underwater world and peaceful surroundings.",
+          },
+          {
+            id: 9,
+            img: banner5,
+            title: "Sun Island",
+            text: "A luxurious resort destination perfect for water sports and relaxation.",
+          },
+        ],
+      },
+      topThings: {
+        heading: "Top 6 Things to Do in the Maldives",
+        things: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Stay in an Overwater Villa",
+            text: "Enjoy privacy and direct access to the ocean from your luxurious villa.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Sunset Dolphin Cruise",
+            text: "Sail across the Indian Ocean and watch playful dolphins at dusk.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Scuba Diving & Snorkeling",
+            text: "Explore vibrant reefs and marine life in crystal-clear waters.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Experience Local Island Life",
+            text: "Discover Maldivian culture and cuisine on inhabited islands.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Spa Day on the Beach",
+            text: "Rejuvenate with a beachfront massage and wellness treatments.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Private Dinner Under the Stars",
+            text: "Celebrate romance with a candlelit meal on the sand.",
+          },
+        ],
+      },
+      whychoose: {
+        img: banner1,
+        img2: banner2,
+        data: [
+          {
+            id: 1,
+            title: "Personalized Packages",
+            text: "Luxury and budget-friendly options designed to match your travel style.",
+          },
+          {
+            id: 2,
+            title: "Top-Rated Resorts & Villas",
+            text: "We partner with the best properties for comfort and elegance.",
+          },
+          {
+            id: 3,
+            title: "Seamless Transfers",
+            text: "Quick and easy travel between islands arranged for you.",
+          },
+          {
+            id: 4,
+            title: "Marine Adventures Included",
+            text: "Snorkeling, diving, and cruises are all part of your curated itinerary.",
+          },
+          {
+            id: 5,
+            title: "Romantic & Adventure-Friendly",
+            text: "Itineraries tailored for couples, families, or solo travelers.",
+          },
+        ],
+      },
+    },
+    
+    {
+      id: 17,
+      name: "Singapore",
+      img: banner6,
+      about: {
+        title: "Singapore -The Futuristic City of Dreams",
+        img: banner3,
+        para:
+          "Singapore is a dazzling blend of cutting-edge architecture, lush green spaces, and multicultural vibrancy. Whether it’s Marina Bay Sands or Sentosa Island, Singapore is a must-visit destination for travelers.",
+      },
+      attraction: {
+        heading: "Top 9 Attractions in Singapore",
+        places: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Marina Bay Sands",
+            text: "A world-famous hotel and observation deck offering breathtaking city views.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Gardens by the Bay",
+            text: "A futuristic nature park with towering Supertrees and mesmerizing light shows.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Sentosa Island",
+            text: "A playground of entertainment featuring beaches, resorts, and adventure parks.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Universal Studios Singapore",
+            text: "Southeast Asia’s favorite theme park with thrilling rides and attractions.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Orchard Road",
+            text: "Singapore’s shopping haven, filled with high-end boutiques and luxury malls.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Singapore Flyer",
+            text: "A giant observation wheel with panoramic views of the skyline.",
+          },
+          {
+            id: 7,
+            img: banner5,
+            title: "Chinatown & Little India",
+            text: "Rich cultural districts offering traditional cuisine and heritage landmarks.",
+          },
+          {
+            id: 8,
+            img: banner5,
+            title: "Singapore Zoo & Night Safari",
+            text: "One of the world’s best wildlife experiences, home to exotic animals.",
+          },
+          {
+            id: 9,
+            img: banner5,
+            title: "Clarke Quay",
+            text: "The vibrant riverside destination for nightlife, dining, and boat cruises.",
+          },
+        ],
+      },
+      topThings: {
+        heading: "Top 6 Things to Do in Singapore",
+        things: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Explore Marina Bay Sands & Gardens by the Bay",
+            text: "Witness architectural wonders and lush greenery in one spectacular area.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Visit Universal Studios Singapore",
+            text: "Enjoy thrilling rides and family fun in this top-rated theme park.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Shop along Orchard Road",
+            text: "Indulge in luxury and local shopping on Singapore’s most famous retail street.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Take a River Cruise at Clarke Quay",
+            text: "Relax with a scenic boat ride through the heart of Singapore.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Savor Singapore’s Hawker Food Culture",
+            text: "Taste iconic local dishes like Hainanese chicken rice and laksa.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Experience the Zoo & Night Safari",
+            text: "Get close to wildlife in one of the most immersive animal parks in the world.",
+          },
+        ],
+      },
+      whychoose: {
+        img: banner1,
+        img2: banner2,
+        data: [
+          {
+            id: 1,
+            title: "Exclusive Deals",
+            text: "Enjoy special offers on popular attractions and tickets.",
+          },
+          {
+            id: 2,
+            title: "Customized Tours",
+            text: "Tailored experiences to match your interests and pace.",
+          },
+          {
+            id: 3,
+            title: "Hotel Options for Every Budget",
+            text: "Choose from luxurious stays or budget-friendly comfort.",
+          },
+          {
+            id: 4,
+            title: "Hassle-Free Transport & Bookings",
+            text: "We take care of your travel logistics across the city.",
+          },
+          {
+            id: 5,
+            title: "Local-Guided Experiences",
+            text: "Gain insights with expert guides who know Singapore best.",
+          },
+        ],
+      },
+    },
+
+    {
+      id: 18,
+      name: "Sri Lanka",
+      img: banner6,
+      about: {
+        title: "Sri Lanka -A Land of Ancient Heritage & Scenic Beauty",
+        img: banner3,
+        para:
+          "Sri Lanka is a treasure trove of golden beaches, lush tea plantations, ancient temples, and vibrant wildlife. Whether it’s cultural exploration or adventure, Sri Lanka offers a rich travel experience for all.",
+      },
+      attraction: {
+        heading: "Top 9 Attractions in Sri Lanka",
+        places: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Sigiriya Rock Fortress",
+            text: "An ancient UNESCO-listed rock fortress with breathtaking views.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Ella",
+            text: "A hill town known for scenic train rides, hiking, and lush tea plantations.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Temple of the Tooth Relic, Kandy",
+            text: "A sacred Buddhist site housing Buddha’s tooth relic.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Galle Fort",
+            text: "A colonial-era fort with European-style architecture and coastal charm.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Yala National Park",
+            text: "Home to leopards, elephants, and diverse wildlife.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Nuwara Eliya",
+            text: "A peaceful town known for its tea gardens and cool climate.",
+          },
+          {
+            id: 7,
+            img: banner5,
+            title: "Mirissa Beach",
+            text: "A tropical beach paradise perfect for whale watching and relaxation.",
+          },
+          {
+            id: 8,
+            img: banner5,
+            title: "Dambulla Cave Temple",
+            text: "A historic cave temple with intricate Buddhist murals and statues.",
+          },
+          {
+            id: 9,
+            img: banner5,
+            title: "Adam’s Peak",
+            text: "A sacred mountain trek with stunning sunrise views.",
+          },
+        ],
+      },
+      topThings: {
+        heading: "Top 6 Things to Do in Sri Lanka",
+        things: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Take the Scenic Train Ride from Kandy to Ella",
+            text: "Experience one of the world's most beautiful train journeys.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Explore Tea Plantations & Taste Ceylon Tea",
+            text: "Walk through verdant estates and learn about Sri Lanka's tea heritage.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Spot Leopards on a Yala Safari Adventure",
+            text: "Embark on a thrilling wildlife safari in Yala National Park.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Witness Cultural Dances in Kandy",
+            text: "Enjoy traditional performances that showcase Sri Lanka’s rich heritage.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Whale Watching in Mirissa",
+            text: "Take a boat trip to see majestic whales in their natural habitat.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Enjoy Surfing & Beaches",
+            text: "Relax or catch waves on Sri Lanka’s stunning southern coast.",
+          },
+        ],
+      },
+      whychoose: {
+        img: banner1,
+        img2: banner2,
+        data: [
+          {
+            id: 1,
+            title: "Customized Cultural & Adventure Itineraries",
+            text: "We craft travel plans tailored to your preferences.",
+          },
+          {
+            id: 2,
+            title: "Top-Rated Accommodations",
+            text: "Enjoy luxury and comfort across scenic stays.",
+          },
+          {
+            id: 3,
+            title: "Guided Temple & Heritage Tours",
+            text: "Explore ancient sites with insightful local guides.",
+          },
+          {
+            id: 4,
+            title: "Wildlife Safaris & Excursions",
+            text: "Thrilling experiences in Sri Lanka’s national parks and nature reserves.",
+          },
+          {
+            id: 5,
+            title: "Seamless Transport & Planning",
+            text: "From bookings to transfers, we manage it all for you.",
+          },
+        ],
+      },
+    },
+    
+    {
+      id: 19,
+      name: "Thailand",
+      img: banner6,
+      about: {
+        title: "Thailand -The Land of Smiles & Tropical Bliss",
+        img: banner3,
+        para:
+          "Thailand is an exotic paradise of temples, islands, bustling cities, and vibrant street markets. Whether you seek relaxation or adventure, Thailand offers something for every traveler.",
+      },
+      attraction: {
+        heading: "Top 9 Attractions in Thailand",
+        places: [
+          {
+            id: 1,
+            img: banner5,
+            title: "The Bangkok Grand Palace",
+            text: "A majestic complex showcasing Thai royal heritage and stunning architecture.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Phuket & Phi Phi Islands",
+            text: "Famous for turquoise waters, beaches, and island-hopping adventures.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Chiang Mai’s Temples",
+            text: "An ancient city with impressive Buddhist temples and rich traditions.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Ayutthaya Historical Park",
+            text: "A UNESCO World Heritage site featuring ancient ruins of Thailand’s old capital.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Floating Markets",
+            text: "Colorful markets where locals sell goods from boats on the rivers.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Railay Beach",
+            text: "A breathtaking coastal gem known for rock climbing and crystal-clear waters.",
+          },
+          {
+            id: 7,
+            img: banner5,
+            title: "Chatuchak Market",
+            text: "One of the world’s largest street markets offering food, crafts, and fashion.",
+          },
+          {
+            id: 8,
+            img: banner5,
+            title: "Sukhothai Historical Park",
+            text: "A scenic park filled with ancient Thai ruins and temples.",
+          },
+          {
+            id: 9,
+            img: banner5,
+            title: "Damnoen Saduak Floating Market",
+            text: "A lively water market showcasing Thai traditions.",
+          },
+        ],
+      },
+      topThings: {
+        heading: "Top 6 Things to Do in Thailand",
+        things: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Explore the Temples & Palaces of Bangkok",
+            text: "Marvel at the rich cultural heritage and stunning architecture.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Enjoy Thai Street Food & Floating Markets",
+            text: "Sample delicious local cuisine and shop at traditional water markets.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Island-Hop Between Phuket & Phi Phi",
+            text: "Sail between tropical islands and discover hidden beaches.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Go on a Thai Jungle & Elephant Sanctuary Adventure",
+            text: "Experience nature and support ethical elephant tourism.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Experience the Thrill of Bangkok Nightlife",
+            text: "Dance, dine, and drink in the city's most vibrant hotspots.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Relax with a Traditional Thai Massage",
+            text: "Unwind and rejuvenate with ancient healing techniques.",
+          },
+        ],
+      },
+      whychoose: {
+        img: banner1,
+        img2: banner2,
+        data: [
+          {
+            id: 1,
+            title: "Tailored Itineraries for Every Style",
+            text: "City exploration, beach retreats, or cultural discovery—crafted just for you.",
+          },
+          {
+            id: 2,
+            title: "Luxury Resorts & Budget-Friendly Stays",
+            text: "Choose from premium or affordable accommodations across Thailand.",
+          },
+          {
+            id: 3,
+            title: "Expert-Guided Temple & Heritage Tours",
+            text: "Explore Thai history with local experts.",
+          },
+          {
+            id: 4,
+            title: "Island Adventures & Beach Vacations",
+            text: "Relax or explore Thailand’s world-famous islands.",
+          },
+          {
+            id: 5,
+            title: "Hassle-Free Bookings & Travel Assistance",
+            text: "From start to finish, we manage your trip with ease.",
+          },
+        ],
+      },
+    },
+
+    {
+      id: 20,
+      name: "Vietnam",
+      img: banner6,
+      about: {
+        title: "Vietnam -A Land of Stunning Landscapes & Rich History",
+        img: banner3,
+        para:
+          "Vietnam is a land of mountains, historic cities, breathtaking coastlines, and delicious street food. From the bustling streets of Hanoi to the stunning Halong Bay, Vietnam offers unforgettable experiences.",
+      },
+      attraction: {
+        heading: "Top 9 Attractions in Vietnam",
+        places: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Halong Bay",
+            text: "A UNESCO World Heritage site famous for its limestone cliffs and emerald waters.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Hanoi Old Quarter",
+            text: "A historic district with lively streets, markets, and cultural charm.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Hoi An Ancient Town",
+            text: "A lantern-lit town known for its preserved architecture and riverside views.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Cu Chi Tunnels",
+            text: "A network of underground tunnels showcasing Vietnam’s war history.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Da Nang & Golden Bridge",
+            text: "A scenic coastal city with the stunning Golden Hands Bridge.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Phu Quoc Island",
+            text: "A tropical retreat with white sand beaches and crystal-clear waters.",
+          },
+          {
+            id: 7,
+            img: banner5,
+            title: "Mekong Delta",
+            text: "A lush river region with floating villages and traditional Vietnamese life.",
+          },
+          {
+            id: 8,
+            img: banner5,
+            title: "Ba Na Hills",
+            text: "A breathtaking hill station with European-style architecture and landscapes.",
+          },
+          {
+            id: 9,
+            img: banner5,
+            title: "Sapa Rice Terraces",
+            text: "Rolling rice fields that create stunning natural scenery in the mountains.",
+          },
+        ],
+      },
+      topThings: {
+        heading: "Top 6 Things to Do in Vietnam",
+        things: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Cruise through the Majestic Halong Bay",
+            text: "Sail past limestone karsts and enjoy serene beauty on a traditional junk boat.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Explore Vietnam’s Rich Street Food Culture",
+            text: "Taste iconic dishes like pho, banh mi, and fresh spring rolls.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Visit the Historical Cu Chi Tunnels",
+            text: "Learn about Vietnam’s wartime resilience and underground life.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Walk Across the Golden Hands Bridge",
+            text: "Experience one of Vietnam's most Instagrammable architectural marvels.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Discover the Beauty of Hoi An’s Lantern-Lit Streets",
+            text: "Wander through this charming town at night when lanterns light up the town.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Take a Boat Tour Through the Mekong Delta",
+            text: "Explore floating markets and lush river landscapes in southern Vietnam.",
+          },
+        ],
+      },
+      whychoose: {
+        img: banner1,
+        img2: banner2,
+        data: [
+          {
+            id: 1,
+            title: "Personalized City & Cultural Tours",
+            text: "Custom itineraries designed for unique travel interests.",
+          },
+          {
+            id: 2,
+            title: "Luxury & Budget-Friendly Hotels & Homestays",
+            text: "A wide range of accommodations to suit every traveler.",
+          },
+          {
+            id: 3,
+            title: "Guided Trekking & Adventure Experiences",
+            text: "Explore mountains, jungles, and countryside with local guides.",
+          },
+          {
+            id: 4,
+            title: "Seamless Transport & Itinerary Planning",
+            text: "We handle all logistics for a smooth travel experience.",
+          },
+          {
+            id: 5,
+            title: "Authentic Vietnamese Culinary Experiences",
+            text: "Join cooking classes or food tours to discover Vietnam’s flavors.",
+          },
+        ],
+      },
+    },
+
+    {
+      id: 21,
+      name: "Azerbaijan",
+      img: banner6,
+      about: {
+        title: "Azerbaijan -The Jewel of the Caucasus",
+        img: banner3,
+        para:
+          "Azerbaijan blends modern architecture, historical landmarks, stunning landscapes, and rich culture. From Baku’s futuristic skyline to Gobustan’s ancient petroglyphs, Azerbaijan is a hidden gem of travel.",
+      },
+      attraction: {
+        heading: "Top 9 Attractions in Azerbaijan",
+        places: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Baku Old City",
+            text: "A UNESCO-listed historic center filled with medieval landmarks.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Flame Towers",
+            text: "Iconic skyscrapers lighting up the skyline of Azerbaijan’s capital.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Gobustan National Park",
+            text: "Home to ancient petroglyphs and mud volcanoes.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Heydar Aliyev Center",
+            text: "A futuristic architectural wonder designed by Zaha Hadid.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Sheki Khan’s Palace",
+            text: "A beautifully preserved palace showcasing Persian influence.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Lake Goygol",
+            text: "A pristine alpine lake surrounded by breathtaking landscapes.",
+          },
+          {
+            id: 7,
+            img: banner5,
+            title: "Mud Volcanoes",
+            text: "Azerbaijan has the largest number of mud volcanoes in the world!",
+          },
+          {
+            id: 8,
+            img: banner5,
+            title: "Absheron Peninsula",
+            text: "Stunning coastal landscapes with historical sites.",
+          },
+          {
+            id: 9,
+            img: banner5,
+            title: "Gabala",
+            text: "A picturesque mountain region perfect for nature lovers.",
+          },
+        ],
+      },
+      topThings: {
+        heading: "Top 6 Things to Do in Azerbaijan",
+        things: [
+          {
+            id: 1,
+            img: banner5,
+            title: "Explore the Baku Old City & Historic Landmarks",
+            text: "Wander through cobbled streets, historic mosques, and ancient city walls.",
+          },
+          {
+            id: 2,
+            img: banner5,
+            title: "Visit Gobustan’s Petroglyphs & Mud Volcanoes",
+            text: "Discover ancient rock carvings and surreal geological formations.",
+          },
+          {
+            id: 3,
+            img: banner5,
+            title: "Admire the Flame Towers & Heydar Aliyev Center",
+            text: "Experience the striking contrast of modern architecture in Baku.",
+          },
+          {
+            id: 4,
+            img: banner5,
+            title: "Take in Sheki’s Architectural Wonders",
+            text: "Visit traditional houses and the stunning Sheki Khan’s Palace.",
+          },
+          {
+            id: 5,
+            img: banner5,
+            title: "Relax by Scenic Lake Goygol",
+            text: "Enjoy nature walks and the peaceful ambiance of the alpine lake.",
+          },
+          {
+            id: 6,
+            img: banner5,
+            title: "Experience the Charm of Gabala",
+            text: "Explore lush landscapes, forests, and mountains in this resort town.",
+          },
+        ],
+      },
+      whychoose: {
+        img: banner1,
+        img2: banner2,
+        data: [
+          {
+            id: 1,
+            title: "Expert-Guided City & Heritage Tours",
+            text: "Explore Baku and beyond with knowledgeable local guides.",
+          },
+          {
+            id: 2,
+            title: "Luxury Stays & Scenic Travel Experiences",
+            text: "Stay in top-rated hotels and enjoy picturesque journeys.",
+          },
+          {
+            id: 3,
+            title: "Adventure-Filled Mountain Getaways",
+            text: "Discover the natural beauty of Azerbaijan’s mountain regions.",
+          },
+          {
+            id: 4,
+            title: "Hassle-Free Visa & Booking Support",
+            text: "Let us manage the logistics for a worry-free vacation.",
+          },
+          {
+            id: 5,
+            title: "Cultural Immersion with Local Traditions",
+            text: "Engage in authentic Azerbaijani food, crafts, and hospitality.",
+          },
+        ],
+      },
     }
+  
   ]
 };

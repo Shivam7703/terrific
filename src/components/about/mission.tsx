@@ -7,19 +7,19 @@ export default function Mission() {
     {
       id: 1,
       title: "Our Mission",
-      para: "To provide innovative and high-quality digital solutions that empower businesses to achieve their goals efficiently and effectively.",
+      para: "The company plans expert journeys along with personal service to achieve effortless travel that delivers unforgettable experiences to all vacationers.",
       icon: <FaBullseye />,
     },
     {
       id: 2,
       title: "Our Vision",
-      para: "To be a global leader in digital transformation by delivering cutting-edge technology solutions that drive growth and success.",
+      para: "Our independence means we have access to a wide choice of tour operators and airlines, and we always endeavor to find your perfect holiday for the best possible price.",
       icon: <FaEye />,
     },
     {
       id: 3,
       title: "Our Values",
-      para: "We prioritize integrity, innovation, and customer-centric approaches to ensure excellence in all our services.",
+      para: "Customer-first approach combined with transparent practices, along with reliable services, trusted expertise, innovative ideas, and passionate dedication to providing world-class travel experiences.",
       icon: <FaHandshake />,
     },
   ];

@@ -11,7 +11,7 @@ export default function DestinationAbout({data}:any) {
     <motion.div  variants={staggerContainer(0.1, 0)} // Adjusted stagger settings
     initial="hidden"
     whileInView="show"
-    viewport={{ once: true, amount: 0.2 }} className='lg:px-28 lg:pb-20 sm:p-12 px-7 py-11 max-w-[1580px] mx-auto flex flex-wrap items-stretch justify-between gap-y-7 bg-white' >
+    viewport={{ once: true, amount: 0.2 }} className='lg:px-28 lg:pb-20 sm:p-12 px-7 py-11 max-w-[1580px] mx-auto overflow-hidden flex flex-wrap items-stretch justify-between gap-y-7 bg-white' >
       
 
       <motion.div     variants={fadeIn("right", "tween", 0.3, 1)}

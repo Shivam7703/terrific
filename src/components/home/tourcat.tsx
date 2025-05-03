@@ -4,13 +4,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay, Pagination} from "swiper/modules";
+import { Autoplay, Pagination, Navigation} from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
 import TopHeading from "../global/topHeading";
 import { useState } from "react";
 import { packagedata } from "@/data/packages";
 import { banner2 } from "@/assets";
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 export default function TourCat() {
   const [Domestic, setDomestic] = useState(true);
@@ -23,12 +24,16 @@ export default function TourCat() {
     pagination: {
       clickable: true,
     },
+    navigation: {
+      nextEl: `.${uniqueId}-next`,
+      prevEl: `.${uniqueId}-prev`,
+    },
     autoplay: {
       delay: 5000,
       disableOnInteraction: false,
     },
     loop: true,
-    modules: [Autoplay, Pagination],
+    modules: [Autoplay, Pagination, Navigation],
     breakpoints: {
       140: {
         slidesPerView: 1,
@@ -46,7 +51,7 @@ export default function TourCat() {
   };
 
   return (
-    <section className="lg:px-28 sm:p-12 p-7 text-center relative slider1">
+    <section className="lg:px-28 md:px-20 sm:p-16 p-7 text-center relative slider1">
       {/* Top Heading */}
       <TopHeading title={"Curated Tour Categories"} para={"Choose from a range of carefully handpicked packages and follow an itinerary that helps you get the best out of your desired destination."} />
 
@@ -106,7 +111,16 @@ export default function TourCat() {
         ))}
       </Swiper>
 
-     
+      <div
+                 className={`${uniqueId}-next absolute z-30 p-3 hover:bg-color1 bg-color2 shadow-md text-white right-0 md:right-10 bottom-1/3 max-md:scale-75 rounded-full cursor-pointer`}
+               >
+                 <FaArrowRightLong className="text-xl font-bold" />
+               </div>
+               <div
+                 className={`${uniqueId}-prev absolute z-20 rounded-full hover:bg-color1 p-3 bg-color2 shadow-md text-white left-0 md:left-10 bottom-1/3 max-md:scale-75  cursor-pointer`}
+               >
+                 <FaArrowLeftLong className="text-xl font-bold" />
+               </div>
     </section>
   );
 }

@@ -11,7 +11,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
-import { StaticImport } from 'next/dist/shared/lib/get-img-props';
+
 
 
 
@@ -32,15 +32,15 @@ export default function ImageGallery({images}:any) {
         modules={[FreeMode, Navigation, Thumbs, Autoplay]}
         className=" w-full mb-3"
       >
-        {images.map((src: any) => (
-          <SwiperSlide key={src.id}>
+        {images && images.map((srcs: any) => (
+          <SwiperSlide key={srcs.id}>
             <div className="relative w-full h-80 sm:h-[450px]">
               <Image
-                src={src.img}
-                alt={`Slide ${src.id + 1}`}
+                src={srcs.img}
+                alt={`Slide ${srcs.id + 1}`}
                
                 className="h-full w-full object-cover"
-                priority={src.id === 0}
+                priority={srcs.id === 0}
               />
             </div>
           </SwiperSlide>
@@ -57,7 +57,7 @@ export default function ImageGallery({images}:any) {
         modules={[FreeMode, Navigation, Thumbs]}
         className="packI mt-4 w-full box-border py-2"
       >
-        {images.map((src: { id: number; img: any; }) => (
+        {images && images.map((src: { id: number; img: any; }) => (
           <SwiperSlide key={src.id}>
             <div className="relative w-full sm:h-[130px] h-20">
               <Image

@@ -1,5 +1,6 @@
 import {  about2, about3, banner1, banner2, banner3, banner4, banner5, banner6, banner7, car, cl1, cli1, cli2, cli3, faq, logo2,nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11 } from "@/assets";
-import {  FaMapLocationDot} from "react-icons/fa6";
+import { BsFillAirplaneFill } from "react-icons/bs";
+import {  FaMapLocationDot, FaPassport} from "react-icons/fa6";
 import { GiDeadEye } from "react-icons/gi";
 import { IoAirplane, IoPersonCircleOutline } from "react-icons/io5";
 import { LiaBullseyeSolid } from "react-icons/lia";
@@ -13,81 +14,81 @@ export const headercountry=[{
   id:1,
   img:nav1,
 label:"Azerbaizan",
-slug:"#"
+slug:"/destination/azerbaijan?categorys=international"
 },
 {
   id:2,
   img:nav2,
 label:"Bali",
-slug:"#"
+slug:"/destination/bali?categorys=international"
 },{
   id:3,
   img:nav3,
 label:"Bhutan",
-slug:"#"
+slug:"/destination/bhutan?categorys=international"
 },{
   id:4,
   img:nav4,
 label:"Dubai",
-slug:"#"
+slug:"/destination/dubai,-uae?categorys=international"
 },{
   id:5,
   img:nav5,
 label:"Japan",
-slug:"#"
+slug:"/destination/tokyo,-japan?categorys=international"
 },{
   id:6,
   img:nav6,
 label:"Malaysia",
-slug:"#"
+slug:"/destination/malaysia?categorys=international"
 },{
   id:7,
   img:nav7,
 label:"Nepal",
-slug:"#"
+slug:"/destination/nepal?categorys=international"
 },{
   id:8,
   img:nav8,
 label:"Singapore",
-slug:"#"
+slug:"/destination/Singapore?categorys=international"
 },{
   id:9,
   img:nav9,
 label:"Sri Lanka",
-slug:"#"
+slug:"/destination/Sri Lanka?categorys=international"
 },
 {
   id:10,
   img:nav10,
 label:"Thailand",
-slug:"#"
+slug:"/destination/Thailand?categorys=international"
 },
 {
   id:11,
   img:nav11,
 label:"Vietnam",
-slug:"#"
+slug:"/destination/Vietnam?categorys=international"
 },
 ]
 
 export const navItemsArray = [
   { id: 1, label: "Home", href: "/"},
 
-  { id: 2, label: "About Us", href: "about-us"},
+  { id: 2, label: "About Us", href: "/about-us"},
   { id: 3, label: "Destination", href: "#",
     subNav:[{
       id: 1, label: "Domestic", href: "#",
       subNav:[
         { id: 1, label: "Golden Triangle", href: "/destination/golden-triangle?categorys=domestic" },
-        { id: 2, label: "Andaman & Nicobar", href: "/destination/andaman-nicobar?categorys=domestic" },
-        { id: 3, label: "Kashmir", href: "/destination/kashmir-tour?categorys=domestic" },
+        { id: 2, label: "Andaman & Nicobar", href: "/destination/andaman-&-nicobar-islands?categorys=domestic" },
+        { id: 3, label: "Kashmir", href: "/destination/kashmir?categorys=domestic" },
         { id: 4, label: "Sikkim & Darjeeling", href: "/destination/sikkim-&-darjeeling?categorys=domestic" },
-        { id: 5, label: "Kerala", href: "/destination/kerala-tour?categorys=domestic" },
-        { id: 6, label: "Goa", href: "/destination/goa-tour?categorys=domestic" },
+        { id: 5, label: "Kerala", href: "/destination/kerala?categorys=domestic" },
+        { id: 6, label: "Goa", href: "/destination/goa?categorys=domestic" },
         { id: 7, label: "Leh-Ladakh", href: "/destination/leh-ladakh?categorys=domestic" },
-        { id: 8, label: "Manali", href: "/destination/manali" },
+        { id: 8, label: "Manali", href: "/destination/manali?categorys=domestic" },
         { id: 9, label: "Mysore-Ooty", href: "/destination/mysore-ooty?categorys=domestic" },
-        { id: 10, label: "JimCorbett & Nainital", href: "/destination/jimcorbett-&-nainital?categorys=domestic" },
+        { id: 10, label: "JimCorbett & Nainital", href: "/destination/jim-corbett-&-nainital?categorys=domestic" },
         { id: 11, label: "Rajasthan", href: "/destination/rajasthan?categorys=domestic" }
     ]
     
@@ -99,33 +100,33 @@ export const navItemsArray = [
         { id:2, label: "Bali", href: "/destination/bali?categorys=international" },
         { id:3, label: "Maldives", href: "/destination/maldives?categorys=international" },
         { id:4, label: "Japan", href: "/destination/tokyo,-japan?categorys=international" },
-        { id:5, label: "Greece", href: "/destination/greece?categorys=international" },
+        { id:5, label: "Greece", href: "/destination/greece,-europe?categorys=international" },
         { id:6, label: "Turkey", href: "/destination/turkey?categorys=international" },
         { id:7, label: "Paris", href: "/destination/paris,-france?categorys=international" },
         { id:8, label: "Rome", href: "/destination/rome,-italy?categorys=international" },
         { id:9, label: "New York City", href: "/destination/new-york-city,-usa?categorys=international" },
-        { id: 10, label: "Venice", href: "/destination/venice?categorys=international" },
+        { id: 10, label: "Venice", href: "/destination/venice,-italy?categorys=international" },
         { id: 11, label: "Switzerland", href: "/destination/switzerland?categorys=international" },
         { id: 12, label: "Baku ", href: "/destination/baku?categorys=international" },
     ]
     },
    ]
   },
-  { id: 4, label: "Packages", href: "packages",
+  { id: 4, label: "Packages", href: "#",
     subNav:[{
       id: 1, label: "Domestic", href: "#",
       subNav:[
-        { id: 1, label: "Golden Triangel Tour", href: "/packages/golden-triangel-tour?categorys=domestic" },
-        { id: 2, label: "Jodhpur – Jaisalmer Tour", href: "/packages/jodhpur-jaisalmer-tour?categorys=domestic" },
-        { id: 3, label: "Paradise on Earth – Kashmir Tour", href: "/packages/paradise-on-earth-kashmir-tour?categorys=domestic" },
+        { id: 1, label: "Golden Triangel Tour", href: "/packages/golden-triangle-tour?categorys=domestic" },
+        { id: 2, label: "Jodhpur – Jaisalmer Tour", href: "/packages/Jodhpur – Jaisalmer Tour?categorys=domestic" },
+        { id: 3, label: "Paradise on Earth – Kashmir Tour", href: "/packages/paradise-on-earth – Kashmir Tour?categorys=domestic" },
         { id: 4, label: "The Andaman Tour", href: "/packages/the-andaman-tour?categorys=domestic" },
         { id: 5, label: "Goa Tour", href: "/packages/goa-tour?categorys=domestic" },
         { id: 6, label: "Ladakh Tour", href: "/packages/ladakh-tour?categorys=domestic" },
         { id: 7, label: "South India Temple Tour 5N 6D", href: "/packages/south-india-temple-tour-5n-6d?categorys=domestic" },
-        { id: 8, label: "Exotic kerala Tour 3 N | 4 D", href: "/packages/exotic-kerala-tour-3n-4d?categorys=domestic" },
-        { id: 9, label: "Exotic kerala Tour 7 N | 8 D", href: "/packages/exotic-kerala-tour-7n-8d?categorys=domestic" },
+        { id: 8, label: "Exotic kerala Tour 3 N | 4 D", href: "/packages/exotic-kerala-tour 3 N | 4 D?categorys=domestic" },
+        { id: 9, label: "Exotic kerala Tour 7 N | 8 D", href: "/packages/exotic-kerala-tour-7 N | 8 D?categorys=domestic" },
         { id: 10, label: "Darjeeling Tour", href: "/packages/darjeeling-tour?categorys=domestic" },
-        { id: 11, label: "Assam Magalya Tour", href: "/packages/assam-magalya-tour?categorys=domestic" },
+        { id: 11, label: "Assam Meghalaya Tour", href: "/packages/assam-Meghalaya-tour?categorys=domestic" },
         { id: 12, label: "Dajeeling Gangtok Tour", href: "/packages/darjeeling-gangtok-tour?categorys=domestic" },
         { id: 13, label: "South India Tour", href: "/packages/south-india-tour?categorys=domestic" }
     ]    
@@ -133,10 +134,10 @@ export const navItemsArray = [
     {
       id: 2, label: "International", href: "#",
       subNav:[
-        { id: 1, label: "Vietnam Tours", href: "/packages/vietnam-tours?categorys=international" },
+        { id: 1, label: "Vietnam Adventure Tour", href: "/packages/Vietnam Adventure Tour?categorys=international" },
         { id: 2, label: "Bali Discovery Trip", href: "/packages/bali-discovery-trip?categorys=international" },
         { id: 3, label: "Best of Turkey", href: "/packages/best-of-turkey?categorys=international" },
-        { id: 4, label: "Enchanting Sri Lanka", href: "/packages/enchanting-sri-lanka?categorys=international" },
+        { id: 4, label: "Enchanting Sri Lanka", href: "/packages/enchanting-sri-lanka-tour?categorys=international" },
         { id: 5, label: "Greece Tour", href: "/packages/greece-tour?categorys=international" },
         { id: 6, label: "Mesmerizing Japan", href: "/packages/mesmerizing-japan?categorys=international" },
         { id: 7, label: "Thailand Tour", href: "/packages/thailand-tour?categorys=international" },
@@ -146,8 +147,8 @@ export const navItemsArray = [
     },
    ]
      },
-  { id: 5, label: "Blogs", href: "blogs"},
-  { id: 6, label: "Contact Us", href: "contact-us"},
+  { id: 5, label: "Blogs", href: "/blogs"},
+  { id: 6, label: "Contact Us", href: "/contact-us"},
 ];
 
 export const HomeBannerData= 
@@ -167,212 +168,8 @@ export const HomeBannerData=
     para: "Your search for the best travel agency in Delhi ends at Terrific Trips. Explore top-rated experiences for that much needed holiday!",
     
     btntext: "Explore Packages",
-    href: "/",
+    href: "/contact-us",
   }
-
-  export const homepackagedata ={
-    title:"Best Travel Packages",
-    para:"We specialize in curating unforgettable travel experiences and ensure every trip is hassle-free and filled with cherished memories.",
-    section1:{img:banner1,
-      title: "Thailand",
-      para: "Discover rich culture, ancient temples, vibrant markets,",
-      btntext: "Explore Packages",
-      href: "/",
-    },
-    section2:{img:banner2,
-      title: "Shri Lanka",
-      para: "Discover rich culture, ancient temples, vibrant markets,",
-      btntext: "Explore Packages",
-      href: "/",
-    },
-    section3:{img:banner4,
-      title: "Bali",
-      para: "Discover rich culture, ancient temples, vibrant markets,",
-      btntext: "Explore Packages",
-      href: "/",
-    },
-    section4:{img:banner3,
-      title: "Singapore",
-      para: "Discover rich culture, ancient temples, vibrant markets,",
-      btntext: "Explore Packages",
-      href: "/",
-    }
-  }
-
-  export const Hometourcatdata ={
-    title:"Destination Categories",
-    para:"Choose from our wide range of national and international travel packages. From the culturally rich Golden-Triangle to the dazzling Goa, we have everything for a traveler.",
-    tours1:[{
-      id:1,
-      img:banner1,
-      title:"Haridwar",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:2,
-      img:banner2,
-      title:"Assam",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:3,
-      img:banner3,
-      title:"Jammu & Kashmir",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:4,
-      img:banner4,
-      title:"Rajasthan",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:5,
-      img:banner5,
-      title:"Thailand",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:6,
-      img:banner6,
-      title:"Gujrat",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    }],
-
-    tours2:[{
-      id:1,
-      img:banner1,
-      title:"Thailand",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:2,
-      img:banner2,
-      title:"Thailand",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:3,
-      img:banner3,
-      title:"Thailand",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:4,
-      img:banner4,
-      title:"Thailand",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:5,
-      img:banner5,
-      title:"Thailand",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:6,
-      img:banner6,
-      title:"Thailand",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    }]
-  }
-
-
-  export const Hometourpackdata ={
-    title:"Curated Tour Categories",
-    para:"Choose from a range of carefully handpicked packages and follow an itinerary that helps you get the best out of your desired destination.",
-    tours1:[{
-      id:1,
-      img:banner1,
-      title:"Haridwar",
-      location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:2,
-      img:banner2,
-      title:"Assam",  location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:3,
-      img:banner3,
-      title:"Jammu & Kashmir",  location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:4,
-      img:banner4,
-      title:"Rajasthan",  location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:5,
-      img:banner5,
-      title:"Thailand",  location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:6,
-      img:banner6,
-      title:"Gujrat",   location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    }],
-
-    tours2:[{
-      id:1,
-      img:banner1,
-      title:"Thailand",   location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:2,
-      img:banner2,
-      title:"Thailand",   location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:3,
-      img:banner3,
-      title:"Thailand",   location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:4,
-      img:banner4,
-      title:"Thailand",   location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:5,
-      img:banner5,
-      title:"Thailand",   location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    },{
-      id:6,
-      img:banner6,
-      title:"Thailand",   location:"ciutat vella, barcelona",
-      price:"$ 600",
-      para:"Discover rich culture, ancient temples, vibrant markets, and delicious street food.",
-      slug:"#"
-    }]
-  }
-
 
   export const countDown=[
     {id:1,
@@ -590,7 +387,7 @@ blogs:[
 
 export const footer = {
     logo: logo2,
-    text: "lorem At Bharat Ecofuels, we are revolutionizing the biofuel industry and transforming the lives of millions of",
+    text: "Terrific Trips made my dream vacation hassle-free! Their expert guidance, seamless bookings.",
   
     socials: {
       facebook: "https://www.facebook.com/",
@@ -612,26 +409,38 @@ export const footer = {
     
     newLetter: {
       title: "Contact Us",
-      description: "Subscribe to our newsletter to get latest news and updates.",
     },
   };
 
   // about page
 export const aboutPage = {
   title:"About Us",
-  para:"lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
-  slug:"about-us",
-  img:banner1
+  para:"Making Travel Easy & Memorable! Our expert planning services provide dedicated experiences along with a hassle-free journey system throughout India and international destinations.",
+  slug:"About-Us",
+  img:banner1,
+
+  why:{
+    img:banner4,
+    img2:banner2,
+    title1:"Why Choose Terrific Trips?",
+    title2:"Your Trusted Partner for Seamless Travel",
+    para:"The expert team at Terrific Trips devotes itself to creating stress-relieving vacations that people will never forget. Reliable support comes with personalized service and expert planning to deliver the ultimate travel experience for every traveler. Our clients choose us as their travel adventure provider for these particular reasons.",
+    vision:[
+      {id:1,
+        icon:<FaPassport />,
+heading:"Professional Travel Planning",
+text:"The skilled team at Terrific Trips develops structured trip plans that guarantee complete organization across all travel components."
+      },
+      {id:1,
+        icon:<BsFillAirplaneFill />,
+heading:"Hassle-Free Travel",
+text:"Our service covers complete trip arrangements, including both accommodations, flights, and guided tours, to offer you worry-free travel."
+      },
+    ]
+  }
 }
   
-
-
-
-
-
-
   // contat Us
-
   export const contactBanner ={
     title:"Contact Us",
     para:"lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",

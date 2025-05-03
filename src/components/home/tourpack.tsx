@@ -4,13 +4,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
 import TopHeading from "../global/topHeading";
 import { useState } from "react";
 import { ImLocation } from "react-icons/im";
 import { Destinationdata } from "@/data/destination";
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 export default function TourPack() {
   const [Domestic, setDomestic] = useState(true);
@@ -23,12 +24,16 @@ export default function TourPack() {
     pagination: {
       clickable: true,
     },
+    navigation: {
+      nextEl: `.${uniqueId}-next`,
+      prevEl: `.${uniqueId}-prev`,
+    },
     autoplay: {
       delay: 5000,
       disableOnInteraction: false,
     },
     loop: true,
-    modules: [Autoplay, Pagination],
+    modules: [Autoplay, Pagination, Navigation],
     breakpoints: {
       140: {
         slidesPerView: 1,
@@ -46,7 +51,7 @@ export default function TourPack() {
   };
 
   return (
-    <section className="lg:px-28 sm:p-12 p-7 text-center relative slider1">
+    <section className="lg:px-28 md:px-20 sm:p-16 p-7 text-center relative slider1">
       {/* Top Heading */}
       <TopHeading title={`Destination Categories
 `} para={"Choose from our wide range of national and international travel packages. From the culturally rich Golden-Triangle to the dazzling Goa, we have everything for a traveler."} />
@@ -84,7 +89,7 @@ export default function TourPack() {
           >
             {/* Card Content */}
             <div className="w-full md:h-64 h-44 mb-2   overflow-hidden relative">
-<p className="py-2 px-4 w-max text-xs font-bold text-white bg-blue-500 z-10 absolute top-4 left-4 rounded-2xl shadow-lg">Trending</p>
+<p className="py-2 px-4 w-max text-xs font-bold text-white bg-gradient-to-tr from-blue-700 to-blue-300 z-10 absolute top-4 left-4 rounded-lg shadow-lg">Trending</p>
 
               <Image
                 src={cards.img}
@@ -119,8 +124,16 @@ export default function TourPack() {
           </SwiperSlide>
         ))}
       </Swiper>
-
-     
+      <div
+                 className={`${uniqueId}-next absolute z-30 p-3 hover:bg-color1 bg-color2 shadow-md text-white right-0 md:right-10 bottom-1/3 max-md:scale-75 rounded-full cursor-pointer`}
+               >
+                 <FaArrowRightLong className="text-xl font-bold" />
+               </div>
+               <div
+                 className={`${uniqueId}-prev absolute z-20 rounded-full hover:bg-color1 p-3 bg-color2 shadow-md text-white left-0 md:left-10 bottom-1/3 max-md:scale-75  cursor-pointer`}
+               >
+                 <FaArrowLeftLong className="text-xl font-bold" />
+               </div>
     </section>
   );
 }

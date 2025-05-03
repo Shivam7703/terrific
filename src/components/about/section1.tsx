@@ -43,9 +43,8 @@ export default function Section1() {
         </h2>
 
         <p className="text-zinc-600 text-sm md:text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magni
-          ducimus illo quas asperiores, praesentium beatae doloremque, quasi
-          modi non blanditiis qui quis.
+        Terrific Trips operates as a trusted independent travel agency that has built its journey-planning expertise for more than 20 years. We operate out of New Delhi to produce made-to-order vacation packages that connect travelers to exciting destinations within and outside India through our professional team.
+
         </p>
 
         {/* Progress Bars */}
