@@ -77,16 +77,16 @@ const Header = ({ header }: any) => {
     <>
    
     <header
-      className={`fixed top-0 left-0 w-screen z-50 transition-all duration-300 
+      className={`fixed top-0 left-0 w-screen z-50 transition-all duration-300  
         ${isVisible ? "translate-y-0" : "-translate-y-full"}
         ${isAtTop ? "bg-[#00000032] text-color1" : "bg-[#000000de] shadow-lg"}`}
     >
-      <div className="hidden md:flex items-center justify-between  bg-white h-24 md:h-20 px-5 lg:px-10">
+      <div className="hidden md:flex items-center justify-between  bg-white h-24  px-5 lg:px-10">
         <Link href={header?.href || "/"}>
           <Image
             src={isAtTop ? logo : logo}
             alt="logo"
-            className="h-[12vw] max-h-20 w-min object-contain md:h-20"
+            className="h-[12vw] max-h-20 w-min object-contain md:h-20 my-1"
           />
         </Link>
         <Menu
