@@ -171,6 +171,36 @@ export const HomeBannerData=
     href: "/contact-us",
   }
 
+  export const homepackagedata ={
+    title:"Best Travel Packages",
+    para:"We specialize in curating unforgettable travel experiences and ensure every trip is hassle-free and filled with cherished memories.",
+    section1:{img:banner1,
+      title: "Thailand",
+      para: "Discover rich culture, ancient temples, vibrant markets,",
+      btntext: "Explore Packages",
+      href: "/",
+    },
+    section2:{img:banner2,
+      title: "Shri Lanka",
+      para: "Discover rich culture, ancient temples, vibrant markets,",
+      btntext: "Explore Packages",
+      href: "/",
+    },
+    section3:{img:banner4,
+      title: "Bali",
+      para: "Discover rich culture, ancient temples, vibrant markets,",
+      btntext: "Explore Packages",
+      href: "/",
+    },
+    section4:{img:banner3,
+      title: "Singapore",
+      para: "Discover rich culture, ancient temples, vibrant markets,",
+      btntext: "Explore Packages",
+      href: "/",
+    }
+  }
+
+  
   export const countDown=[
     {id:1,
       title:"Destinations",
