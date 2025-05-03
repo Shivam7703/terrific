@@ -7,23 +7,23 @@ export default function Contactsec1() {
 
     const data = [{
         id:1,
-        para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam soluta dolorum doloremque. Maiores nobis molestiae delectus."
+        para:"Expert travel planning that ensures a stress-free journey by crafting personalized itineraries tailored to individual preferences and needs."
     },
     {
         id:2,
-        para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam soluta dolorum doloremque. "
+        para:"Seamless bookings for flights, hotels, and activities, making your trip easy and convenient from start to finish."
     },
     {
         id:3,
-        para:"adipisicing elit. Quibusdam soluta dolorum doloremque. Maiores nobis molestiae delectus."
+        para:"Exceptional service with continuous support before, during, and after your journey, ensuring a smooth travel experience."
     },
     {
         id:4,
-        para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam soluta dolorum doloremque. Maiores nobis molestiae delectus Lorem ipsum dolor sit amet consectetur."
+        para:"Affordable and transparent pricing with no hidden costs, providing the best value for your dream trip."
     },
     {
         id:5,
-        para:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam soluta dolorum doloremque. Maiores nobis molestiae delectus."
+        para:"Worldwide destinations with expert recommendations and well-crafted itineraries designed to create unforgettable travel experiences."
     },
 ]
 

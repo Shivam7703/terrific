@@ -8,7 +8,7 @@ function page() {
   return (
     <>
        <AllBanner img={contactBanner?.img}
-                  title={contactBanner?.title} slug={contactBanner?.slug} para={"lorem isit amet consectetur adipisicing elit. Eveniet enim nihil expedita voluptas quidem dolorem eligendi, praesentium perferendis fugiat perspiciatis."}/>
+                  title={contactBanner?.title} slug={contactBanner?.slug} para={contactBanner?.para}/>
                   <Contactsec1/>
                   <Form contactdata ={contactsec1}/>
     </>

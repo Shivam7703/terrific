@@ -443,7 +443,7 @@ text:"Our service covers complete trip arrangements, including both accommodatio
   // contat Us
   export const contactBanner ={
     title:"Contact Us",
-    para:"lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
+    para:"Plan Your Perfect Getaway with Terrific Trips! Have questions? Contact us Today for Expert Travel Assistance and Seamless Bookings!",
     slug:"contact-us",
     img:banner1
   }
