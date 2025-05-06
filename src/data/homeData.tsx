@@ -666,12 +666,23 @@ export const footer = {
     copyrightText: "Copyrights © 2024 . Designed and Manage by ",
    
     list2: {
-      title: "Explore",
-      links: [ { id: 1, label: "About", href: "about" },
-      { id: 2, label: "Services & Techs", href: "services" },
-      { id: 3, label: "Sustainability", href: "sustainability" },
-      { id: 4, label: "Blogs", href: "blogs" },
-      { id: 5, label: "Contact Us", href: "contact-us" },],
+      title: "Trending Packages",
+      links: [ { id: 1, label: "Exotic kerala Tour 3 N | 4 D", href: "/packages/exotic-kerala-tour 3 N | 4 D?categorys=domestic" },
+        { id: 2, label: "Exotic kerala Tour 7 N | 8 D", href: "/packages/exotic-kerala-tour-7 N | 8 D?categorys=domestic" },
+        { id: 3, label: "Darjeeling Tour", href: "/packages/darjeeling-tour?categorys=domestic" },
+        { id: 4, label: "Assam Meghalaya Tour", href: "/packages/assam-Meghalaya-tour?categorys=domestic" },
+        { id: 5, label: "Dajeeling Gangtok Tour", href: "/packages/darjeeling-gangtok-tour?categorys=domestic" },
+        ],
+    },
+
+    list3: {
+      title: "Destinations",
+      links: [  { id: 1, label: "Golden Triangle", href: "/destination/golden-triangle?categorys=domestic" },
+        { id: 2, label: "Andaman & Nicobar", href: "/destination/andaman-&-nicobar-islands?categorys=domestic" },
+        { id: 3, label: "Kashmir", href: "/destination/kashmir?categorys=domestic" },
+        { id: 4, label: "Sikkim & Darjeeling", href: "/destination/sikkim-&-darjeeling?categorys=domestic" },
+        { id: 5, label: "Kerala", href: "/destination/kerala?categorys=domestic" },
+       ],
     },
     
     newLetter: {

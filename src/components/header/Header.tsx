@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Menu from "./Menu";
@@ -11,8 +10,6 @@ import { logo, logo2 } from "@/assets";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { usePathname } from "next/navigation";
 import { headercountry } from "@/data/homeData";
-
-
 
 
 const Header = ({ header }: any) => {
@@ -34,8 +31,6 @@ const Header = ({ header }: any) => {
     setActiveItem(path);
   }, [pathname]);
 
-
-  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -81,12 +76,12 @@ const Header = ({ header }: any) => {
         ${isVisible ? "translate-y-0" : "-translate-y-full"}
         ${isAtTop ? "bg-[#00000032] text-color1" : "bg-[#000000de] shadow-lg"}`}
     >
-      <div className="hidden md:flex items-center justify-between  bg-white h-24  px-5 lg:px-10">
+      <div className="hidden md:flex items-center justify-between  bg-white h-24 px-5 lg:px-10">
         <Link href={header?.href || "/"}>
           <Image
             src={isAtTop ? logo : logo}
             alt="logo"
-            className="h-[12vw] max-h-20 w-min object-contain md:h-20 my-1"
+            className=" h-16 w-min object-contain md:h-20 my-1"
           />
         </Link>
         <Menu
@@ -107,12 +102,12 @@ const Header = ({ header }: any) => {
 </div>
 
       {/* Mobile Section */}
-      <div className={`flex md:hidden w-screen items-center  justify-between h-20 px-3 ${
+      <div className={`flex md:hidden w-screen items-center  justify-between h-24 px-3 ${
         isAtTop ? "bg-black bg-opacity-40  backdrop-blur-[7px]" : "bg-opacity-100 bg-white"
       }`}>
         <div className="flex items-center relative cursor-pointer text-3xl justify-between w-full">
         <Link href={header?.href || "/"}>
-            <Image src={isAtTop ? logo2 : logo} alt="logo" className="w-[120px] object-contain" />
+            <Image src={isAtTop ? logo2 : logo} alt="logo" className="w-[80px] object-contain" />
           </Link>
           {isMobileMenuOpen ? (
             <VscChromeClose onClick={handleMobileMenu} className={isAtTop ? "text-white" : "text-black"} />
@@ -125,7 +120,6 @@ const Header = ({ header }: any) => {
       </div>
 
       {/* Mobile Menu */}
-     
          <div className={`fixed h-screen left-0 top-20  md:hidden  overflow-x-hidden duration-300 transition-all ${
           isAtTop ? "bg-black bg-opacity-60 backdrop-blur-[7px]" : "bg-opacity-100 bg-white"
         }${

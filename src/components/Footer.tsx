@@ -92,7 +92,7 @@ export default function Footer({ footer }: any) {
         <div className="col-span-2 flex flex-col gap-y-2 md:pl-10 mt-5">
           <h4 className="my-2 text-xl font-semibold">{footer?.list2?.title}</h4>
           <ul className="space-y-2">
-            {footer?.list2?.links?.map((d: any, i: number) => (
+            {footer?.list3?.links?.map((d: any, i: number) => (
               <li key={i}>
                 <Link
                   href={d?.href}

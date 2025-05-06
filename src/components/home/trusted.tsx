@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Trusted({ data }: any) {
   return (
-    <section className="lg:px-28 sm:p-12 p-7">
+    <section className="lg:px-28 sm:p-12 py-7">
       <h3 className="text-center md:text-2xl font-bold mb-9 text-xl text-zinc-800">
         Trusted by 40+ clients around the globe
       </h3>
@@ -14,7 +14,7 @@ function Trusted({ data }: any) {
           className="w-full h-full"
           speed={100}
           pauseOnHover={true}
-          gradientWidth={200}
+          gradientWidth={100}
           gradient={true}
           gradientColor={"white"} 
         >
