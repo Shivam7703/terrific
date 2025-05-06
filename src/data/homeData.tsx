@@ -116,7 +116,7 @@ export const navItemsArray = [
     subNav:[{
       id: 1, label: "Domestic", href: "#",
       subNav:[
-        { id: 1, label: "Golden Triangel Tour", href: "/packages/golden-triangle-tour?categorys=domestic" },
+        { id: 1, label: "Golden Triangle Tour", href: "/packages/golden-triangle-tour?categorys=domestic" },
         { id: 2, label: "Jodhpur – Jaisalmer Tour", href: "/packages/Jodhpur – Jaisalmer Tour?categorys=domestic" },
         { id: 3, label: "Paradise on Earth – Kashmir Tour", href: "/packages/paradise-on-earth – Kashmir Tour?categorys=domestic" },
         { id: 4, label: "The Andaman Tour", href: "/packages/the-andaman-tour?categorys=domestic" },
