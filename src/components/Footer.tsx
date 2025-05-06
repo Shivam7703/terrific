@@ -24,7 +24,7 @@ export default function Footer({ footer }: any) {
           <Image
             src={footer?.logo}
             alt="logo"
-            className="max-w-44 w-[80vw] object-contain"
+            className="max-w-28 w-[70vw] object-contain"
           />
           <p className=" w-full text-base mt-3  max-sm:mt-3">{footer?.text}</p>
           {/* Socials  */}
@@ -129,7 +129,7 @@ export default function Footer({ footer }: any) {
     <p className="text-center text-sm">
       {footer?.copyrightText}{" "}
       <span className="hover:text-main transition-all font-extrabold cursor-pointer">
-        Lorem.
+        <a href="https://skywarddigitalsolutions.com">Skyward Digital Solutions</a>
       </span>
     </p>
   </div>
