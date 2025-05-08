@@ -18,7 +18,7 @@ function CountDown({ data }: any) {
             {counts.title}
           </h3>
           
-                <div className="text-3xl text-black md:text-5xl font-bold">
+                <div className="text-3xl font1 text-black md:text-5xl font-bold">
                 <CountUp
               start={0}
               end={counts.Value}
