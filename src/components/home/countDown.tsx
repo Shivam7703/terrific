@@ -17,15 +17,15 @@ function CountDown({ data }: any) {
         <h3 className="font-semibold text-xl" style={{ color: counts.textColor }}>
             {counts.title}
           </h3>
-            <CountUp
+          
+                <div className="text-3xl text-black md:text-5xl font-bold">
+                <CountUp
               start={0}
               end={counts.Value}
               delay={0.2}
               duration={2.75}
               separator=","
-            />
-                <div className="text-3xl text-black md:text-5xl font-bold">
-                  {counts.value2 || "+"}
+            /> {counts.value2 || "+"}
                 </div>
          
         </div>
