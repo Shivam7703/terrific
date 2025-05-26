@@ -116,7 +116,7 @@ export default function TourPack() {
 
     <Link href={`/packages/${cards?.name.replace(/\s+/g, '-').toLowerCase() || "#"}?categorys=${Domestic?"domestic":"international"}`} className="w-max">
               
-                <p className="text-sm font-medium text-black hover:text-color2 hover:border-b duration-300">Know More</p>
+                <p className="text-sm font-medium text-black hover:text-color2 hover:border-b duration-300">Know More </p>
               
             </Link>
 </div>
