@@ -96,12 +96,12 @@ export default function TourCat() {
             </div>
 
             <h4 className="font-bold text-black text-xl md:text-2xl mb-2">
-              {cards?.title.slice(0 , 16)}...
+              {cards?.name.slice(0 , 16)}...
             </h4>
             <p className="text-sm text-zinc-700 font-medium mb-5">
-              {cards?.desc.slice(0 , 95)}...
+              {cards?.about?.para.slice(0 , 95)}...
             </p>
-            <Link href={`/destination/${cards?.title.replace(/\s+/g, '-').toLowerCase()}?categorys=${cards.category}`} className="">
+            <Link href={`/destination/${cards?.name.replace(/\s+/g, '-').toLowerCase()}?categorys=${Domestic?"domestic":"international"}`} className="">
               <div className="rounded-lg w-max text-nowrap mx-auto px-5 pt-2 pb-3 bg-color1 text-white duration-300 hover:bg-color2">
                 <p className="text-sm font-medium">Read More</p>
               </div>

@@ -101,20 +101,20 @@ export default function TourPack() {
 <div className="px-5 py-3 text-left ">
 <p className="mb-2"><span className="py-1 px-3   w-max text-xs font-bold text-black bg-yellow-400  rounded-md shadow-lg"> ★ 5.0</span> <span className="text-zinc-500 text-base">{"  ("}400 reviews{")"}</span></p>
             <h4 className="font-bold text-black text-xl mb-2">
-              {cards?.name}
+              {cards?.title}
             </h4>
             <p className="text-xs text-zinc-500 font-medium mb-3 pb-2 border-b border-zinc-300">
-              {cards?.about?.para.slice(0, 85)}...
+              {cards?.desc.slice(0, 85)}...
             </p>
 
             <p className=" text-zinc-900 flex gap-2 items-center mb-3 pb-2 border-b border-zinc-300">
-            <ImLocation className="text-color1" /> {cards?.name}
+            <ImLocation className="text-color1" /> {cards?.title}
             </p>
 
 <div className="flex justify-between items-center mb-2">
     <p className="text-zinc-700"><span className="text-xl font-bold text-color1">$300</span>/ Night</p>
 
-    <Link href={`/packages/${cards?.name.replace(/\s+/g, '-').toLowerCase() || "#"}?categorys=${Domestic?"domestic":"international"}`} className="w-max">
+    <Link href={`/packages/${cards?.title.replace(/\s+/g, '-').toLowerCase() || "#"}?categorys=${cards?.category}`} className="w-max">
               
                 <p className="text-sm font-medium text-black hover:text-color2 hover:border-b duration-300">Know More </p>
               
