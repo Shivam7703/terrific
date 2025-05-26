@@ -9,8 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import TopHeading from "../global/topHeading";
 import { useState } from "react";
-import { packagedata } from "@/data/packages";
-import { banner2 } from "@/assets";
+import { Destinationdata } from "@/data/destination";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 export default function TourCat() {
@@ -53,7 +52,7 @@ export default function TourCat() {
   return (
     <section className="lg:px-28 md:px-20 sm:p-16 p-7 text-center relative slider1">
       {/* Top Heading */}
-      <TopHeading title={"Curated Tour Categories"} para={"Choose from a range of carefully handpicked packages and follow an itinerary that helps you get the best out of your desired destination."} />
+      <TopHeading title={"Top Destinations"} para={"Choose from a range of carefully handpicked packages and follow an itinerary that helps you get the best out of your desired destination."} />
 
       {/* Domestic/International Buttons */}
       <div className="flex flex-wrap items-center justify-center mt-7 w-full gap-3 max-w-md mx-auto">
@@ -81,7 +80,7 @@ export default function TourCat() {
         {...swiperOptions}
         className={`mySwiper md:mt-16 mt-9 w-full max-w-fit px-5 ${uniqueId}`}
       >
-        {(Domestic ? packagedata?.domestic : packagedata?.international)?.map((cards: any) => (
+        {(Domestic ? Destinationdata?.domestic : Destinationdata?.international)?.map((cards: any) => (
           <SwiperSlide
             key={cards.id}
             className="mb-16 text-center w-full group p-3"
@@ -102,7 +101,7 @@ export default function TourCat() {
             <p className="text-sm text-zinc-700 font-medium mb-5">
               {cards?.desc.slice(0 , 95)}...
             </p>
-            <Link href={`/packages/${cards?.title.replace(/\s+/g, '-').toLowerCase()}?categorys=${cards.category}`} className="">
+            <Link href={`/destination/${cards?.title.replace(/\s+/g, '-').toLowerCase()}?categorys=${cards.category}`} className="">
               <div className="rounded-lg w-max text-nowrap mx-auto px-5 pt-2 pb-3 bg-color1 text-white duration-300 hover:bg-color2">
                 <p className="text-sm font-medium">Read More</p>
               </div>

@@ -1,4 +1,4 @@
-import { banner1, banner2, banner3, banner4, banner5, banner6, banner7 } from "@/assets";
+import { andman1, assam1, bali1, banner1, banner2, banner3, banner4, banner5, banner6, banner7, darjeeling1, dubai2, goa1, greece1, greece2, japan2, kashmir1, kerala1, kerala2, ladakh1, mysore1, rajasthan1, singapore3, srilanka1, srilanka2, srilanka3, thailand3, triangle1, turkey1, vietnam1 } from "@/assets";
 
 export const packagedata = {
 domestic:[
@@ -7,7 +7,7 @@ domestic:[
     title:"Golden Triangle Tour",
     category:"domestic",
     desc:"Explore India’s rich heritage through Delhi, Agra, and Jaipur. Witness the grandeur of Mughal architecture, including the iconic Taj Mahal, vibrant bazaars, majestic forts, and palaces. This classic journey blends history, culture, and tradition, offering an unforgettable experience of North India’s cultural and architectural marvels.",
-    img: banner4,
+    img: triangle1,
     imgs:[
         {id:1, img:banner3},{id:2, img:banner1},{id:3, img:banner4},{id:4, img:banner5},{id:5, img:banner6}
     ],
@@ -217,7 +217,7 @@ whychoose:{
     title: "Paradise on Earth – Kashmir Tour",
     category: "domestic",
     desc: "Discover the breathtaking beauty of Kashmir—tranquil lakes, snow-capped mountains, and blooming gardens. Ride a Shikara on Dal Lake, explore Mughal gardens, and experience the charm of Srinagar, Gulmarg, Sonmarg, and Pahalgam. A serene escape into nature’s finest offerings awaits you in Kashmir.",
-    img: banner1,
+    img: kashmir1,
     imgs: [
       { id: 1, img: banner1 },
       { id: 2, img: banner2 },
@@ -399,7 +399,7 @@ whychoose:{
     title: "Jodhpur – Jaisalmer Tour",
     category: "domestic",
     desc: "Dive into Rajasthan’s desert magic with this tour of Jodhpur’s majestic Mehrangarh Fort and Jaisalmer’s golden dunes. Enjoy camel rides, colorful bazaars, and intricately carved havelis. Experience royalty, tradition, and desert charm in these two timeless cities of the Thar Desert.",
-    img: banner1,
+    img: rajasthan1,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -590,7 +590,7 @@ whychoose:{
     title: "The Andaman Tour",
     category: "domestic",
     desc: "Escape to pristine beaches and crystal-clear waters with the Andaman Tour. Visit Havelock Island, Radhanagar Beach, and explore marine life through snorkeling and scuba diving. Perfect for relaxation and adventure, this island getaway promises sun, sea, and serenity.",
-    img: banner1,
+    img: andman1,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -781,7 +781,7 @@ whychoose:{
     title: "Goa Tour",
     category: "domestic",
     desc: "Experience the perfect mix of beach fun, colonial heritage, and vibrant nightlife in Goa. Relax on golden beaches, visit Portuguese churches, and savor delicious seafood. From peaceful backwaters to lively beach shacks, Goa is India’s favorite coastal paradise.",
-    img: banner1,
+    img: goa1,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -972,7 +972,7 @@ whychoose:{
     title: "Ladakh Tour",
     category: "domestic",
     desc: "Embark on a high-altitude adventure in Ladakh. Visit monasteries, turquoise lakes like Pangong and Tso Moriri, and breathtaking mountain passes. This rugged destination is perfect for thrill-seekers, nature lovers, and spiritual travelers seeking peace amid the Himalayas.",
-    img: banner1,
+    img: ladakh1,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -1168,7 +1168,7 @@ whychoose:{
     title: "South India Temple Tour 5N 6D",
     category: "domestic",
     desc: "Explore ancient temples, Dravidian architecture, and spiritual traditions across Tamil Nadu and Karnataka. Visit iconic temples like Meenakshi, Brihadeeswara, and Rameshwaram. This tour offers a deep dive into South India’s religious heritage and architectural brilliance.",
-    img: banner6,
+    img: mysore1,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -1364,7 +1364,7 @@ whychoose:{
     title: "Exotic Kerala Tour 3 N | 4 D",
     category: "domestic",
     desc: "Discover Kerala’s lush landscapes, serene backwaters, and cultural richness. Cruise through Alleppey’s canals, experience traditional Kathakali dance, and rejuvenate with Ayurvedic wellness. From Munnar’s tea gardens to Kovalam’s beaches, this tour captures Kerala’s enchanting essence.",
-    img: banner1,
+    img: kerala1,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -1555,7 +1555,7 @@ whychoose:{
     title: "Exotic Kerala Tour 7 N | 8 D",
     category: "domestic",
     desc: "Discover Kerala’s lush landscapes, serene backwaters, and cultural richness. Cruise through Alleppey’s canals, experience traditional Kathakali dance, and rejuvenate with Ayurvedic wellness. From Munnar’s tea gardens to Kovalam’s beaches, this tour captures Kerala’s enchanting essence.",
-    img: banner1,
+    img: kerala2,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -1761,7 +1761,7 @@ whychoose:{
     title: "Darjeeling Tour",
     category: "domestic",
     desc: "Explore the Queen of Hills, Darjeeling, with its rolling tea estates, the iconic Toy Train, and majestic views of Kanchenjunga. Enjoy cool weather, colonial charm, and cultural diversity in this picturesque Himalayan hill station.",
-    img: banner1,
+    img: darjeeling1,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -1957,7 +1957,7 @@ whychoose:{
     title: "Assam Meghalaya Tour",
     category: "domestic",
     desc: "Uncover the hidden gems of Northeast India with this journey through Assam’s tea gardens and Meghalaya’s living root bridges. Visit Kaziranga National Park, Cherrapunji’s waterfalls, and Shillong’s scenic beauty. A cultural and natural wonderland awaits.",
-    img: banner1,
+    img: assam1,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -2163,7 +2163,7 @@ whychoose:{
     title: "Darjeeling Gangtok Tour",
     category: "domestic",
     desc: "Discover the best of Sikkim and West Bengal. Marvel at Himalayan views, monasteries, and vibrant culture. Visit Tsomgo Lake, Rumtek Monastery, and Darjeeling’s tea gardens. This twin-city tour offers a peaceful and refreshing Himalayan escape.",
-    img: banner1,
+    img: darjeeling1,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -2360,7 +2360,7 @@ whychoose:{
     title: "South India Tour",
     category: "domestic",
     desc: "Experience the cultural richness of South India - from scenic beaches to heritage temples. Explore Kerala’s backwaters, Tamil Nadu’s temples, Karnataka’s palaces, and Andhra’s traditions. This journey offers a harmonious blend of nature, spirituality, and regional cuisine.",
-    img: banner1,
+    img: kerala1,
     imgs: [
       { id: 1, img: banner2 },
       { id: 2, img: banner3 },
@@ -2588,7 +2588,7 @@ international:[
         title: "Vietnam Adventure Tour",
         category: "International",
         desc: "Experience the charm of Vietnam with a blend of culture, history, and natural beauty. From the vibrant streets of Hanoi to the pristine beaches of Phu Quoc, this tour takes you through iconic landscapes, ancient villages, and local cuisine.",
-        img: banner1,
+        img: vietnam1,
         imgs: [
           { id: 1, img: banner2 },
           { id: 2, img: banner3 },
@@ -2736,7 +2736,7 @@ international:[
         title: "Bali Discovery Trip",
         category: "International",
         desc: "Unveil the magical beauty of Bali with its lush rice terraces, vibrant culture, and stunning beaches. Visit ancient temples, indulge in spa retreats, and enjoy thrilling adventures like surfing and hiking.",
-        img:banner1, // replace with actual banner image variable
+        img:bali1, // replace with actual banner image variable
         imgs: [
           { id: 1, img:banner2 },
           { id: 2, img:banner3 },
@@ -2918,7 +2918,7 @@ international:[
         title: "Best of Turkey",
         category: "International",
         desc: "Discover Turkey’s rich history, stunning landscapes, and lively bazaars. Visit Istanbul’s majestic mosques, explore the fairy chimneys of Cappadocia, and relax along the Turquoise Coast. From ancient ruins to vibrant street life, the Best of Turkey tour offers an extraordinary blend of the old and the new.",
-        img: banner1, // Replace with actual image
+        img: turkey1, // Replace with actual image
         imgs: [
           { id: 1, img: banner2 },
           { id: 2, img: banner3 },
@@ -3024,10 +3024,10 @@ international:[
         title: "Enchanting Sri Lanka Tour",
         category: "International",
         desc: "Discover Sri Lanka’s pristine beaches, ancient cities, lush tea plantations, and sacred temples. From scenic train journeys and cultural wonders to relaxing beach escapes, this tour blends nature, history, and authentic island hospitality.",
-        img: banner1,
+        img: srilanka1,
         imgs: [
-          { id: 1, img: banner1 },
-          { id: 2, img: banner2 },
+          { id: 1, img: srilanka2 },
+          { id: 2, img: srilanka3 },
           { id: 3, img: banner3 },
           { id: 4, img: banner4 },
           { id: 5, img: banner5 }
@@ -3211,9 +3211,9 @@ international:[
         title: "Greece Tour",
         category: "International",
         desc: "Step into a world of myths, history, and beauty with the Greece Tour. Explore ancient ruins in Athens, relax on the sun-kissed islands of Santorini and Mykonos, and savor Mediterranean cuisine. With stunning landscapes and rich heritage, Greece offers a perfect blend of culture, leisure, and adventure.",
-        img: banner1,
+        img: greece1,
         imgs: [
-          { id: 1, img: banner1 },
+          { id: 1, img: greece2 },
           { id: 2, img: banner2 },
           { id: 3, img: banner3 },
           { id: 4, img: banner4 },
@@ -3394,7 +3394,7 @@ international:[
         title: "Mesmerizing Japan",
         category: "International",
         desc: "Experience the perfect harmony of tradition and innovation in Japan. From the historic temples of Kyoto to the dazzling lights of Tokyo, every city offers a unique story. Witness cherry blossoms, savor authentic sushi, and enjoy seamless travel on bullet trains during your unforgettable Mesmerizing Japan adventure.",
-        img: banner1,
+        img: japan2,
         imgs: [
           { id: 1, img: banner1 },
           { id: 2, img: banner2 },
@@ -3586,7 +3586,7 @@ international:[
         title: "Thailand Tour",
         category: "International",
         desc: "Dive into Thailand’s vibrant culture, beautiful beaches, and bustling cities. Explore Bangkok’s temples, relax in Phuket, and discover Chiang Mai’s rich heritage. From street food feasts to tropical island escapes, the Thailand Tour delivers endless excitement, relaxation, and cultural experiences in one colorful, unforgettable journey.",
-        img: banner1,
+        img: thailand3,
         imgs: [
           { id: 1, img: banner1 },
           { id: 2, img: banner2 },
@@ -3763,7 +3763,7 @@ international:[
         title: "Dubai Tour",
         category: "International",
         desc: "Discover the grandeur of Dubai, a city of futuristic skylines, luxurious malls, and desert adventures. Visit the Burj Khalifa, shop in traditional souks, and enjoy thrilling dune bashing. With its blend of modern marvels and Arabian charm, the Dubai Tour offers an unforgettable, glittering experience.",
-        img: banner1,
+        img: dubai2,
         imgs: [
           { id: 1, img: banner1 },
           { id: 2, img: banner2 },
@@ -3856,7 +3856,7 @@ international:[
         title: "Singapore Tour",
         category: "International",
         desc: "Uncover Singapore’s charm with its stunning gardens, futuristic architecture, and multicultural neighborhoods. Wander through Marina Bay Sands, explore vibrant Little India and Chinatown, and enjoy the thrills at Sentosa Island. The Singapore Tour perfectly blends urban sophistication, cultural heritage, and green innovation into one seamless experience.",
-        img: banner1,
+        img: singapore3,
         imgs: [
           { id: 1, img: banner1 },
           { id: 2, img: banner2 },

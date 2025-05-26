@@ -1,4 +1,9 @@
 import {
+  andman1,
+  azerbaizan1,
+  baku1,
+  bali1,
+  bali2,
   banner1,
   banner2,
   banner3,
@@ -6,6 +11,44 @@ import {
   banner5,
   banner6,
   banner7,
+  bhutan1,
+  dubai1,
+  goa1,
+  goa2,
+  greece1,
+  greece2,
+  japan1,
+  japan2,
+  jim1,
+  kashmir1,
+  kerala1,
+  ladakh1,
+  ladakh2,
+  malaysia1,
+  maldives1,
+  manali1,
+  mysore1,
+  nepal1,
+  newyork1,
+  paris1,
+  rajasthan1,
+  rome1,
+  sikkimdarjeeling1,
+  singapore1,
+  singapore2,
+  singapore3,
+  srilanka1,
+  srilanka2,
+  srilanka3,
+  switzerland1,
+  thailand1,
+  thailand2,
+  thailand3,
+  triangle1,
+  turkey1,
+  venice1,
+  vietnam1,
+  vietnam2,
 } from "@/assets";
 
 
@@ -14,10 +57,10 @@ export const Destinationdata = {
     {
       id: 1,
       name: "Golden Triangle",
-      img: banner6,
+      img: triangle1,
       about: {
         title: "About the Golden Triangle",
-        img: banner3,
+        img: triangle1,
         para:
           "The Golden Triangle is a renowned tourist circuit in India, connecting the capital city of Delhi, the historic city of Agra, and the royal city of Jaipur. This triangular route offers a rich look of India's cultural heritage, architectural marvels, and vibrant markets. Travelers on the Golden Triangle tour experience a blend of Mughal grandeur, Rajput splendor, and colonial charm.",
       },
@@ -170,10 +213,10 @@ export const Destinationdata = {
     {
       id: 2,
       name: "Andaman & Nicobar Islands",
-      img: banner4, // Replace with appropriate banner
+      img: andman1, // Replace with appropriate banner
       about: {
         title: "About Andaman & Nicobar Islands",
-        img: banner5, // Replace with appropriate banner
+        img: andman1, // Replace with appropriate banner
         para:
           "The Andaman and Nicobar Islands, located in the Bay of Bengal, are an archipelago of over 500 islands, with only a few open to tourists. Renowned for their pristine beaches, crystal-clear waters, and diverse marine life, these islands are a paradise for nature lovers and adventure enthusiasts alike. From buildings shaping the Indian history to beaches with some of the best sunset views, Andaman and Nicobar Islands has it all.",
       },
@@ -326,10 +369,10 @@ export const Destinationdata = {
     {
       id: 3,
       name: "Kashmir",
-      img: banner2, // Replace with appropriate banner
+      img: kashmir1, // Replace with appropriate banner
       about: {
         title: "About Kashmir",
-        img: banner1, // Replace with appropriate banner
+        img: kashmir1, // Replace with appropriate banner
         para:
           "Nestled in the northernmost region of India, Kashmir, often referred to as 'Paradise on Earth,' is renowned for its breathtaking landscapes, serene valleys, and rich cultural heritage. This picturesque destination offers travelers a unique blend of natural beauty and cultural experiences, making it a must-visit for those seeking tranquility and adventure alike.",
       },
@@ -482,10 +525,10 @@ export const Destinationdata = {
     {
       id: 4,
       name: "Sikkim & Darjeeling",
-      img: banner1, // Replace with appropriate banner image
+      img: sikkimdarjeeling1, // Replace with appropriate banner image
       about: {
         title: "About Sikkim & Darjeeling",
-        img: banner7, // Replace with appropriate banner image
+        img: sikkimdarjeeling1, // Replace with appropriate banner image
         para:
           "Set off a trip across the fascinating views of Sikkim and Darjeeling, where the magnificent Himalayas provide an amazing background. Travelers looking for both adventure and peace will find their ideal spot in this area, which presents a harmonic mix of natural beauty, rich cultural legacy, and calm monasteries.",
       },
@@ -638,10 +681,10 @@ export const Destinationdata = {
     {
       id: 5,
       name: "Kerala",
-      img: banner1, // Replace with appropriate banner image
+      img: kerala1, // Replace with appropriate banner image
       about: {
         title: "About Kerala",
-        img: banner2, // Replace with appropriate banner image
+        img: kerala1, // Replace with appropriate banner image
         para:
           "Nestled in the southwestern region of India, Kerala, often referred to as 'God's Own Country,' is a paradise that seamlessly blends natural beauty with rich cultural heritage. From serene backwaters to lush tea gardens and pristine beaches, Kerala offers a diverse array of experiences that captivate every traveler.",
       },
@@ -794,10 +837,10 @@ export const Destinationdata = {
     {
       id: 6,
       name: "Goa",
-      img: banner2, // Replace with appropriate banner image
+      img: goa1, // Replace with appropriate banner image
       about: {
         title: "About Goa",
-        img: banner3, // Replace with appropriate banner image
+        img: goa2, // Replace with appropriate banner image
         para:
           "Goa, India's beach paradise, is a vibrant fusion of sun, sea, and culture. Known for its Portuguese heritage, golden beaches, lively nightlife, and delicious seafood, Goa attracts both partygoers and those seeking serenity in equal measure.",
       },
@@ -950,10 +993,10 @@ export const Destinationdata = {
     {
       id: 7,
       name: "Leh-Ladakh",
-      img: banner2, // Replace with appropriate banner image
+      img: ladakh1, // Replace with appropriate banner image
       about: {
         title: "About Leh-Ladakh",
-        img: banner3, // Replace with appropriate banner image
+        img: ladakh2, // Replace with appropriate banner image
         para:
           "Leh-Ladakh, often referred to as the 'Land of High Passes,' is a surreal desert in the Himalayas. With its dramatic landscapes, ancient monasteries, pristine lakes, and Buddhist culture, Ladakh is an adventurer's dream and a soul-seeker's refuge.",
       },
@@ -1106,10 +1149,10 @@ export const Destinationdata = {
     {
       id: 8,
       name: "Manali",
-      img: banner1, // Replace with appropriate banner image
+      img: manali1, // Replace with appropriate banner image
       about: {
         title: "About Manali",
-        img: banner2, // Replace with appropriate banner image
+        img: manali1, // Replace with appropriate banner image
         para:
           "Nestled in the heart of the Indian Himalayas, Manali is a picturesque hill station renowned for its breathtaking landscapes, rich cultural heritage, and a plethora of adventure activities. From snow-capped peaks and lush valleys to ancient temples and bustling markets, Manali serves as a gateway to the wonders of the Himalayas—perfect for relaxation, thrill, and cultural immersion.",
       },
@@ -1262,10 +1305,10 @@ export const Destinationdata = {
     {
       id: 9,
       name: "Mysore-Ooty",
-      img: banner1, // Replace with appropriate banner image
+      img: mysore1, // Replace with appropriate banner image
       about: {
         title: "About Mysore-Ooty",
-        img: banner2, // Replace with appropriate banner image
+        img: mysore1, // Replace with appropriate banner image
         para:
           "Embark on a journey through the cultural richness of Mysore and the serene landscapes of Ooty. Mysore, known as the 'City of Palaces,' exudes royal heritage and architectural brilliance, while Ooty, the 'Queen of Hill Stations,' provides a peaceful retreat in the Nilgiri Hills. Together, they offer a perfect blend of history, nature, and relaxation.",
       },
@@ -1418,10 +1461,10 @@ export const Destinationdata = {
     {
       id: 10,
       name: "Jim Corbett & Nainital",
-      img: banner1, // Replace with appropriate banner image
+      img: jim1, // Replace with appropriate banner image
       about: {
         title: "About Jim Corbett & Nainital",
-        img: banner2, // Replace with appropriate banner image
+        img: jim1, // Replace with appropriate banner image
         para:
           "Embark on a journey through Uttarakhand's pristine landscapes with our Jim Corbett and Nainital tour. Jim Corbett National Park, India's oldest national park, is a haven for wildlife enthusiasts, while Nainital enchants with its emerald lakes and panoramic mountain views. This tour combines thrilling safaris with tranquil hill station charm for a holistic nature retreat.",
       },
@@ -1575,10 +1618,10 @@ export const Destinationdata = {
     {
       id: 11,
       name: "Rajasthan",
-      img: banner1, // Replace with appropriate banner image
+      img: rajasthan1, // Replace with appropriate banner image
       about: {
         title: "About Rajasthan",
-        img: banner2, // Replace with appropriate banner image
+        img: rajasthan1, // Replace with appropriate banner image
         para:
           "Rajasthan, the 'Land of Kings,' is a vibrant state in northern India known for its majestic forts, opulent palaces, colorful culture, and rich history. From the golden sands of the Thar Desert to the lush Aravalli hills, it offers a captivating blend of adventure, heritage, and hospitality. Whether exploring ancient cities or tranquil landscapes, Rajasthan promises an unforgettable journey through time.",
       },
@@ -1733,10 +1776,10 @@ export const Destinationdata = {
     {
       id: 1,
       name: "Paris, France",
-      img: banner6,
+      img: paris1,
       about: {
         title: "About Paris, France",
-        img: banner3,
+        img: paris1,
         para:
           "Paris, the \"City of Light,\" is a timeless destination that effortlessly blends history, art, and romance. From iconic monuments to charming cafés and world-class museums, Paris enchants every traveler. The Seine River, stunning boulevards, and vibrant neighborhoods like Montmartre create an unforgettable backdrop.\nExplore landmarks such as the Eiffel Tower, Notre-Dame Cathedral, and the Louvre, or enjoy strolls through Luxembourg Gardens. Whether it’s indulging in French cuisine or marveling at exquisite architecture, Paris promises a magical experience.",
       },
@@ -1890,10 +1933,10 @@ export const Destinationdata = {
     {
       id: 2,
       name: "Tokyo, Japan",
-      img: banner6,
+      img: japan1,
       about: {
         title: "About Tokyo, Japan",
-        img: banner3,
+        img: japan2,
         para:
           "A perfect mix of tradition and technology, Tokyo is a dynamic city that surprises visitors with its contrasts. From ancient temples to cutting-edge skyscrapers, Tokyo offers endless excitement.\nExplore historic neighborhoods, try delicious street food, and experience the unique blend of old and new that defines Japan’s capital.",
       },
@@ -2047,10 +2090,10 @@ export const Destinationdata = {
     {
       id: 3,
       name: "Rome, Italy",
-      img: banner6,
+      img: rome1,
       about: {
         title: "About Rome, Italy",
-        img: banner3,
+        img: rome1,
         para:
           "Rome, the Eternal City, stands as a living museum of history, art, and culture. With every step, travelers encounter ancient ruins, baroque fountains, and vibrant piazzas that echo centuries of Roman grandeur.\nA blend of antiquity and modern life, Rome captivates visitors with iconic landmarks, authentic Italian cuisine, and an ambiance steeped in heritage. Whether you're admiring the Colosseum or sipping espresso in Trastevere, Rome promises an unforgettable journey through time.",
       },
@@ -2204,10 +2247,10 @@ export const Destinationdata = {
     {
       id: 4,
       name: "New York City, USA",
-      img: banner6,
+      img: newyork1,
       about: {
         title: "About New York City, USA",
-        img: banner3,
+        img: newyork1,
         para:
           "New York City, the city that never sleeps, pulses with energy, creativity, and endless possibilities. From iconic skyscrapers to world-class entertainment, NYC is a melting pot of cultures and dreams.\nWith famous sights, global cuisine, and neighborhoods each with a unique vibe, New York welcomes millions who come to explore, create, and be inspired.",
       },
@@ -2347,10 +2390,10 @@ export const Destinationdata = {
     {
       id: 5,
       name: "Dubai, UAE",
-      img: banner6,
+      img: dubai1,
       about: {
         title: "About Dubai, UAE",
-        img: banner3,
+        img: dubai1,
         para:
           "Dubai, the City of Gold, is where futuristic skylines meet desert traditions. Known for luxury shopping, towering skyscrapers, and thrilling adventures, Dubai is a dynamic destination unlike any other.\nWhether you're exploring souks, sailing on a dhow, or marveling at Burj Khalifa, Dubai offers unforgettable moments of contrast and excitement.",
       },
@@ -2490,10 +2533,10 @@ export const Destinationdata = {
     {
       id: 6,
       name: "Greece, Europe",
-      img: banner6,
+      img: greece1,
       about: {
         title: "About Greece, Europe",
-        img: banner3,
+        img: greece2,
         para:
           "Greece, the cradle of Western civilization, offers a rich tapestry of history, mythology, and Mediterranean charm. From ancient ruins to sun-kissed islands, it combines culture with natural beauty. Visitors can wander through the ruins of Athens, relax on the beaches of Santorini, or explore the monasteries of Meteora. With vibrant local cuisine, warm hospitality, and scenic landscapes, Greece is a dream destination for history lovers and beachgoers alike.",
       },
@@ -2633,10 +2676,10 @@ export const Destinationdata = {
     {
       id: 7,
       name: "Venice, Italy",
-      img: banner6,
+      img: venice1,
       about: {
         title: "About Venice, Italy",
-        img: banner3,
+        img: venice1,
         para:
           "Venice, Italy's floating city, enchants visitors with its winding canals, historic architecture, and romantic atmosphere. Built on over 100 small islands, it has no roads, only canals. Whether you glide on a gondola, explore hidden alleys, or marvel at Renaissance art, Venice offers timeless beauty and charm at every turn.",
       },
@@ -2776,10 +2819,10 @@ export const Destinationdata = {
     {
       id: 8,
       name: "Turkey",
-      img: banner6,
+      img: turkey1,
       about: {
         title: "About Turkey",
-        img: banner3,
+        img: turkey1,
         para:
           "Turkey bridges Asia and Europe, blending ancient history with modern life. From grand mosques and bazaars to breathtaking landscapes and ruins, it's a country full of wonders. Whether you're soaking in a thermal pool or walking the streets of Istanbul, Turkey offers unforgettable cultural and scenic experiences.",
       },
@@ -2919,10 +2962,10 @@ export const Destinationdata = {
     {
       id: 9,
       name: "Bali",
-      img: banner6,
+      img: bali1,
       about: {
         title: "About Bali",
-        img: banner3,
+        img: bali2,
         para:
           "Indonesia's spiritual heart, Bali, is a tropical paradise that blends lush landscapes, sacred temples, and vibrant culture. Known for its welcoming locals and serene vibes, it’s a top choice for relaxation and adventure. From surfing on sunlit beaches to meditating in a forest retreat, Bali offers a rejuvenating escape.",
       },
@@ -3047,10 +3090,10 @@ export const Destinationdata = {
     {
       id: 10,
       name: "Switzerland",
-      img: banner6,
+      img: switzerland1,
       about: {
         title: "About Switzerland",
-        img: banner3,
+        img: switzerland1,
         para:
           "Switzerland is a land of stunning Alpine beauty, precision, and charm. Famous for its picturesque towns, snowy peaks, and chocolate, it offers a serene yet exhilarating travel experience. From exploring glaciers to riding scenic trains, Switzerland is a must-visit for nature lovers and adventurers.",
       },
@@ -3175,10 +3218,10 @@ export const Destinationdata = {
     {
       id: 11,
       name: "Maldives",
-      img: banner6,
+      img: maldives1,
       about: {
         title: "About Maldives",
-        img: banner3,
+        img: maldives1,
         para:
           "The Maldives is a tropical paradise in the Indian Ocean, known for its crystal-clear waters, overwater villas, and abundant marine life. It's the perfect destination for romance and relaxation. Whether you're snorkeling among coral reefs or lounging on a private beach, the Maldives promises pure bliss.",
       },
@@ -3303,10 +3346,10 @@ export const Destinationdata = {
     {
       id: 12,
       name: "Baku",
-      img: banner6,
+      img: baku1,
       about: {
         title: "About Baku",
-        img: banner3,
+        img: baku1,
         para:
           "Baku, the capital of Azerbaijan, is where ancient history meets futuristic architecture. Situated on the Caspian Sea, it boasts a rich mix of culture, cuisine, and stunning design. From UNESCO-listed old towns to dazzling flame towers, Baku is an emerging destination worth exploring.",
       },
@@ -3431,10 +3474,10 @@ export const Destinationdata = {
     {
       id: 13,
       name: "Bhutan",
-      img: banner6,
+      img: bhutan1,
       about: {
         title: "Bhutan - The Last Himalayan Kingdom",
-        img: banner3,
+        img: bhutan1,
         para:
           "In the Eastern Himalayas, Bhutan is a land where tradition and modernity coexist harmoniously. Known for its breathtaking landscapes, rich culture, and commitment to gross national happiness, Bhutan offers travelers a unique and serene experience.",
       },
@@ -3574,10 +3617,10 @@ export const Destinationdata = {
     {
       id: 14,
       name: "Malaysia",
-      img: banner6,
+      img: malaysia1,
       about: {
         title: "Malaysia -A Tapestry of Cultures and Natural Wonders",
-        img: banner3,
+        img: malaysia1,
         para:
           "Malaysia is a vibrant blend of modern cities, colonial architecture, lush rainforests, and pristine beaches. From the bustling streets of Kuala Lumpur to the serene islands of Langkawi, Malaysia offers a diverse array of experiences for every traveler.",
       },
@@ -3717,10 +3760,10 @@ export const Destinationdata = {
     {
       id: 15,
       name: "Nepal",
-      img: banner6,
+      img: nepal1,
       about: {
         title: "Nepal -A Land of Mountains, Culture & Spirituality",
-        img: banner3,
+        img: nepal1,
         para:
           "Nepal is a breathtaking mix of Himalayan peaks, ancient temples, and rich traditions. From Mount Everest to the serene beauty of Pokhara, Nepal offers adventure and cultural immersion for all travelers.",
       },
@@ -3860,10 +3903,10 @@ export const Destinationdata = {
     {
       id: 16,
       name: "Maldives",
-      img: banner6,
+      img: maldives1,
       about: {
         title: "Maldives -A Tropical Paradise of Islands & Serenity",
-        img: banner3,
+        img: maldives1,
         para:
           "The Maldives is a dreamy blend of pristine beaches, turquoise waters, and luxurious resorts. Whether you seek romance, relaxation, or thrilling marine adventures, the Maldives is the ultimate island getaway.",
       },
@@ -4003,10 +4046,10 @@ export const Destinationdata = {
     {
       id: 17,
       name: "Singapore",
-      img: banner6,
+      img: singapore1,
       about: {
         title: "Singapore -The Futuristic City of Dreams",
-        img: banner3,
+        img: singapore2,
         para:
           "Singapore is a dazzling blend of cutting-edge architecture, lush green spaces, and multicultural vibrancy. Whether it’s Marina Bay Sands or Sentosa Island, Singapore is a must-visit destination for travelers.",
       },
@@ -4015,7 +4058,7 @@ export const Destinationdata = {
         places: [
           {
             id: 1,
-            img: banner5,
+            img: singapore3,
             title: "Marina Bay Sands",
             text: "A world-famous hotel and observation deck offering breathtaking city views.",
           },
@@ -4146,10 +4189,10 @@ export const Destinationdata = {
     {
       id: 18,
       name: "Sri Lanka",
-      img: banner6,
+      img: srilanka1,
       about: {
         title: "Sri Lanka -A Land of Ancient Heritage & Scenic Beauty",
-        img: banner3,
+        img: srilanka2,
         para:
           "Sri Lanka is a treasure trove of golden beaches, lush tea plantations, ancient temples, and vibrant wildlife. Whether it’s cultural exploration or adventure, Sri Lanka offers a rich travel experience for all.",
       },
@@ -4158,7 +4201,7 @@ export const Destinationdata = {
         places: [
           {
             id: 1,
-            img: banner5,
+            img: srilanka3,
             title: "Sigiriya Rock Fortress",
             text: "An ancient UNESCO-listed rock fortress with breathtaking views.",
           },
@@ -4289,10 +4332,10 @@ export const Destinationdata = {
     {
       id: 19,
       name: "Thailand",
-      img: banner6,
+      img: thailand1,
       about: {
         title: "Thailand -The Land of Smiles & Tropical Bliss",
-        img: banner3,
+        img: thailand2,
         para:
           "Thailand is an exotic paradise of temples, islands, bustling cities, and vibrant street markets. Whether you seek relaxation or adventure, Thailand offers something for every traveler.",
       },
@@ -4301,7 +4344,7 @@ export const Destinationdata = {
         places: [
           {
             id: 1,
-            img: banner5,
+            img: thailand3,
             title: "The Bangkok Grand Palace",
             text: "A majestic complex showcasing Thai royal heritage and stunning architecture.",
           },
@@ -4432,10 +4475,10 @@ export const Destinationdata = {
     {
       id: 20,
       name: "Vietnam",
-      img: banner6,
+      img: vietnam1,
       about: {
         title: "Vietnam -A Land of Stunning Landscapes & Rich History",
-        img: banner3,
+        img: vietnam2,
         para:
           "Vietnam is a land of mountains, historic cities, breathtaking coastlines, and delicious street food. From the bustling streets of Hanoi to the stunning Halong Bay, Vietnam offers unforgettable experiences.",
       },
@@ -4575,10 +4618,10 @@ export const Destinationdata = {
     {
       id: 21,
       name: "Azerbaijan",
-      img: banner6,
+      img: azerbaizan1,
       about: {
         title: "Azerbaijan -The Jewel of the Caucasus",
-        img: banner3,
+        img: azerbaizan1,
         para:
           "Azerbaijan blends modern architecture, historical landmarks, stunning landscapes, and rich culture. From Baku’s futuristic skyline to Gobustan’s ancient petroglyphs, Azerbaijan is a hidden gem of travel.",
       },

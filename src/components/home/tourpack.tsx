@@ -10,7 +10,7 @@ import Link from "next/link";
 import TopHeading from "../global/topHeading";
 import { useState } from "react";
 import { ImLocation } from "react-icons/im";
-import { Destinationdata } from "@/data/destination";
+import { packagedata } from "@/data/packages";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 export default function TourPack() {
@@ -53,7 +53,7 @@ export default function TourPack() {
   return (
     <section className="lg:px-28 md:px-20 sm:p-16 p-7 text-center relative slider1">
       {/* Top Heading */}
-      <TopHeading title={`Destination Categories
+      <TopHeading title={`Top Packages
 `} para={"Choose from our wide range of national and international travel packages. From the culturally rich Golden-Triangle to the dazzling Goa, we have everything for a traveler."} />
 
       {/* Domestic/International Buttons */}
@@ -82,7 +82,7 @@ export default function TourPack() {
         {...swiperOptions}
         className={`mySwiper md:mt-16 mt-9 w-full max-w-fit px-5 ${uniqueId}`}
       >
-        {(Domestic ? Destinationdata?.domestic : Destinationdata?.international)?.map((cards: any) => (
+        {(Domestic ? packagedata?.domestic : packagedata?.international)?.map((cards: any) => (
           <SwiperSlide
             key={cards.id}
             className="mb-16 w-full shadow-lg group rounded-xl bg-white overflow-hidden"
@@ -114,7 +114,7 @@ export default function TourPack() {
 <div className="flex justify-between items-center mb-2">
     <p className="text-zinc-700"><span className="text-xl font-bold text-color1">$300</span>/ Night</p>
 
-    <Link href={`/destination/${cards?.name.replace(/\s+/g, '-').toLowerCase() || "#"}?categorys=${Domestic?"domestic":"international"}`} className="w-max">
+    <Link href={`/packages/${cards?.name.replace(/\s+/g, '-').toLowerCase() || "#"}?categorys=${Domestic?"domestic":"international"}`} className="w-max">
               
                 <p className="text-sm font-medium text-black hover:text-color2 hover:border-b duration-300">Know More</p>
               
