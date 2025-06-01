@@ -158,42 +158,42 @@ export const Destinationdata = {
         things: [
           {
             id: 1,
-            img: triangle11,
+            img: triangle13,
             title: "Rickshaw Ride in Old Delhi:",
             text:
               "Navigate through the bustling lanes of Chandni Chowk to experience the local life and savor street food. Visit the world-famous paranthe wali gali and explore the thin yet astonishing streets of Delhi.",
           },
           {
             id: 2,
-            img: triangle12,
+            img: triangle11,
             title: "Light and Sound Show at Amber Fort:",
             text:
               "Witness the history of the fort come alive during the evening show. People from all over India and the world gather at Amer Fort to make their evening even more bright.",
           },
           {
             id: 3,
-            img: triangle13,
+            img: triangle15,
             title: "Shopping in Jaipur's Bazaars:",
             text:
               "The pink city is really a site to cherish. Explore the Johari Bazaar and the Bapu Bazaar for traditional jewelry, textiles, and handicrafts.",
           },
           {
             id: 4,
-            img: triangle14,
+            img: triangle16,
             title: "Visit to Mehtab Bagh:",
             text:
               "Mehtab Bagh, the charbagh complex designed by Shah Jahan served the purpose of being the garden from where the emperor enjoyed Taj Mahal in all its beauty across the Yamuna River.",
           },
           {
             id: 5,
-            img: triangle15,
+            img: triangle11,
             title: "Evening Walk near Jal Mahal, Jaipur:",
             text:
               "Take an evening stroll at the lively Jal Mahal, whose four out of five stories are fully submerged in the lake. The sunset provides a stunning view of this magnificent palace.",
           },
           {
             id: 6,
-            img: triangle16,
+            img: triangle12,
             title: "Explore Humayun's Tomb, Delhi:",
             text:
               "Humayun’s Tomb, as the name suggests, is the place where you can find the tomb of emperor Humayun. A precursor to the Taj Mahal, this tomb is a UNESCO World Heritage Site.",
