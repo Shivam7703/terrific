@@ -165,7 +165,7 @@ export const Destinationdata = {
           },
           {
             id: 2,
-            img: triangle11,
+            img: triangle14,
             title: "Light and Sound Show at Amber Fort:",
             text:
               "Witness the history of the fort come alive during the evening show. People from all over India and the world gather at Amer Fort to make their evening even more bright.",
