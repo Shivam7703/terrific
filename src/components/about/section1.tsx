@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "@/utils/motion";
-import { banner3 } from "@/assets";
+import { about, banner3 } from "@/assets";
 
 export default function Section1() {
   return (
@@ -21,7 +21,7 @@ export default function Section1() {
       >
         <div className="space-y-7 overflow-hidden hover14 relative h-full">
           <Image
-            src={banner3}
+            src={about}
             alt="About"
             className="absolute top-0 left-0 h-full w-full rounded-xl object-cover"
           />

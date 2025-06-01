@@ -1,4 +1,4 @@
-import {  about2, about3, banner1, banner2, banner3, banner4, banner5, banner6, banner7, cl1, cli1, cli2, cli3, faq, logo2,nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11 } from "@/assets";
+import {  about2, about3, banner1, banner2, banner3, banner4, banner5, banner6, banner7, cl1, cli1, cli2, cli3, faq, logo2,nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11, about } from "@/assets";
 import { BsFillAirplaneFill } from "react-icons/bs";
 import {  FaMapLocationDot, FaPassport} from "react-icons/fa6";
 import { GiDeadEye } from "react-icons/gi";
@@ -181,7 +181,7 @@ export const HomeBannerData=
       href: "/",
     },
     section2:{img:banner2,
-      title: "Shri Lanka",
+      title: "Sri Lanka",
       para: "Discover rich culture, ancient temples, vibrant markets,",
       btntext: "Explore Packages",
       href: "/",
@@ -224,9 +224,9 @@ export const HomeBannerData=
 
 
   export const aboutdata ={
-    img: banner1,
-    img2: banner2,
-    img3: banner3,
+    img: about,
+    img2: about2,
+    img3: about3,
     title1:"About Us",
     title2:"Travel To Top Destinations ",
     title3:"With Terrific Trips",

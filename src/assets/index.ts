@@ -44,7 +44,15 @@ import why2 from "@/assets/home/why2.jpg";
 import contact from "@/assets/contact/why3.webp";
 
 // Destination Images
-import andman1 from "@/assets/andman/1.jpg";
+import andman1 from "@/assets/andman/1.webp";
+import andman2 from "@/assets/andman/2.webp";
+import andman3 from "@/assets/andman/3.webp";
+import andman4 from "@/assets/andman/4.webp";
+import andman5 from "@/assets/andman/5.webp";
+import andman6 from "@/assets/andman/6.webp";
+import andman7 from "@/assets/andman/6.webp";
+
+
 import assam1 from "@/assets/assam/1.jpg";
 import azerbaizan1 from "@/assets/azerbaizan/1.jpg";
 import baku1 from "@/assets/baku/1.jpg";
@@ -115,7 +123,23 @@ import thailand1 from "@/assets/thailand/1.jpg";
 import thailand2 from "@/assets/thailand/2.jpg";
 import thailand3 from "@/assets/thailand/3.jpg";
 
-import triangle1 from "@/assets/triangle/1.jpg";
+import triangle1 from "@/assets/triangle/1.webp";
+import triangle2 from "@/assets/triangle/2.webp";
+import triangle3 from "@/assets/triangle/3.webp";
+import triangle4 from "@/assets/triangle/4.webp";
+import triangle5 from "@/assets/triangle/5.webp";
+import triangle6 from "@/assets/triangle/6.webp";
+import triangle7 from "@/assets/triangle/7.webp";
+import triangle8 from "@/assets/triangle/8.webp";
+import triangle9 from "@/assets/triangle/9.webp";
+import triangle10 from "@/assets/triangle/10.webp";
+import triangle11 from "@/assets/triangle/11.webp";
+import triangle12 from "@/assets/triangle/12.webp";
+import triangle13 from "@/assets/triangle/13.webp";
+import triangle14 from "@/assets/triangle/14.webp";
+import triangle15 from "@/assets/triangle/15.webp";
+import triangle16 from "@/assets/triangle/16.webp";
+
 
 import turkey1 from "@/assets/turkey/1.jpg";
 import turkey2 from "@/assets/turkey/2.jpg";
@@ -143,7 +167,7 @@ export {
   nav1, nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11,
 
   // Destination Images
-  andman1,
+  andman1,andman2,andman3,andman4,andman5,andman6,andman7,
   assam1,
   azerbaizan1,
   baku1,
@@ -173,7 +197,8 @@ export {
   srilanka1, srilanka2, srilanka3,
   switzerland1,
   thailand1, thailand2, thailand3,
-  triangle1,
+   triangle1, triangle2, triangle3, triangle4, triangle5, triangle6, triangle7, triangle8,
+  triangle9, triangle10, triangle11, triangle12, triangle13, triangle14, triangle15, triangle16,
   turkey1, turkey2,
   venice1,
   vietnam1, vietnam2

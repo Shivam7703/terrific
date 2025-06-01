@@ -1,5 +1,11 @@
 import {
   andman1,
+  andman2,
+  andman3,
+  andman4,
+  andman5,
+  andman6,
+  andman7,
   azerbaizan1,
   baku1,
   bali1,
@@ -45,6 +51,21 @@ import {
   thailand2,
   thailand3,
   triangle1,
+  triangle10,
+  triangle11,
+  triangle12,
+  triangle13,
+  triangle14,
+  triangle15,
+  triangle16,
+  triangle2,
+  triangle3,
+  triangle4,
+  triangle5,
+  triangle6,
+  triangle7,
+  triangle8,
+  triangle9,
   turkey1,
   venice1,
   vietnam1,
@@ -69,63 +90,63 @@ export const Destinationdata = {
         places: [
           {
             id: 1,
-            img: banner5,
+            img: triangle2,
             title: "Taj Mahal, Agra:",
             text:
               "An iconic symbol of love, this white marble mausoleum is a UNESCO World Heritage Site and one of the Seven Wonders of the World. Around 7-8 million people visit this beautiful structure every year.",
           },
           {
             id: 2,
-            img: banner5,
+            img: triangle3,
             title: "Agra Fort, Agra:",
             text:
               "Another architectural marvel of the Mughal era, Agra Fort is a massive red sandstone fort that served as the main residence of the Mughal emperors until 1638. This fort served as a residence for Akbar, Jahangir, and Shah Jahan.",
           },
           {
             id: 3,
-            img: banner5,
+            img: triangle4,
             title: "Fatehpur Sikri, Agra:",
             text:
               "Fatehpur Sikri is a historic city founded by Emperor Akbar, known for its well-preserved Mughal architecture. It also holds the Jodha Bai Palace, built for queen Jodha aka Mariam-uz-Zamani by Akbar.",
           },
           {
             id: 4,
-            img: banner5,
+            img: triangle5,
             title: "Jama Masjid, Delhi:",
             text:
               "Located in the heart of Old Delhi, Jama Masjid is one of the largest mosques in India. Tourists from all over the world visit this building with a high religious significance showcasing stunning Mughal architecture.",
           },
           {
             id: 5,
-            img: banner5,
+            img: triangle6,
             title: "Qutub Minar, Delhi:",
             text:
               "A UNESCO World Heritage Site, this minaret is the tallest brick minaret in the world. Started in 1192 by Qutb-Ud-Din-Aibak, it was completed by his successors Iltutmish and Firoz Shah Tughlaq.",
           },
           {
             id: 6,
-            img: banner5,
+            img: triangle7,
             title: "India Gate, Delhi:",
             text:
               "India Gate, standing tall near the Rajpath, is a war memorial dedicated to the 70,000 Indian soldiers who lost their lives during World War I and the Third Anglo-Afghan War.",
           },
           {
             id: 7,
-            img: banner5,
+            img: triangle8,
             title: "Hawa Mahal, Jaipur:",
             text:
               "Hawa Mahal, beautifying the pink city, is one of the top attractions in Jaipur. Also known as the 'Palace of Winds,' this five-story palace features a unique facade with 953 small windows.",
           },
           {
             id: 8,
-            img: banner5,
+            img: triangle9,
             title: "Amer Fort, Jaipur:",
             text:
               "Amer Fort aka Amber Fort is a magnificent fort located on a hilltop, majestically flaunting the Rajasthani architectural styles. It was declared as a UNESCO World Heritage Site in 2013.",
           },
           {
             id: 9,
-            img: banner5,
+            img: triangle10,
             title: "City Palace, Jaipur:",
             text:
               "City Palace is an important landmark of Jaipur. The royal residence built by Maharaja Sawai Jai Singh during his reign showcases a blend of Rajasthani and Mughal architecture.",
@@ -137,42 +158,42 @@ export const Destinationdata = {
         things: [
           {
             id: 1,
-            img: banner5,
+            img: triangle11,
             title: "Rickshaw Ride in Old Delhi:",
             text:
               "Navigate through the bustling lanes of Chandni Chowk to experience the local life and savor street food. Visit the world-famous paranthe wali gali and explore the thin yet astonishing streets of Delhi.",
           },
           {
             id: 2,
-            img: banner5,
+            img: triangle12,
             title: "Light and Sound Show at Amber Fort:",
             text:
               "Witness the history of the fort come alive during the evening show. People from all over India and the world gather at Amer Fort to make their evening even more bright.",
           },
           {
             id: 3,
-            img: banner5,
+            img: triangle13,
             title: "Shopping in Jaipur's Bazaars:",
             text:
               "The pink city is really a site to cherish. Explore the Johari Bazaar and the Bapu Bazaar for traditional jewelry, textiles, and handicrafts.",
           },
           {
             id: 4,
-            img: banner5,
+            img: triangle14,
             title: "Visit to Mehtab Bagh:",
             text:
               "Mehtab Bagh, the charbagh complex designed by Shah Jahan served the purpose of being the garden from where the emperor enjoyed Taj Mahal in all its beauty across the Yamuna River.",
           },
           {
             id: 5,
-            img: banner5,
+            img: triangle15,
             title: "Evening Walk near Jal Mahal, Jaipur:",
             text:
               "Take an evening stroll at the lively Jal Mahal, whose four out of five stories are fully submerged in the lake. The sunset provides a stunning view of this magnificent palace.",
           },
           {
             id: 6,
-            img: banner5,
+            img: triangle16,
             title: "Explore Humayun's Tomb, Delhi:",
             text:
               "Humayun’s Tomb, as the name suggests, is the place where you can find the tomb of emperor Humayun. A precursor to the Taj Mahal, this tomb is a UNESCO World Heritage Site.",
@@ -216,7 +237,7 @@ export const Destinationdata = {
       img: andman1, // Replace with appropriate banner
       about: {
         title: "About Andaman & Nicobar Islands",
-        img: andman1, // Replace with appropriate banner
+        img: andman2, // Replace with appropriate banner
         para:
           "The Andaman and Nicobar Islands, located in the Bay of Bengal, are an archipelago of over 500 islands, with only a few open to tourists. Renowned for their pristine beaches, crystal-clear waters, and diverse marine life, these islands are a paradise for nature lovers and adventure enthusiasts alike. From buildings shaping the Indian history to beaches with some of the best sunset views, Andaman and Nicobar Islands has it all.",
       },
@@ -225,35 +246,35 @@ export const Destinationdata = {
         places: [
           {
             id: 1,
-            img: banner5,
+            img: andman3,
             title: "Radhanagar Beach, Havelock Island:",
             text:
               "Voted as one of Asia's best beaches, the Radhanagar beach is known for its white sands and turquoise waters. The sunset view from this beach is totally worth the wait.",
           },
           {
             id: 2,
-            img: banner5,
+            img: andman4,
             title: "Cellular Jail, Port Blair:",
             text:
               "The cellular jail at Port Blair, also known as the “kala pani” (black water), is a historic colonial prison that stands as a testament to India's freedom struggle.",
           },
           {
             id: 3,
-            img: banner5,
+            img: andman5,
             title: "Elephant Beach, Havelock Island:",
             text:
               "The elephant beach at the Havelock Island is famous for water sports and vibrant coral reefs. People gather in the evening to enjoy the beautiful sunset at this beach.",
           },
           {
             id: 4,
-            img: banner5,
+            img: andman6,
             title: "Ross Island:",
             text:
               "Ross Island, also known as the Netaji Subhash Chandra Bose Dweep, was once the administrative headquarters of the British, now showcasing ruins amidst lush greenery.",
           },
           {
             id: 5,
-            img: banner5,
+            img: andman7,
             title: "Neil Island:",
             text:
               "Neil Iskalnd, officially named Shaheed Dweep (Martyr’s Island), is known for its biodiversity, unexplored coral reefs, and relaxed ambiance.",
