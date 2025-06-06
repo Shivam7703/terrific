@@ -108,6 +108,15 @@ export const navItemsArray = [
         { id: 10, label: "Venice", href: "/destination/venice,-italy?categorys=international" },
         { id: 11, label: "Switzerland", href: "/destination/switzerland?categorys=international" },
         { id: 12, label: "Baku ", href: "/destination/baku?categorys=international" },
+      
+          { id: 14, label: "Bhutan", href: "/destination/Bhutan?categorys=international" }, 
+          { id: 15, label: "Malaysia", href: "/destination/Malaysia?categorys=international" }, 
+          { id: 16, label: "Nepal", href: "/destination/Nepal?categorys=international" },
+           { id: 17, label: "Singapore", href: "/destination/Singapore?categorys=international" },
+            { id: 18, label: "Sri Lanka", href: "/destination/Sri Lanka?categorys=international" },
+             { id: 19, label: "Thailand", href: "/destination/Thailand?categorys=international" },
+              { id: 20, label: "Vietnam", href: "/destination/vietnam?categorys=international" },
+               { id: 21, label: "Azerbaijan", href: "/destination/azerbaijan?categorys=international" },
     ]
     },
    ]

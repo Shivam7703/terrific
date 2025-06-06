@@ -1167,6 +1167,7 @@ export const Destinationdata = {
         ],
       },
     },
+    
     {
       id: 8,
       name: "Manali",
@@ -1652,7 +1653,7 @@ export const Destinationdata = {
           {
             id: 1,
             img: banner1,
-            title: "Amer Fort, Jaipur",
+            title: "Amber Fort, Jaipur",
             text:
               "A majestic fort overlooking Maota Lake, showcasing a stunning mix of Hindu and Mughal architecture with intricate carvings and grand courtyards.",
           },
@@ -3921,148 +3922,6 @@ export const Destinationdata = {
       },
     },
 
-    {
-      id: 16,
-      name: "Maldives",
-      img: maldives1,
-      about: {
-        title: "Maldives -A Tropical Paradise of Islands & Serenity",
-        img: maldives1,
-        para:
-          "The Maldives is a dreamy blend of pristine beaches, turquoise waters, and luxurious resorts. Whether you seek romance, relaxation, or thrilling marine adventures, the Maldives is the ultimate island getaway.",
-      },
-      attraction: {
-        heading: "Top 9 Attractions in the Maldives",
-        places: [
-          {
-            id: 1,
-            img: banner5,
-            title: "Malé",
-            text: "The vibrant capital with bustling markets, mosques, and cultural sites.",
-          },
-          {
-            id: 2,
-            img: banner5,
-            title: "Vaadhoo Island",
-            text: "Famous for its stunning 'Sea of Stars' bioluminescent beach.",
-          },
-          {
-            id: 3,
-            img: banner5,
-            title: "Maafushi",
-            text: "A local island offering authentic Maldivian experiences and budget-friendly stays.",
-          },
-          {
-            id: 4,
-            img: banner5,
-            title: "Banana Reef",
-            text: "A diving hotspot with colorful coral reefs and diverse marine life.",
-          },
-          {
-            id: 5,
-            img: banner5,
-            title: "Ari Atoll",
-            text: "A paradise for snorkelers featuring crystal-clear waters and vibrant aquatic life.",
-          },
-          {
-            id: 6,
-            img: banner5,
-            title: "Hanifaru Bay",
-            text: "A marine sanctuary where manta rays gather in large numbers.",
-          },
-          {
-            id: 7,
-            img: banner5,
-            title: "Addu City",
-            text: "A serene getaway with historic charm and stunning beaches.",
-          },
-          {
-            id: 8,
-            img: banner5,
-            title: "Biyadhoo Island",
-            text: "Known for its breathtaking underwater world and peaceful surroundings.",
-          },
-          {
-            id: 9,
-            img: banner5,
-            title: "Sun Island",
-            text: "A luxurious resort destination perfect for water sports and relaxation.",
-          },
-        ],
-      },
-      topThings: {
-        heading: "Top 6 Things to Do in the Maldives",
-        things: [
-          {
-            id: 1,
-            img: banner5,
-            title: "Stay in an Overwater Villa",
-            text: "Enjoy privacy and direct access to the ocean from your luxurious villa.",
-          },
-          {
-            id: 2,
-            img: banner5,
-            title: "Sunset Dolphin Cruise",
-            text: "Sail across the Indian Ocean and watch playful dolphins at dusk.",
-          },
-          {
-            id: 3,
-            img: banner5,
-            title: "Scuba Diving & Snorkeling",
-            text: "Explore vibrant reefs and marine life in crystal-clear waters.",
-          },
-          {
-            id: 4,
-            img: banner5,
-            title: "Experience Local Island Life",
-            text: "Discover Maldivian culture and cuisine on inhabited islands.",
-          },
-          {
-            id: 5,
-            img: banner5,
-            title: "Spa Day on the Beach",
-            text: "Rejuvenate with a beachfront massage and wellness treatments.",
-          },
-          {
-            id: 6,
-            img: banner5,
-            title: "Private Dinner Under the Stars",
-            text: "Celebrate romance with a candlelit meal on the sand.",
-          },
-        ],
-      },
-      whychoose: {
-        img: banner1,
-        img2: banner2,
-        data: [
-          {
-            id: 1,
-            title: "Personalized Packages",
-            text: "Luxury and budget-friendly options designed to match your travel style.",
-          },
-          {
-            id: 2,
-            title: "Top-Rated Resorts & Villas",
-            text: "We partner with the best properties for comfort and elegance.",
-          },
-          {
-            id: 3,
-            title: "Seamless Transfers",
-            text: "Quick and easy travel between islands arranged for you.",
-          },
-          {
-            id: 4,
-            title: "Marine Adventures Included",
-            text: "Snorkeling, diving, and cruises are all part of your curated itinerary.",
-          },
-          {
-            id: 5,
-            title: "Romantic & Adventure-Friendly",
-            text: "Itineraries tailored for couples, families, or solo travelers.",
-          },
-        ],
-      },
-    },
     
     {
       id: 17,
