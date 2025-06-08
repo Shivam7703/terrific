@@ -8,7 +8,7 @@ const Menu = ({ activeItemId, onItemClick, onTop }: any) => {
   return (
     <ul className={`hidden items-center lg:gap-x-5 md:gap-x-0 font-medium ${onTop ? "text-zinc-800" : "text-zinc-800"} md:flex`}>
       {navItemsArray?.map((item: any) => (
-        <li key={item?.id} className="group relative transition-all">
+        <li key={item?.id} className="group relative transition-all ">
           <Link
             href={item?.href || "#"}
             className={`${activeItemId === item.href ? "bg-white rounded-md bg-opacity-90 text-color1" : "bg-transparent"} px-4 py-3 flex justify-center cursor-pointer items-center gap-1`}
@@ -40,7 +40,7 @@ const Menu = ({ activeItemId, onItemClick, onTop }: any) => {
 
                   {/* Second-level dropdown */}
                   {nav.subNav && (
-                    <div className="absolute left-full top-0 z-30 hidden text-zinc-700 w-auto flex-col gap-1 rounded bg-white py-3 shadow-md transition-all group-hover/subnav:flex">
+                    <div className="absolute left-full top-0 z-30 hidden text-zinc-700 w-auto flex-col gap-1 rounded bg-white py-3 shadow-md transition-all group-hover/subnav:flex max-h-[500px] overflow-y-auto">
                       {nav.subNav.map((subNav: any) => (
                         <Link
                           key={subNav.id}
