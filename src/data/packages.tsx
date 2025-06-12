@@ -1,4 +1,333 @@
-import { andman1, assam1, bali1, banner1, banner2, banner3, banner4, banner5, banner6, banner7, darjeeling1, dubai2, goa1, greece1, greece2, japan2, kashmir1, kerala1, kerala2, ladakh1, mysore1, rajasthan1, singapore3, srilanka1, srilanka2, srilanka3, thailand3, triangle1, turkey1, vietnam1 } from "@/assets";
+import {
+  andman1,
+  andman2,
+  andman3,
+  andman4,
+  andman5,
+  andman6,
+  andman7,
+  andman8,
+  andman9,
+  andman10,
+  andman11,
+  andman12,
+  andman13,
+  andman14,
+  assam1,
+  assam2,
+  assam3,
+  assam4,
+  assam5,
+  assam6,
+  assam7,
+  assam8,
+  assam9,
+  assam10,
+  assam11,
+  assam12,
+  assam13,
+  assam14,
+  assam15,
+  bali1,
+  bali2,
+  bali3,
+  bali4,
+  bali5,
+  bali6,
+  bali7,
+  bali8,
+  bali9,
+  bali10,
+  bali11,
+  bali12,
+  bali13,
+  bali14,
+  bali15,
+  darjeeling1,
+  darjeeling2,
+  darjeeling3,
+  darjeeling4,
+  darjeeling5,
+  darjeeling6,
+  darjeeling7,
+  darjeeling8,
+  darjeeling9,
+  darjeeling10,
+  darjeeling11,
+  darjeeling12,
+  darjeeling13,
+  darjeeling14,
+  darjeeling15,
+  dubai1,
+  dubai2,
+  dubai3,
+  dubai4,
+  dubai5,
+  dubai6,
+  dubai7,
+  dubai8,
+  dubai9,
+  dubai10,
+  dubai11,
+  dubai12,
+  dubai13,
+  dubai14,
+  dubai15,
+  dubai16,
+  dubai17,
+  goa1,
+  goa2,
+  goa3,
+  goa4,
+  goa5,
+  goa6,
+  goa7,
+  goa8,
+  goa9,
+  goa10,
+  goa11,
+  goa12,
+  goa13,
+  goa14,
+  goa15,
+  goa16,
+  goa17,
+  greece1,
+  greece2,
+  greece3,
+  greece4,
+  greece5,
+  greece6,
+  greece7,
+  greece8,
+  greece9,
+  greece10,
+  greece11,
+  greece12,
+  greece13,
+  greece14,
+  greece15,
+  greece16,
+  greece17,
+  japan1,
+  japan2,
+  japan3,
+  japan4,
+  japan5,
+  japan6,
+  japan7,
+  japan8,
+  japan9,
+  japan10,
+  japan11,
+  japan12,
+  japan13,
+  japan14,
+  japan15,
+  japan16,
+  japan17,
+  jodhpur1,
+  jodhpur2,
+  jodhpur3,
+  jodhpur4,
+  jodhpur5,
+  jodhpur6,
+  jodhpur7,
+  jodhpur8,
+  jodhpur9,
+  jodhpur10,
+  jodhpur11,
+  jodhpur12,
+  jodhpur13,
+  jodhpur14,
+  jodhpur15,
+  kashmir1,
+  kashmir2,
+  kashmir3,
+  kashmir4,
+  kashmir5,
+  kashmir6,
+  kashmir7,
+  kashmir8,
+  kashmir9,
+  kashmir10,
+  kashmir11,
+  kashmir12,
+  kashmir13,
+  kashmir14,
+  kashmir15,
+  kashmir16,
+  kashmir17,
+  kerala1,
+  kerala2,
+  kerala3,
+  kerala4,
+  kerala5,
+  kerala6,
+  kerala7,
+  kerala8,
+  kerala9,
+  kerala10,
+  kerala11,
+  kerala12,
+  kerala13,
+  kerala14,
+  kerala15,
+  kerala16,
+  kerala17,
+  ladakh1,
+  ladakh2,
+  ladakh3,
+  ladakh4,
+  ladakh5,
+  ladakh6,
+  ladakh7,
+  ladakh8,
+  ladakh9,
+  ladakh10,
+  ladakh11,
+  ladakh12,
+  ladakh13,
+  ladakh14,
+  ladakh15,
+  ladakh16,
+  ladakh17,
+ 
+  sikkimdarjeeling1,
+  sikkimdarjeeling2,
+  sikkimdarjeeling3,
+  sikkimdarjeeling4,
+  sikkimdarjeeling5,
+  sikkimdarjeeling6,
+  sikkimdarjeeling7,
+  sikkimdarjeeling8,
+  sikkimdarjeeling9,
+  sikkimdarjeeling10,
+  sikkimdarjeeling11,
+  sikkimdarjeeling12,
+  sikkimdarjeeling13,
+  sikkimdarjeeling14,
+  sikkimdarjeeling15,
+  sikkimdarjeeling16,
+  sikkimdarjeeling17,
+  southindia1,
+  southindia2,
+  southindia3,
+  southindia4,
+  southindia5,
+  southindia7,
+  southindia8,
+  southindia9,
+  southindia10,
+  southindia11,
+  southindia12,
+  southindia13,
+  southindia14,
+  southindia15,
+  singapore1,
+  singapore2,
+  singapore3,
+  singapore4,
+  singapore5,
+  singapore6,
+  singapore7,
+  singapore8,
+  singapore9,
+  singapore10,
+  singapore11,
+  singapore12,
+  singapore13,
+  singapore14,
+  singapore15,
+  singapore16,
+  singapore17,
+  srilanka1,
+  srilanka2,
+  srilanka3,
+  srilanka4,
+  srilanka5,
+  srilanka6,
+  srilanka7,
+  srilanka8,
+  srilanka9,
+  srilanka10,
+  srilanka11,
+  srilanka12,
+  srilanka13,
+  srilanka14,
+  srilanka15,
+  srilanka16,
+  srilanka17,
+
+  thailand1,
+  thailand2,
+  thailand3,
+  thailand4,
+  thailand5,
+  thailand6,
+  thailand7,
+  thailand8,
+  thailand9,
+  thailand10,
+  thailand11,
+  thailand12,
+  thailand13,
+  thailand14,
+  thailand15,
+  thailand16,
+  thailand17,
+  triangle1,
+  triangle2,
+  triangle3,
+  triangle4,
+  triangle5,
+  triangle6,
+  triangle7,
+  triangle8,
+  triangle9,
+  triangle10,
+  triangle11,
+  triangle12,
+  triangle13,
+  triangle14,
+  triangle15,
+  triangle16,
+  turkey1,
+  turkey2,
+  turkey3,
+  turkey4,
+  turkey5,
+  turkey6,
+  turkey7,
+  turkey8,
+  turkey9,
+  turkey10,
+  turkey11,
+  turkey12,
+  turkey13,
+  turkey14,
+  turkey15,
+  turkey16,
+  turkey17,
+ 
+  vietnam1,
+  vietnam2,
+  vietnam3,
+  vietnam4,
+  vietnam5,
+  vietnam6,
+  vietnam7,
+  vietnam8,
+  vietnam9,
+  vietnam10,
+  vietnam11,
+  vietnam12,
+  vietnam13,
+  vietnam14,
+  vietnam15,
+  vietnam16,
+  vietnam17,
+} from "@/assets";
 
 export const packagedata = {
 domestic:[
@@ -9,7 +338,7 @@ domestic:[
     desc:"Explore India’s rich heritage through Delhi, Agra, and Jaipur. Witness the grandeur of Mughal architecture, including the iconic Taj Mahal, vibrant bazaars, majestic forts, and palaces. This classic journey blends history, culture, and tradition, offering an unforgettable experience of North India’s cultural and architectural marvels.",
     img: triangle1,
     imgs:[
-        {id:1, img:banner3},{id:2, img:banner1},{id:3, img:banner4},{id:4, img:banner5},{id:5, img:banner6}
+        {id:1, img:triangle1},{id:2, img:triangle11},{id:3, img:triangle12},{id:4, img:triangle13},{id:5, img:triangle14},{id:6, img:triangle15},{id:5, img:triangle16}
     ],
 highlight:[
     {id:1,
@@ -157,60 +486,71 @@ whychoose:{
         }
     ]
 },
-    topattract:[{
-            id:1,
-            img:banner1,
-            title:"Taj Mahal, Agra",
-            text:" A beautiful white marble monument was built by Shah Jahan. It’s one of the Seven Wonders of the World."
-        },
-        {
-            id:2,
-            img:banner3,
-            title:"Amber Fort, Jaipur",
-            text:" A stunning hilltop fort made of yellow and pink sandstone. It offers amazing views and elephant rides."
-        },
-        {
-            id:3,
-            img:banner4,
-            title:"City Palace, Jaipur",
-            text:" A grand palace with museums, courtyards, and gardens. It shows the rich culture of Jaipur’s royal family."
-        },
-        {
-            id:4,
-            img:banner1,
-            title:"Qutub Minar, Delhi",
-            text:" A tall, ancient tower made of red sandstone. It’s a UNESCO World Heritage Site."
-        },
-        {
-            id:5,
-            img:banner4,
-            title:"India Gate, Delhi",
-            text:" A war memorial honoring Indian soldiers. It looks beautiful, especially at night."
-        },{
-            id:6,
-            img:banner1,
-            title:"Hawa Mahal, Jaipur",
-            text:"A five-story palace with 953 small windows. It was built for royal women to watch street events."
-        },
-        {
-            id:7,
-            img:banner1,
-            title:"Red Fort, Delhi",
-            text:" A massive red sandstone fort built by the Mughals. It hosts the Independence Day celebrations every year."
-        },
-        {
-            id:8,
-            img:banner1,
-            title:"Fatehpur Sikri, Agra",
-            text:"A deserted royal city built by Emperor Akbar. It has beautiful palaces and mosques."
-        },
-        {
-            id:9,
-            img:banner1,
-            title:"Lotus Temple, Delhi",
-            text:"A peaceful place shaped like a lotus flower. People of all religions can visit and meditate here."
-        },
-    ]
+    topattract:[
+          {
+            id: 1,
+            img: triangle2,
+            title: "Taj Mahal, Agra:",
+            text:
+              "An iconic symbol of love, this white marble mausoleum is a UNESCO World Heritage Site and one of the Seven Wonders of the World. Around 7-8 million people visit this beautiful structure every year.",
+          },
+          {
+            id: 2,
+            img: triangle3,
+            title: "Agra Fort, Agra:",
+            text:
+              "Another architectural marvel of the Mughal era, Agra Fort is a massive red sandstone fort that served as the main residence of the Mughal emperors until 1638. This fort served as a residence for Akbar, Jahangir, and Shah Jahan.",
+          },
+          {
+            id: 3,
+            img: triangle4,
+            title: "Fatehpur Sikri, Agra:",
+            text:
+              "Fatehpur Sikri is a historic city founded by Emperor Akbar, known for its well-preserved Mughal architecture. It also holds the Jodha Bai Palace, built for queen Jodha aka Mariam-uz-Zamani by Akbar.",
+          },
+          {
+            id: 4,
+            img: triangle5,
+            title: "Jama Masjid, Delhi:",
+            text:
+              "Located in the heart of Old Delhi, Jama Masjid is one of the largest mosques in India. Tourists from all over the world visit this building with a high religious significance showcasing stunning Mughal architecture.",
+          },
+          {
+            id: 5,
+            img: triangle6,
+            title: "Qutub Minar, Delhi:",
+            text:
+              "A UNESCO World Heritage Site, this minaret is the tallest brick minaret in the world. Started in 1192 by Qutb-Ud-Din-Aibak, it was completed by his successors Iltutmish and Firoz Shah Tughlaq.",
+          },
+          {
+            id: 6,
+            img: triangle7,
+            title: "India Gate, Delhi:",
+            text:
+              "India Gate, standing tall near the Rajpath, is a war memorial dedicated to the 70,000 Indian soldiers who lost their lives during World War I and the Third Anglo-Afghan War.",
+          },
+          {
+            id: 7,
+            img: triangle8,
+            title: "Hawa Mahal, Jaipur:",
+            text:
+              "Hawa Mahal, beautifying the pink city, is one of the top attractions in Jaipur. Also known as the 'Palace of Winds,' this five-story palace features a unique facade with 953 small windows.",
+          },
+          {
+            id: 8,
+            img: triangle9,
+            title: "Amber Fort, Jaipur:",
+            text:
+              "Amer Fort aka Amber Fort is a magnificent fort located on a hilltop, majestically flaunting the Rajasthani architectural styles. It was declared as a UNESCO World Heritage Site in 2013.",
+          },
+          {
+            id: 9,
+            img: triangle10,
+            title: "City Palace, Jaipur:",
+            text:
+              "City Palace is an important landmark of Jaipur. The royal residence built by Maharaja Sawai Jai Singh during his reign showcases a blend of Rajasthani and Mughal architecture.",
+          },
+        ],
 },
 {
     id: 2,
@@ -219,11 +559,15 @@ whychoose:{
     desc: "Discover the breathtaking beauty of Kashmir—tranquil lakes, snow-capped mountains, and blooming gardens. Ride a Shikara on Dal Lake, explore Mughal gardens, and experience the charm of Srinagar, Gulmarg, Sonmarg, and Pahalgam. A serene escape into nature’s finest offerings awaits you in Kashmir.",
     img: kashmir1,
     imgs: [
-      { id: 1, img: banner1 },
-      { id: 2, img: banner2 },
-      { id: 3, img: banner3 },
-      { id: 4, img: banner4 },
-      { id: 5, img: banner5 }
+      { id: 1, img: kashmir1 },
+      { id: 2, img: kashmir2 },
+      { id: 3, img: kashmir12 },
+      { id: 4, img: kashmir13 },
+      { id: 5, img: kashmir14 },
+      { id: 6, img: kashmir15 },
+      { id: 7, img: kashmir16 },
+      { id: 8, img: kashmir17 }
+
     ],
     highlight: [
       { id: 1, text: "Explore Srinagar, from the Mughal Gardens to a boat (Shikara) stay in Dal Lake." },
@@ -338,74 +682,85 @@ whychoose:{
       ]
     },
     topattract: [
-      {
-        id: 1,
-        img: banner1,
-        title: "Dal Lake, Srinagar",
-        text: "A scenic lake with floating gardens and houseboats. You can enjoy a relaxing Shikara ride here."
-      },
-      {
-        id: 2,
-        img: banner2,
-        title: "Gulmarg",
-        text: "A snowy paradise known for skiing and cable cars. The Gulmarg Gondola offers stunning mountain views."
-      },
-      {
-        id: 3,
-        img: banner3,
-        title: "Pahalgam",
-        text: "A peaceful valley with rivers and pine forests. It’s perfect for nature walks and picnics."
-      },
-      {
-        id: 4,
-        img: banner4,
-        title: "Sonamarg",
-        text: "Called the 'Meadow of Gold' for its beauty. It’s a great spot for trekking and glaciers."
-      },
-      {
-        id: 5,
-        img: banner5,
-        title: "Mughal Gardens, Srinagar",
-        text: "Beautiful gardens with fountains and flowers. Built by the Mughals beside Dal Lake."
-      },
-      {
-        id: 6,
-        img: banner1,
-        title: "Shankaracharya Temple, Srinagar",
-        text: "A sacred temple on a hill with city views. It’s dedicated to Lord Shiva."
-      },
-      {
-        id: 7,
-        img: banner2,
-        title: "Betaab Valley",
-        text: "A lush green valley named after a Bollywood movie. Surrounded by snowy peaks and clear streams."
-      },
-      {
-        id: 8,
-        img: banner3,
-        title: "Hazratbal Shrine",
-        text: "A white-domed mosque near Dal Lake. It holds a relic believed to be the Prophet’s hair."
-      },
-      {
-        id: 9,
-        img: banner4,
-        title: "Tulip Garden, Srinagar",
-        text: "Asia’s largest tulip garden with colorful blooms. Best visited in springtime."
-      }
-    ]
+            {
+              id: 1,
+              img: kashmir3,
+              title: "Srinagar:",
+              text:
+                "The summer capital of Jammu and Kashmir, Srinagar is famed for its pristine Dal Lake, Mughal gardens, and vibrant houseboats.",
+            },
+            {
+              id: 2,
+              img: kashmir4,
+              title: "Gulmarg:",
+              text:
+                "Known for its lush meadows and as a premier skiing destination, Gulmarg also boasts the Gulmarg Gondola, one of the highest cable cars in the world.",
+            },
+            {
+              id: 3,
+              img: kashmir5,
+              title: "Pahalgam:",
+              text:
+                "A serene town offering picturesque views, Pahalgam is the starting point for the annual Amarnath Yatra and is ideal for trekking and nature walks.",
+            },
+            {
+              id: 4,
+              img: kashmir6,
+              title: "Sonamarg:",
+              text:
+                "Translating to 'Meadow of Gold,' Sonamarg is surrounded by snow-capped mountains and is a gateway to the famous Thajiwas Glacier.",
+            },
+            {
+              id: 5,
+              img: kashmir7,
+              title: "Betaab Valley:",
+              text:
+                "Named after the Bollywood movie 'Betaab,' this valley is characterized by lush greenery, crystal-clear streams, and snow-clad mountains.",
+            },
+            {
+              id: 6,
+              img: kashmir8,
+              title: "Yusmarg:",
+              text:
+                "A lesser-known gem, Yusmarg offers expansive meadows, dense forests, and tranquil lakes, perfect for those seeking solitude.",
+            },
+            {
+              id: 7,
+              img: kashmir9,
+              title: "Dachigam National Park:",
+              text:
+                "Home to the endangered Hangul deer, this national park showcases diverse flora and fauna amidst stunning landscapes.",
+            },
+            {
+              id: 8,
+              img: kashmir10,
+              title: "Shankaracharya Temple:",
+              text:
+                "Perched atop Shankaracharya Hill, this ancient temple offers panoramic views of Srinagar and Dal Lake.",
+            },
+            {
+              id: 9,
+              img: kashmir11,
+              title: "Mughal Road:",
+              text:
+                "An ancient route connecting Srinagar to Poonch, offering travelers scenic vistas of the Pir Panjal range.",
+            },
+          ],
   }, 
 {
     id: 3,
     title: "Jodhpur – Jaisalmer Tour",
     category: "domestic",
     desc: "Dive into Rajasthan’s desert magic with this tour of Jodhpur’s majestic Mehrangarh Fort and Jaisalmer’s golden dunes. Enjoy camel rides, colorful bazaars, and intricately carved havelis. Experience royalty, tradition, and desert charm in these two timeless cities of the Thar Desert.",
-    img: rajasthan1,
+    img: jodhpur12,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+      { id: 1, img: jodhpur10 },
+      { id: 2, img: jodhpur11 },
+      { id: 3, img: jodhpur12 },
+      { id: 4, img: jodhpur13 },
+      { id: 5, img: jodhpur14 },
+      { id: 6, img: jodhpur15 }
+
     ],
     highlight: [
       {
@@ -531,55 +886,55 @@ whychoose:{
     topattract: [
       {
         id: 1,
-        img: banner1,
+        img: jodhpur1,
         title: "Mehrangarh Fort, Jodhpur",
         text: "A mighty fort stands on a hill with beautiful carvings. It offers a panoramic view of the 'Blue City.'"
       },
       {
         id: 2,
-        img: banner2,
+        img: jodhpur2,
         title: "Umaid Bhawan Palace, Jodhpur",
         text: "One of the world’s largest private residences. Part of it is now a luxury hotel and museum."
       },
       {
         id: 3,
-        img: banner3,
+        img: jodhpur3,
         title: "Jaswant Thada, Jodhpur",
         text: "A white marble memorial for a Rajput ruler. It’s peaceful with lovely gardens around."
       },
       {
         id: 4,
-        img: banner4,
+        img: jodhpur4,
         title: "Clock Tower Market, Jodhpur",
         text: "A busy market known for spices and handicrafts. You can shop for souvenirs and local goods."
       },
       {
         id: 5,
-        img: banner5,
+        img: jodhpur5,
         title: "Patwon Ki Haveli, Jaisalmer",
         text: "A beautiful mansion with fine carvings and balconies. It tells the story of wealthy traders of old times."
       },
       {
         id: 6,
-        img: banner6,
+        img: jodhpur6,
         title: "Jaisalmer Fort, Jaisalmer",
         text: "A golden fort that still houses shops and homes. It’s one of the few living forts in the world."
       },
       {
         id: 7,
-        img: banner3,
+        img: jodhpur7,
         title: "Sam Sand Dunes, Jaisalmer",
         text: "Famous for camel rides and desert camping. Watch the sunset over rolling sandhills."
       },
       {
         id: 8,
-        img: banner2,
+        img: jodhpur8,
         title: "Salim Singh Ki Haveli, Jaisalmer",
         text: "A unique haveli with a beautiful peacock-shaped roof. It stands out with its strange design."
       },
       {
         id: 9,
-        img: banner1,
+        img: jodhpur9,
         title: "Gadisar Lake, Jaisalmer",
         text: "A peaceful lake built for water conservation. You can enjoy boating and beautiful views."
       }
@@ -592,11 +947,11 @@ whychoose:{
     desc: "Escape to pristine beaches and crystal-clear waters with the Andaman Tour. Visit Havelock Island, Radhanagar Beach, and explore marine life through snorkeling and scuba diving. Perfect for relaxation and adventure, this island getaway promises sun, sea, and serenity.",
     img: andman1,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+      { id: 1, img: andman1 },
+      { id: 2, img: andman2 },
+      { id: 3, img: andman12 },
+      { id: 4, img: andman13 },
+      { id: 5, img: andman14 }
     ],
     highlight: [
       {
@@ -720,61 +1075,70 @@ whychoose:{
       ]
     },
     topattract: [
-      {
-        id: 1,
-        img: banner1,
-        title: "Radhanagar Beach, Havelock",
-        text: "Known for its white sand and blue waters. It’s perfect for swimming and sunsets."
-      },
-      {
-        id: 2,
-        img: banner2,
-        title: "Cellular Jail, Port Blair",
-        text: "A historic prison from the British era. It’s now a museum with a light and sound show."
-      },
-      {
-        id: 3,
-        img: banner3,
-        title: "Ross Island",
-        text: "Once the British capital, now a quiet ruin. You can see old churches and peacocks."
-      },
-      {
-        id: 4,
-        img: banner4,
-        title: "North Bay Island",
-        text: "Famous for snorkeling and coral reefs. See colorful fish and underwater life."
-      },
-      {
-        id: 5,
-        img: banner5,
-        title: "Neil Island",
-        text: "A peaceful island with calm beaches. Ideal for relaxing and cycling."
-      },
-      {
-        id: 6,
-        img: banner6,
-        title: "Baratang Island",
-        text: "Known for limestone caves and mud volcanoes. A great spot for adventure lovers."
-      },
-      {
-        id: 7,
-        img: banner3,
-        title: "Chidiya Tapu",
-        text: "A birdwatcher's paradise with forest trails. Also, a great place for sunset views."
-      },
-      {
-        id: 8,
-        img: banner2,
-        title: "Wandoor Beach",
-        text: "A clean beach near a marine national park. Good for picnics and swimming."
-      },
-      {
-        id: 9,
-        img: banner1,
-        title: "Jolly Buoy Island",
-        text: "Crystal-clear waters and coral reefs. Best for snorkeling and glass-bottom boat rides."
-      }
-    ]
+            {
+              id: 1,
+              img: andman3,
+              title: "Radhanagar Beach, Havelock Island:",
+              text:
+                "Voted as one of Asia's best beaches, the Radhanagar beach is known for its white sands and turquoise waters. The sunset view from this beach is totally worth the wait.",
+            },
+            {
+              id: 2,
+              img: andman4,
+              title: "Cellular Jail, Port Blair:",
+              text:
+                "The cellular jail at Port Blair, also known as the “kala pani” (black water), is a historic colonial prison that stands as a testament to India's freedom struggle.",
+            },
+            {
+              id: 3,
+              img: andman5,
+              title: "Elephant Beach, Havelock Island:",
+              text:
+                "The elephant beach at the Havelock Island is famous for water sports and vibrant coral reefs. People gather in the evening to enjoy the beautiful sunset at this beach.",
+            },
+            {
+              id: 4,
+              img: andman6,
+              title: "Ross Island:",
+              text:
+                "Ross Island, also known as the Netaji Subhash Chandra Bose Dweep, was once the administrative headquarters of the British, now showcasing ruins amidst lush greenery.",
+            },
+            {
+              id: 5,
+              img: andman7,
+              title: "Neil Island:",
+              text:
+                "Neil Iskalnd, officially named Shaheed Dweep (Martyr’s Island), is known for its biodiversity, unexplored coral reefs, and relaxed ambiance.",
+            },
+            {
+              id: 6,
+              img: andman8,
+              title: "Baratang Island:",
+              text:
+                "Baratang Island, part of the Middle Andaman administrative district, is home to jaw-dropping limestone caves, mangrove creeks, and the indigenous Jarwa tribe.",
+            },
+            {
+              id: 7,
+              img: andman9,
+              title: "Chidiya Tapu:",
+              text:
+                "Chidiya Tapu, also known as the 'Bird Island,' is a haven for bird watchers as it homes hundreds of species of birds. It also offers stunning sunset views.",
+            },
+            {
+              id: 8,
+              img: andman10,
+              title: "Mahatma Gandhi Marine National Park:",
+              text:
+                "A protected area established in 1983 comprising 15 islands, the Mahatma Gandhi Marine National Park is ideal for snorkeling and glass-bottom boat rides.",
+            },
+            {
+              id: 9,
+              img: andman11,
+              title: "Barren Island:",
+              text:
+                "Barren Island, an uninhabited Island in the Andaman Sea, is India's only active volcano. It offers a unique sight for travelers who come from far away to visit this island.",
+            },
+          ],
   }  ,
   {
     id: 5,
@@ -783,11 +1147,18 @@ whychoose:{
     desc: "Experience the perfect mix of beach fun, colonial heritage, and vibrant nightlife in Goa. Relax on golden beaches, visit Portuguese churches, and savor delicious seafood. From peaceful backwaters to lively beach shacks, Goa is India’s favorite coastal paradise.",
     img: goa1,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+      { id: 1, img: goa1 },
+      { id: 2, img: goa2 },
+      { id: 3, img: goa12 },
+      { id: 4, img: goa13 },
+      { id: 5, img: goa14 },
+            { id: 6, img: goa15 },
+                  { id: 7, img: goa16 },
+      { id: 8, img: goa17 },
+
+
+
+
     ],
     highlight: [
       {
@@ -911,61 +1282,16 @@ whychoose:{
       ]
     },
     topattract: [
-      {
-        id: 1,
-        img: banner1,
-        title: "Baga Beach",
-        text: "A lively beach with water sports and shacks. Popular for nightlife and music."
-      },
-      {
-        id: 2,
-        img: banner2,
-        title: "Calangute Beach",
-        text: "Goa’s biggest beach, perfect for families. You can enjoy sunbathing and jet skiing."
-      },
-      {
-        id: 3,
-        img: banner3,
-        title: "Fort Aguada",
-        text: "A historic Portuguese fort by the sea. Offers great views and photo spots."
-      },
-      {
-        id: 4,
-        img: banner4,
-        title: "Basilica of Bom Jesus",
-        text: "A UNESCO site with St. Francis Xavier’s remains. It’s a major religious landmark."
-      },
-      {
-        id: 5,
-        img: banner5,
-        title: "Dudhsagar Falls",
-        text: "A giant waterfall surrounded by greenery. It looks amazing during the monsoon."
-      },
-      {
-        id: 6,
-        img: banner6,
-        title: "Anjuna Flea Market",
-        text: "A famous market for clothes and souvenirs. Great for bargain shopping."
-      },
-      {
-        id: 7,
-        img: banner1,
-        title: "Chapora Fort",
-        text: "Known from Bollywood's 'Dil Chahta Hai.' Gives a great view of the sea and sunset."
-      },
-      {
-        id: 8,
-        img: banner2,
-        title: "Palolem Beach",
-        text: "A calm beach with clear water and rocks. Ideal for couples and quiet time."
-      },
-      {
-        id: 9,
-        img: banner3,
-        title: "Spice Plantation Tour",
-        text: "Explore Goa’s spice farms in a guided walk. Smell, touch, and taste natural spices."
-      }
-    ]
+          { id: 1, img: goa3, title: "Baga Beach:", text: "One of Goa’s most popular beaches, Baga is known for its nightlife, water sports, and beach shacks." },
+          { id: 2, img: goa4, title: "Fort Aguada:", text: "A 17th-century Portuguese fort overlooking the Arabian Sea, offering panoramic views and historical intrigue." },
+          { id: 3, img: goa5, title: "Basilica of Bom Jesus:", text: "A UNESCO World Heritage Site, this baroque-style church holds the mortal remains of St. Francis Xavier." },
+          { id: 4, img: goa6, title: "Dudhsagar Waterfalls:", text: "A spectacular four-tiered waterfall on the Goa-Karnataka border, especially stunning during monsoon." },
+          { id: 5, img: goa7, title: "Anjuna Flea Market:", text: "A bustling market offering everything from boho clothing to souvenirs, perfect for shopping enthusiasts." },
+          { id: 6, img: goa8, title: "Chapora Fort:", text: "Famous for its 'Dil Chahta Hai' connection, this fort offers stunning views over Vagator Beach." },
+          { id: 7, img: goa9, title: "Palolem Beach:", text: "A picturesque crescent-shaped beach known for its relaxed vibe, ideal for kayaking and dolphin spotting." },
+          { id: 8, img: goa10, title: "Fontainhas:", text: "Explore the Latin Quarter of Panaji with its vibrant colonial houses and narrow winding streets." },
+          { id: 9, img: goa11, title: "Salim Ali Bird Sanctuary:", text: "Located on Chorao Island, this sanctuary is a haven for bird watchers and nature lovers." },
+        ],
   },
   {
     id: 6,
@@ -974,11 +1300,15 @@ whychoose:{
     desc: "Embark on a high-altitude adventure in Ladakh. Visit monasteries, turquoise lakes like Pangong and Tso Moriri, and breathtaking mountain passes. This rugged destination is perfect for thrill-seekers, nature lovers, and spiritual travelers seeking peace amid the Himalayas.",
     img: ladakh1,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+      { id: 1, img: ladakh1 },
+      { id: 2, img: ladakh2 },
+      { id: 3, img: ladakh13 },
+      { id: 4, img: ladakh14 },
+      { id: 5, img: ladakh12 },
+      { id: 6, img: ladakh15 }, 
+            { id: 7, img: ladakh16 }, 
+      { id: 8, img: ladakh17 }, 
+
     ],
     highlight: [
       {
@@ -1106,75 +1436,31 @@ whychoose:{
         }
       ]
     },
-    topattract: [
-      {
-        id: 1,
-        img: banner1,
-        title: "Pangong Lake",
-        text: "A high-altitude lake with changing colors. It became famous after the movie 3 Idiots."
-      },
-      {
-        id: 2,
-        img: banner2,
-        title: "Nubra Valley",
-        text: "A cold desert with dunes and camels. You can enjoy the unique double-humped camel ride."
-      },
-      {
-        id: 3,
-        img: banner3,
-        title: "Leh Palace",
-        text: "A 17th-century royal palace with mountain views. It shows Ladakh’s rich history."
-      },
-      {
-        id: 4,
-        img: banner4,
-        title: "Shanti Stupa",
-        text: "A white dome-shaped peace monument. It overlooks Leh town beautifully."
-      },
-      {
-        id: 5,
-        img: banner5,
-        title: "Magnetic Hill",
-        text: "A spot where vehicles seem to roll uphill. It’s a fun and mysterious place."
-      },
-      {
-        id: 6,
-        img: banner6,
-        title: "Khardung La Pass",
-        text: "One of the world’s highest motorable roads. A must-visit for adventure seekers."
-      },
-      {
-        id: 7,
-        img: banner3,
-        title: "Hemis Monastery",
-        text: "The largest monastery in Ladakh. Famous for its festival and ancient statues."
-      },
-      {
-        id: 8,
-        img: banner2,
-        title: "Tso Moriri Lake",
-        text: "A quiet and lesser-known lake in Ladakh. Surrounded by snowy mountains and peace."
-      },
-      {
-        id: 9,
-        img: banner1,
-        title: "Zanskar Valley",
-        text: "A remote valley with treks and river rafting. Great for thrill-seekers and explorers."
-      }
-    ]
+    topattract:  [
+              { id: 1, img: ladakh3, title: "Pangong Lake:", text: "A stunning high-altitude lake that changes colors throughout the day, made famous by Bollywood films." },
+              { id: 2, img: ladakh4, title: "Nubra Valley:", text: "A scenic valley with sand dunes, double-humped camels, and picturesque villages nestled between mountains." },
+              { id: 3, img: ladakh5, title: "Khardung La Pass:", text: "One of the world’s highest motorable passes, offering panoramic views of snow-clad peaks." },
+              { id: 4, img: ladakh6, title: "Magnetic Hill:", text: "A gravity-defying phenomenon where vehicles appear to move uphill on their own." },
+              { id: 5, img: ladakh7, title: "Shanti Stupa:", text: "A gleaming white-domed structure built by Japanese monks, offering views of Leh and the mountains." },
+              { id: 6, img: ladakh8, title: "Tso Moriri Lake:", text: "A pristine, lesser-known lake surrounded by snow-capped peaks and rich wildlife." },
+              { id: 7, img: ladakh9, title: "Hemis Monastery:", text: "Ladakh’s largest and wealthiest monastery, known for its colorful annual festival and Buddhist relics." },
+              { id: 8, img: ladakh10, title: "Alchi Monastery:", text: "One of the oldest monasteries in Ladakh, famous for its exquisite wall paintings and Indo-Tibetan architecture." },
+              { id: 9, img: ladakh11, title: "Zanskar Valley:", text: "An untouched valley known for trekking, frozen river rafting, and dramatic landscapes." },
+            ],
   },
+
   {
     id: 7,
     title: "South India Temple Tour 5N 6D",
     category: "domestic",
     desc: "Explore ancient temples, Dravidian architecture, and spiritual traditions across Tamil Nadu and Karnataka. Visit iconic temples like Meenakshi, Brihadeeswara, and Rameshwaram. This tour offers a deep dive into South India’s religious heritage and architectural brilliance.",
-    img: mysore1,
+    img: southindia10,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+      { id: 1, img: southindia11 },
+      { id: 2, img: southindia12 },
+      { id: 3, img: southindia13 },
+      { id: 4, img: southindia14 },
+      { id: 5, img: southindia15 }
     ],
     highlight: [
       {
@@ -1302,62 +1588,62 @@ whychoose:{
         }
       ]
     },
-    topattract: [
+     topattract: [
       {
         id: 1,
-        img: banner1,
-        title: "Meenakshi Temple, Madurai",
-        text: "A colorful temple is famous for its tall towers. It’s full of sculptures, history, and devotion."
+        img: southindia1,
+        title: "Mysore Palace (Karnataka)",
+        text: "A grand royal palace with golden domes. Lit up beautifully at night and during festivals."
       },
       {
         id: 2,
-        img: banner2,
-        title: "Brihadeeswarar Temple, Thanjavur",
-        text: "A UNESCO World Heritage Site made of stone. It shows the grandeur of ancient Tamil kings."
+        img: southindia2,
+        title: "Coorg (Karnataka)",
+        text: "A hill station with coffee plantations. It’s perfect for nature, trekking, and peace."
       },
       {
         id: 3,
-        img: banner3,
-        title: "Virupaksha Temple, Hampi",
-        text: "An old temple that’s still active today. It stands among the beautiful ruins of Hampi."
+        img: southindia3,
+        title: "Ooty (Tamil Nadu)",
+        text: "A cool hill town with gardens and lakes. You can ride the famous Nilgiri Toy Train."
       },
       {
         id: 4,
-        img: banner4,
-        title: "Sri Ranganathaswamy Temple, Srirangam",
-        text: "One of the largest temples in India. It’s known for its massive gopurams (gateway towers)."
+        img: southindia4,
+        title: "Madurai Meenakshi Temple (Tamil Nadu)",
+        text: "Colorful towers full of stories and gods. It’s a major temple for Tamil culture."
       },
       {
         id: 5,
-        img: banner5,
-        title: "Chamundeshwari Temple, Mysore",
-        text: "A hilltop temple dedicated to the Goddess Chamundi. You can enjoy a great view of Mysore city."
+        img: southindia5,
+        title: "Kanyakumari (Tamil Nadu)",
+        text: "The southern tip where three seas meet. See sunrise, sunset, and Vivekananda Rock."
       },
       {
         id: 6,
-        img: banner6,
-        title: "Kapaleeshwarar Temple, Chennai",
-        text: "A beautiful Dravidian-style temple by the sea. It’s full of colorful statues and carvings."
+        img: southindia10,
+        title: "Alleppey (Kerala)",
+        text: "Take a calm boat ride through green backwaters. It’s famous for houseboats and village life."
       },
       {
         id: 7,
-        img: banner3,
-        title: "Shore Temple, Mahabalipuram",
-        text: "A rock-cut temple facing the sea waves. It’s one of India’s oldest stone temples."
+        img: southindia7,
+        title: "Munnar (Kerala)",
+        text: "Rolling tea gardens and cool air. Great for walks and beautiful scenery."
       },
       {
         id: 8,
-        img: banner2,
-        title: "Padmanabhaswamy Temple, Trivandrum",
-        text: "A stunning temple known for its hidden treasures. Only Hindus are allowed inside the sanctum."
+        img: southindia8,
+        title: "Wayanad (Kerala)",
+        text: "A peaceful green district with waterfalls. Ideal for forest treks and staying in nature."
       },
       {
         id: 9,
-        img: banner1,
-        title: "Lepakshi Temple, Andhra Pradesh",
-        text: "Famous for its hanging pillar and murals. The temple tells stories through its walls."
+        img: southindia9,
+        title: "Hampi (Karnataka)",
+        text: "Ruins of a mighty ancient kingdom. Stones, temples, and history come alive here."
       }
-    ]
+    ],
   },
   {
     id: 8,
@@ -1366,11 +1652,14 @@ whychoose:{
     desc: "Discover Kerala’s lush landscapes, serene backwaters, and cultural richness. Cruise through Alleppey’s canals, experience traditional Kathakali dance, and rejuvenate with Ayurvedic wellness. From Munnar’s tea gardens to Kovalam’s beaches, this tour captures Kerala’s enchanting essence.",
     img: kerala1,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+      { id: 1, img: kerala2 },
+      { id: 2, img: kerala16 },
+      { id: 3, img: kerala12 },
+      { id: 4, img: kerala13 },
+      { id: 5, img: kerala14 },
+      { id: 6, img: kerala15 },
+      { id: 7, img: kerala17 }
+
     ],
     highlight: [
       {
@@ -1494,61 +1783,16 @@ whychoose:{
       ]
     },
     topattract: [
-      {
-        id: 1,
-        img: banner1,
-        title: "Alleppey Backwaters",
-        text: "Sail through peaceful canals on a houseboat. See villages, coconut trees, and paddy fields."
-      },
-      {
-        id: 2,
-        img: banner2,
-        title: "Munnar Tea Gardens",
-        text: "Green hills are covered with endless tea plantations. Perfect for fresh air and beautiful photos."
-      },
-      {
-        id: 3,
-        img: banner3,
-        title: "Fort Kochi",
-        text: "A colonial town with old churches and markets. It’s famous for Chinese fishing nets by the sea."
-      },
-      {
-        id: 4,
-        img: banner4,
-        title: "Athirappilly Waterfalls",
-        text: "Called the \"Niagara of India\" for its huge falls. Best seen during the rainy season."
-      },
-      {
-        id: 5,
-        img: banner5,
-        title: "Kumarakom Bird Sanctuary",
-        text: "A quiet place filled with rare birds. Best for birdwatchers and nature lovers."
-      },
-      {
-        id: 6,
-        img: banner6,
-        title: "Periyar Wildlife Sanctuary",
-        text: "Take a boat ride to spot elephants and tigers. It’s a lush green forest around a big lake."
-      },
-      {
-        id: 7,
-        img: banner2,
-        title: "Bekal Fort",
-        text: "A sea-facing fort offering great sunset views. It’s perfect for history lovers and photographers."
-      },
-      {
-        id: 8,
-        img: banner3,
-        title: "Varkala Beach",
-        text: "A beach with cliffs and natural springs. Ideal for relaxation and seaside cafes."
-      },
-      {
-        id: 9,
-        img: banner4,
-        title: "Thekkady",
-        text: "Famous for spices and wildlife safaris. Visit spice gardens and enjoy jungle treks."
-      }
-    ]
+          { id: 1, img: kerala3, title: "Alleppey Backwaters:", text: "Experience the tranquil backwaters of Alleppey, often dubbed the 'Venice of the East,' by cruising on traditional houseboats." },
+          { id: 2, img: kerala4, title: "Munnar Tea Gardens:", text: "Explore the rolling hills of Munnar, adorned with expansive tea plantations that offer breathtaking vistas and a refreshing climate." },
+          { id: 3, img: kerala5, title: "Fort Kochi:", text: "Delve into the colonial history of Kerala by visiting Fort Kochi, known for its Chinese fishing nets, colonial architecture, and vibrant arts scene." },
+          { id: 4, img: kerala6, title: "Periyar Wildlife Sanctuary:", text: "Embark on a wildlife safari in Thekkady's Periyar Wildlife Sanctuary, home to elephants, tigers, and diverse flora and fauna." },
+          { id: 5, img: kerala7, title: "Kovalam Beach:", text: "Relax on the golden sands of Kovalam Beach, renowned for its crescent-shaped shoreline and clear waters, ideal for sunbathing and swimming." },
+          { id: 6, img: kerala8, title: "Varkala Cliff and Beach:", text: "Visit Varkala, where towering cliffs meet the Arabian Sea, offering stunning views and a serene beach experience." },
+          { id: 7, img: kerala9, title: "Athirapally Waterfalls:", text: "Witness the majestic 'Niagara of India,' Athirapally Waterfalls, cascading from a height of 80 feet amidst lush greenery." },
+          { id: 8, img: kerala10, title: "Wayanad:", text: "Explore the scenic landscapes of Wayanad, known for its waterfalls, caves, and wildlife sanctuaries, offering a serene escape into nature." },
+          { id: 9, img: kerala11, title: "Padmanabhaswamy Temple:", text: "Visit the architectural marvel of Padmanabhaswamy Temple in Thiruvananthapuram, renowned for its intricate carvings and rich history." },
+        ],
   },
   {
     id: 9,
@@ -1557,11 +1801,13 @@ whychoose:{
     desc: "Discover Kerala’s lush landscapes, serene backwaters, and cultural richness. Cruise through Alleppey’s canals, experience traditional Kathakali dance, and rejuvenate with Ayurvedic wellness. From Munnar’s tea gardens to Kovalam’s beaches, this tour captures Kerala’s enchanting essence.",
     img: kerala2,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+    { id: 1, img: kerala2 },
+      { id: 2, img: kerala16 },
+      { id: 3, img: kerala12 },
+      { id: 4, img: kerala13 },
+      { id: 5, img: kerala14 },
+      { id: 6, img: kerala15 },
+      { id: 7, img: kerala17 }
     ],
     highlight: [
       {
@@ -1700,74 +1946,29 @@ whychoose:{
       ]
     },
     topattract: [
-      {
-        id: 1,
-        img: banner1,
-        title: "Alleppey Backwaters",
-        text: "Sail through peaceful canals on a houseboat. See villages, coconut trees, and paddy fields."
-      },
-      {
-        id: 2,
-        img: banner2,
-        title: "Munnar Tea Gardens",
-        text: "Green hills are covered with endless tea plantations. Perfect for fresh air and beautiful photos."
-      },
-      {
-        id: 3,
-        img: banner3,
-        title: "Fort Kochi",
-        text: "A colonial town with old churches and markets. It’s famous for Chinese fishing nets by the sea."
-      },
-      {
-        id: 4,
-        img: banner4,
-        title: "Athirappilly Waterfalls",
-        text: "Called the \"Niagara of India\" for its huge falls. Best seen during the rainy season."
-      },
-      {
-        id: 5,
-        img: banner5,
-        title: "Kumarakom Bird Sanctuary",
-        text: "A quiet place filled with rare birds. Best for birdwatchers and nature lovers."
-      },
-      {
-        id: 6,
-        img: banner6,
-        title: "Periyar Wildlife Sanctuary",
-        text: "Take a boat ride to spot elephants and tigers. It’s a lush green forest around a big lake."
-      },
-      {
-        id: 7,
-        img: banner2,
-        title: "Bekal Fort",
-        text: "A sea-facing fort offering great sunset views. It’s perfect for history lovers and photographers."
-      },
-      {
-        id: 8,
-        img: banner3,
-        title: "Varkala Beach",
-        text: "A beach with cliffs and natural springs. Ideal for relaxation and seaside cafes."
-      },
-      {
-        id: 9,
-        img: banner4,
-        title: "Thekkady",
-        text: "Famous for spices and wildlife safaris. Visit spice gardens and enjoy jungle treks."
-      }
-    ]
+          { id: 1, img: kerala3, title: "Alleppey Backwaters:", text: "Experience the tranquil backwaters of Alleppey, often dubbed the 'Venice of the East,' by cruising on traditional houseboats." },
+          { id: 2, img: kerala4, title: "Munnar Tea Gardens:", text: "Explore the rolling hills of Munnar, adorned with expansive tea plantations that offer breathtaking vistas and a refreshing climate." },
+          { id: 3, img: kerala5, title: "Fort Kochi:", text: "Delve into the colonial history of Kerala by visiting Fort Kochi, known for its Chinese fishing nets, colonial architecture, and vibrant arts scene." },
+          { id: 4, img: kerala6, title: "Periyar Wildlife Sanctuary:", text: "Embark on a wildlife safari in Thekkady's Periyar Wildlife Sanctuary, home to elephants, tigers, and diverse flora and fauna." },
+          { id: 5, img: kerala7, title: "Kovalam Beach:", text: "Relax on the golden sands of Kovalam Beach, renowned for its crescent-shaped shoreline and clear waters, ideal for sunbathing and swimming." },
+          { id: 6, img: kerala8, title: "Varkala Cliff and Beach:", text: "Visit Varkala, where towering cliffs meet the Arabian Sea, offering stunning views and a serene beach experience." },
+          { id: 7, img: kerala9, title: "Athirapally Waterfalls:", text: "Witness the majestic 'Niagara of India,' Athirapally Waterfalls, cascading from a height of 80 feet amidst lush greenery." },
+          { id: 8, img: kerala10, title: "Wayanad:", text: "Explore the scenic landscapes of Wayanad, known for its waterfalls, caves, and wildlife sanctuaries, offering a serene escape into nature." },
+          { id: 9, img: kerala11, title: "Padmanabhaswamy Temple:", text: "Visit the architectural marvel of Padmanabhaswamy Temple in Thiruvananthapuram, renowned for its intricate carvings and rich history." },
+        ],
   },
   {
     id: 10,
     title: "Darjeeling Tour",
     category: "domestic",
     desc: "Explore the Queen of Hills, Darjeeling, with its rolling tea estates, the iconic Toy Train, and majestic views of Kanchenjunga. Enjoy cool weather, colonial charm, and cultural diversity in this picturesque Himalayan hill station.",
-    img: darjeeling1,
+    img: darjeeling10,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+      { id: 1, img: darjeeling11 },
+      { id: 2, img: darjeeling12 },
+      { id: 3, img: darjeeling13 },
+      { id: 4, img: darjeeling14 },
+      { id: 5, img: darjeeling15 }
     ],
     highlight: [
       {
@@ -1898,72 +2099,73 @@ whychoose:{
     topattract: [
       {
         id: 1,
-        img: banner1,
+        img: darjeeling1,
         title: "Tiger Hill",
         text: "Famous for sunrise views over Mount Kanchenjunga. You can also see Mount Everest on clear days."
       },
       {
         id: 2,
-        img: banner2,
+        img: darjeeling2,
         title: "Darjeeling Himalayan Railway",
         text: "A UNESCO heritage 'Toy Train' ride. Enjoy scenic journeys through the hills."
       },
       {
         id: 3,
-        img: banner3,
+        img: darjeeling3,
         title: "Batasia Loop",
         text: "A spiral railway track with gardens. It’s a popular stop for Toy Train passengers."
       },
       {
         id: 4,
-        img: banner4,
+        img: darjeeling4,
         title: "Peace Pagoda",
         text: "A white stupa promoting peace and harmony. Offers panoramic views of Darjeeling and the hills."
       },
       {
         id: 5,
-        img: banner5,
+        img: darjeeling5,
         title: "Padmaja Naidu Himalayan Zoological Park",
         text: "Home to red pandas and snow leopards. It focuses on Himalayan wildlife conservation."
       },
       {
         id: 6,
-        img: banner6,
+        img: darjeeling6,
         title: "Himalayan Mountaineering Institute",
         text: "A famous school for mountain climbing. It has a museum dedicated to mountaineers."
       },
       {
         id: 7,
-        img: banner3,
+        img: darjeeling7,
         title: "Ghoom Monastery",
         text: "One of the oldest Tibetan monasteries in Darjeeling. It houses a beautiful statue of Maitreya Buddha."
       },
       {
         id: 8,
-        img: banner2,
+        img: darjeeling8,
         title: "Rock Garden",
         text: "A lovely park with waterfalls and rocky pathways. It’s a great place for a picnic or stroll."
       },
       {
         id: 9,
-        img: banner1,
+        img: darjeeling9,
         title: "Happy Valley Tea Estate",
         text: "One of the oldest tea gardens in Darjeeling. You can watch tea being made and sip fresh brews."
       }
     ]
   },
-  {
+  { 
     id: 11,
     title: "Assam Meghalaya Tour",
     category: "domestic",
     desc: "Uncover the hidden gems of Northeast India with this journey through Assam’s tea gardens and Meghalaya’s living root bridges. Visit Kaziranga National Park, Cherrapunji’s waterfalls, and Shillong’s scenic beauty. A cultural and natural wonderland awaits.",
     img: assam1,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+      { id: 1, img: assam10 },
+      { id: 2, img: assam11 },
+      { id: 3, img: assam12 },
+      { id: 4, img: assam13 },
+      { id: 5, img: assam14 },
+      { id: 6, img: assam15 },
     ],
     highlight: [
       {
@@ -2104,55 +2306,55 @@ whychoose:{
     topattract: [
       {
         id: 1,
-        img: banner1,
+        img: assam1,
         title: "Kaziranga National Park (Assam)",
         text: "Home to the rare one-horned rhinoceros. You can enjoy a thrilling jeep or elephant safari."
       },
       {
         id: 2,
-        img: banner2,
+        img: assam2,
         title: "Umananda Island (Assam)",
         text: "The smallest river island in the world. It sits in the middle of the Brahmaputra River."
       },
       {
         id: 3,
-        img: banner3,
+        img: assam3,
         title: "Kamakhya Temple (Assam)",
         text: "A famous temple on Nilachal Hill in Guwahati. It’s one of India’s powerful Shakti Peethas."
       },
       {
         id: 4,
-        img: banner4,
+        img: assam4,
         title: "Shillong (Meghalaya)",
         text: "The capital city with hills and colonial charm. Known as the 'Scotland of the East.'"
       },
       {
         id: 5,
-        img: banner5,
+        img: assam5,
         title: "Cherrapunji (Meghalaya)",
         text: "One of the wettest places on Earth. Famous for waterfalls and living root bridges."
       },
       {
         id: 6,
-        img: banner6,
+        img: assam6,
         title: "Mawsynram (Meghalaya)",
         text: "Holds the record for the highest rainfall. Surrounded by green hills and caves."
       },
       {
         id: 7,
-        img: banner7,
+        img: assam7,
         title: "Nohkalikai Falls (Meghalaya)",
         text: "India’s tallest plunge waterfall. Offers a breathtaking view from the cliff."
       },
       {
         id: 8,
-        img: banner1,
+        img: assam8,
         title: "Elephant Falls (Meghalaya)",
         text: "A beautiful waterfall near Shillong city. It has three layers and is easy to visit."
       },
       {
         id: 9,
-        img: banner1,
+        img: assam9,
         title: "Dawki River (Meghalaya)",
         text: "A crystal-clear river between India and Bangladesh. You can see boats floating like they are flying."
       }
@@ -2163,13 +2365,16 @@ whychoose:{
     title: "Darjeeling Gangtok Tour",
     category: "domestic",
     desc: "Discover the best of Sikkim and West Bengal. Marvel at Himalayan views, monasteries, and vibrant culture. Visit Tsomgo Lake, Rumtek Monastery, and Darjeeling’s tea gardens. This twin-city tour offers a peaceful and refreshing Himalayan escape.",
-    img: darjeeling1,
+    img: sikkimdarjeeling1,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+      { id: 1, img: sikkimdarjeeling2 },
+      { id: 2, img: sikkimdarjeeling12 },
+      { id: 3, img: sikkimdarjeeling13 },
+      { id: 4, img: sikkimdarjeeling14 },
+      { id: 5, img: sikkimdarjeeling15 },
+      { id: 6, img: sikkimdarjeeling16 }
+,     { id: 7, img: sikkimdarjeeling17 }
+
     ],
     highlight: [
       {
@@ -2308,52 +2513,70 @@ whychoose:{
       ]
     },
     topAttraction: [
-      {
-        id: 1,
-        title: "Tiger Hill (Darjeeling)",
-        desc: "Catch a magical sunrise over Kanchenjunga. It’s the most famous viewpoint in Darjeeling."
-      },
-      {
-        id: 2,
-        title: "Batasia Loop (Darjeeling)",
-        desc: "A unique railway loop with a garden. Watch the toy train curve around beautifully."
-      },
-      {
-        id: 3,
-        title: "Peace Pagoda (Darjeeling)",
-        desc: "A calm place that spreads peace and love. Offers wide views of the hills and town."
-      },
-      {
-        id: 4,
-        title: "Gangtok Ropeway (Gangtok)",
-        desc: "A thrilling cable car ride above the city. Gives a bird’s-eye view of mountains and houses."
-      },
-      {
-        id: 5,
-        title: "MG Marg (Gangtok)",
-        desc: "A lively street for shopping and cafes. It’s the heart of Gangtok, clean and colorful."
-      },
-      {
-        id: 6,
-        title: "Rumtek Monastery (Gangtok)",
-        desc: "A peaceful and large Tibetan monastery. It holds rare Buddhist scriptures and art."
-      },
-      {
-        id: 7,
-        title: "Tsomgo Lake (Gangtok)",
-        desc: "A frozen lake surrounded by snow-capped peaks. It’s sacred and perfect for photos in winter."
-      },
-      {
-        id: 8,
-        title: "Nathula Pass (Gangtok)",
-        desc: "A high mountain pass near China’s border. Open for tourists on select days with permits."
-      },
-      {
-        id: 9,
-        title: "Hanuman Tok (Gangtok)",
-        desc: "A quiet temple with mountain views. It’s dedicated to Lord Hanuman and is very peaceful."
-      }
-    ]
+          {
+            id: 1,
+            img: sikkimdarjeeling3,
+            title: "Tsongmo Lake (Changu Lake):",
+            text:
+              "Located at an altitude of 3,753 meters, this glacial lake in Sikkim is surrounded by snow-capped mountains and blooms with rhododendrons in spring.​",
+          },
+          {
+            id: 2,
+            img: sikkimdarjeeling4,
+            title: "Nathula Pass:",
+            text:
+              "A historic mountain pass at 4,310 meters connecting India and China, offering panoramic views and a glimpse into Indo-Chinese trade history.​",
+          },
+          {
+            id: 3,
+            img: sikkimdarjeeling5,
+            title: "Rumtek Monastery:",
+            text:
+              "The largest monastery in Sikkim, showcasing exquisite Tibetan architecture and housing sacred relics.​",
+          },
+          {
+            id: 4,
+            img: sikkimdarjeeling6,
+            title: "Darjeeling Himalayan Railway:",
+            text:
+              "Known as the 'Toy Train,' this narrow-gauge railway offers a scenic journey through the hills and has been operational since the 1880s.​",
+          },
+          {
+            id: 5,
+            img: sikkimdarjeeling7,
+            title: "Tiger Hill:",
+            text:
+              "Famous for its spectacular sunrise views over Mount Kanchenjunga and, on clear days, Mount Everest.​",
+          },
+          {
+            id: 6,
+            img: sikkimdarjeeling8,
+            title: "Batasia Loop:",
+            text:
+              "A spiral railway track offering a 360-degree view of Darjeeling's landscape, adorned with a war memorial.​",
+          },
+          {
+            id: 7,
+            img: sikkimdarjeeling9,
+            title: "Pelling:",
+            text:
+              "A charming town in Sikkim offering stunning views of the Himalayas and attractions like the Pemayangtse Monastery.​",
+          },
+          {
+            id: 8,
+            img: sikkimdarjeeling10,
+            title: "Tea Gardens:",
+            text:
+              "Explore the lush tea estates of Darjeeling, renowned worldwide for producing the 'Champagne of Teas.'​",
+          },
+          {
+            id: 9,
+            img: sikkimdarjeeling11,
+            title: "Ghoom Monastery:",
+            text:
+              "One of the oldest Tibetan Buddhist monasteries in Darjeeling, housing a 15-foot-high statue of Maitreya Buddha.​",
+          },
+        ],
   },
   {
     id: 13,
@@ -2362,11 +2585,11 @@ whychoose:{
     desc: "Experience the cultural richness of South India - from scenic beaches to heritage temples. Explore Kerala’s backwaters, Tamil Nadu’s temples, Karnataka’s palaces, and Andhra’s traditions. This journey offers a harmonious blend of nature, spirituality, and regional cuisine.",
     img: kerala1,
     imgs: [
-      { id: 1, img: banner2 },
-      { id: 2, img: banner3 },
-      { id: 3, img: banner4 },
-      { id: 4, img: banner5 },
-      { id: 5, img: banner6 }
+      { id: 1, img: kerala1 },
+      { id: 2, img: kerala2 },
+      { id: 3, img: kerala3 },
+      { id: 4, img: kerala4 },
+      { id: 5, img: kerala5 }
     ],
     highlight: [
       {
@@ -2524,62 +2747,62 @@ whychoose:{
         }
       ]
     },
-    topattract: [
+   topattract: [
       {
         id: 1,
-        img: banner1,
+        img: southindia1,
         title: "Mysore Palace (Karnataka)",
         text: "A grand royal palace with golden domes. Lit up beautifully at night and during festivals."
       },
       {
         id: 2,
-        img: banner2,
+        img: southindia2,
         title: "Coorg (Karnataka)",
         text: "A hill station with coffee plantations. It’s perfect for nature, trekking, and peace."
       },
       {
         id: 3,
-        img: banner3,
+        img: southindia3,
         title: "Ooty (Tamil Nadu)",
         text: "A cool hill town with gardens and lakes. You can ride the famous Nilgiri Toy Train."
       },
       {
         id: 4,
-        img: banner4,
+        img: southindia4,
         title: "Madurai Meenakshi Temple (Tamil Nadu)",
         text: "Colorful towers full of stories and gods. It’s a major temple for Tamil culture."
       },
       {
         id: 5,
-        img: banner5,
+        img: southindia5,
         title: "Kanyakumari (Tamil Nadu)",
         text: "The southern tip where three seas meet. See sunrise, sunset, and Vivekananda Rock."
       },
       {
         id: 6,
-        img: banner6,
+        img: southindia10,
         title: "Alleppey (Kerala)",
         text: "Take a calm boat ride through green backwaters. It’s famous for houseboats and village life."
       },
       {
         id: 7,
-        img: banner3,
+        img: southindia7,
         title: "Munnar (Kerala)",
         text: "Rolling tea gardens and cool air. Great for walks and beautiful scenery."
       },
       {
         id: 8,
-        img: banner2,
+        img: southindia8,
         title: "Wayanad (Kerala)",
         text: "A peaceful green district with waterfalls. Ideal for forest treks and staying in nature."
       },
       {
         id: 9,
-        img: banner1,
+        img: southindia9,
         title: "Hampi (Karnataka)",
         text: "Ruins of a mighty ancient kingdom. Stones, temples, and history come alive here."
       }
-    ]
+    ],
   },
 ],
 international:[
@@ -2590,11 +2813,14 @@ international:[
         desc: "Experience the charm of Vietnam with a blend of culture, history, and natural beauty. From the vibrant streets of Hanoi to the pristine beaches of Phu Quoc, this tour takes you through iconic landscapes, ancient villages, and local cuisine.",
         img: vietnam1,
         imgs: [
-          { id: 1, img: banner2 },
-          { id: 2, img: banner3 },
-          { id: 3, img: banner4 },
-          { id: 4, img: banner5 },
-          { id: 5, img: banner6 }
+          { id: 1, img: vietnam2 },
+          { id: 2, img: vietnam13 },
+          { id: 3, img: vietnam14 },
+          { id: 4, img: vietnam15 },
+          { id: 5, img: vietnam16 }
+          ,          { id: 6, img: vietnam12 }
+,          { id: 7, img: vietnam17 }
+
         ],
         highlight: [
           {
@@ -2711,25 +2937,68 @@ international:[
         topAttraction: [
           {
             id: 1,
-            title: "Ha Long Bay",
-            desc: "A UNESCO World Heritage site famous for its emerald waters and towering limestone islands."
+            img: vietnam3,
+            title: "Halong Bay",
+            text:
+              "A UNESCO World Heritage site famous for its limestone cliffs and emerald waters.",
           },
           {
             id: 2,
+            img: vietnam4,
             title: "Hanoi Old Quarter",
-            desc: "The historic heart of Hanoi, known for its vibrant markets, narrow streets, and rich culture."
+            text:
+              "A historic district with lively streets, markets, and cultural charm.",
           },
           {
             id: 3,
-            title: "Phu Quoc Island",
-            desc: "A tropical paradise with pristine beaches, clear waters, and vibrant nightlife."
+            img: vietnam5,
+            title: "Hoi An Ancient Town",
+            text:
+              "A lantern-lit town known for its preserved architecture and riverside views.",
           },
           {
             id: 4,
+            img: vietnam6,
             title: "Cu Chi Tunnels",
-            desc: "A complex network of tunnels used during the Vietnam War, now open for exploration."
-          }
-        ]
+            text:
+              "A network of underground tunnels showcasing Vietnam’s war history.",
+          },
+          {
+            id: 5,
+            img: vietnam7,
+            title: "Da Nang & Golden Bridge",
+            text:
+              "A scenic coastal city with the stunning Golden Hands Bridge.",
+          },
+          {
+            id: 6,
+            img: vietnam8,
+            title: "Phu Quoc Island",
+            text:
+              "A tropical retreat with white sand beaches and crystal-clear waters.",
+          },
+          {
+            id: 7,
+            img: vietnam9,
+            title: "Mekong Delta",
+            text:
+              "A lush river region with floating villages and traditional Vietnamese life.",
+          },
+          {
+            id: 8,
+            img: vietnam10,
+            title: "Ba Na Hills",
+            text:
+              "A breathtaking hill station with European-style architecture and landscapes.",
+          },
+          {
+            id: 9,
+            img: vietnam11,
+            title: "Sapa Rice Terraces",
+            text:
+              "Rolling rice fields that create stunning natural scenery in the mountains.",
+          },
+        ],
       }, 
       {
         id: 2,
@@ -2738,11 +3007,11 @@ international:[
         desc: "Unveil the magical beauty of Bali with its lush rice terraces, vibrant culture, and stunning beaches. Visit ancient temples, indulge in spa retreats, and enjoy thrilling adventures like surfing and hiking.",
         img:bali1, // replace with actual banner image variable
         imgs: [
-          { id: 1, img:banner2 },
-          { id: 2, img:banner3 },
-          { id: 3, img:banner4 },
-          { id: 4, img:banner5 },
-          { id: 5, img:banner6 }
+          { id: 1, img:bali2 },
+          { id: 2, img:bali13 },
+          { id: 3, img:bali12 },
+          { id: 4, img:bali14 },
+          { id: 5, img:bali15 }
         ],
         highlight: [
           {
@@ -2866,52 +3135,16 @@ international:[
           ]
         },
         topAttraction: [
-          {
-            id: 1,
-            title: "Ubud Rice Terraces",
-            desc: "Green, stepped fields that look like art. Perfect for photos and peaceful walks."
-          },
-          {
-            id: 2,
-            title: "Tanah Lot Temple",
-            desc: "A sea temple on a rock by the waves. Best visited during sunset hours."
-          },
-          {
-            id: 3,
-            title: "Tegallalang Swing",
-            desc: "Swing high over forests and fields. A fun and scenic Bali experience."
-          },
-          {
-            id: 4,
-            title: "Kuta Beach",
-            desc: "A popular beach for surfing and fun. Great for shopping, food, and sunsets."
-          },
-          {
-            id: 5,
-            title: "Uluwatu Temple",
-            desc: "A cliffside temple with ocean views. Watch the famous Kecak fire dance here."
-          },
-          {
-            id: 6,
-            title: "Mount Batur Sunrise Trek",
-            desc: "Climb early for sunrise on a volcano. See the sky light up above the clouds."
-          },
-          {
-            id: 7,
-            title: "Tirta Empul Temple",
-            desc: "A holy water temple for blessings. Locals and visitors bathe in sacred springs."
-          },
-          {
-            id: 8,
-            title: "Nusa Penida Island",
-            desc: "A small island with stunning beaches. Visit Broken Beach and Kelingking Cliff."
-          },
-          {
-            id: 9,
-            title: "Seminyak",
-            desc: "Trendy cafes, luxury spas, and shopping. It’s Bali’s stylish and relaxing spot."
-          }
-        ]
+          { id: 1, img: bali3, title: "Uluwatu Temple", text: "Perched on a cliff with the Indian Ocean below, this temple offers mesmerizing sunsets. Don’t miss the traditional Kecak fire dance at dusk." },
+          { id: 2, img: bali4, title: "Tegallalang Rice Terraces", text: "Lush green landscapes with beautifully stepped rice paddies. A perfect spot for photos and peaceful walks in nature." },
+          { id: 3, img: bali5, title: "Ubud Monkey Forest", text: "A mystical forest sanctuary with ancient temples and curious monkeys. It’s a serene and slightly wild experience in the heart of Ubud." },
+          { id: 4, img: bali6, title: "Mount Batur", text: "Hike to the summit before dawn for unforgettable sunrise views. The volcanic crater and nearby lake add to the adventure." },
+          { id: 5, img: bali7, title: "Seminyak & Kuta Beaches", text: "Vibrant, sandy shores perfect for surfing, sunbathing, and nightlife. Great for beginners and beach party lovers alike." },
+          { id: 6, img: bali8, title: "Tanah Lot Temple", text: "One of Bali’s most iconic sea temples, set on a rock offshore. Best visited during low tide and at sunset for epic views." },
+          { id: 7, img: bali9, title: "Ulun Danu Beratan Temple", text: "A picturesque water temple that appears to float on Lake Beratan. Surrounded by mountains, it offers tranquility and postcard-worthy scenery." },
+          { id: 8, img: bali10, title: "Bali Safari and Marine Park", text: "An exciting day out with wildlife, cultural performances, and safari rides. Perfect for families and animal lovers." },
+          { id: 9, img: bali11, title: "Lempuyang Temple (Gates of Heaven)", text: "Capture that iconic Instagram shot between the temple gates with Mount Agung in the background. Spiritual, scenic, and awe-inspiring." },
+        ],
       },  
       {
         id: 3,
@@ -2920,11 +3153,13 @@ international:[
         desc: "Discover Turkey’s rich history, stunning landscapes, and lively bazaars. Visit Istanbul’s majestic mosques, explore the fairy chimneys of Cappadocia, and relax along the Turquoise Coast. From ancient ruins to vibrant street life, the Best of Turkey tour offers an extraordinary blend of the old and the new.",
         img: turkey1, // Replace with actual image
         imgs: [
-          { id: 1, img: banner2 },
-          { id: 2, img: banner3 },
-          { id: 3, img: banner4 },
-          { id: 4, img: banner5 },
-          { id: 5, img: banner6 }
+          { id: 1, img: turkey2 },
+          { id: 2, img: turkey13 },
+          { id: 3, img: turkey14 },
+          { id: 4, img: turkey15 },
+          { id: 5, img: turkey16 },
+          { id: 6, img: turkey17 }
+,         { id: 7, img: turkey12 }
         ],
         highlight: [
           { id: 1, text: "Discover Istanbul’s grand Hagia Sophia, Blue Mosque, and bustling Grand Bazaar filled with local treasures." },
@@ -3008,16 +3243,16 @@ international:[
           ]
         },
         topAttraction: [
-          { id: 1, title: "Hagia Sophia (Istanbul)", desc: "Once a church, now a mosque and museum—rich in art and history." },
-          { id: 2, title: "Blue Mosque (Istanbul)", desc: "Renowned for its blue tiles and domes, offering a serene spiritual experience." },
-          { id: 3, title: "Grand Bazaar (Istanbul)", desc: "One of the world's oldest markets—ideal for shopping Turkish carpets, lamps, and spices." },
-          { id: 4, title: "Cappadocia Hot Air Balloons", desc: "Soar above otherworldly landscapes in a magical sunrise balloon ride." },
-          { id: 5, title: "Pamukkale Thermal Pools", desc: "Natural limestone terraces filled with warm spring water—ancient spa retreat." },
-          { id: 6, title: "Ephesus Ruins", desc: "Explore Roman temples, theaters, and one of the best-preserved classical cities." },
-          { id: 7, title: "Topkapi Palace (Istanbul)", desc: "The opulent residence of Ottoman sultans, featuring relics and royal treasures." },
-          { id: 8, title: "Antalya Beaches", desc: "Crystal-clear waters and sunny shores—perfect for swimming and relaxation." },
-          { id: 9, title: "Bosporus Cruise", desc: "Cruise between Europe and Asia while viewing Istanbul’s iconic landmarks." }
-        ]
+                  { id: 1, img: turkey3, title: "Hagia Sophia, Istanbul", text: "This architectural wonder has served as a cathedral, mosque, and now a museum. Its majestic dome and mosaics reflect centuries of history." },
+                  { id: 2, img: turkey4, title: "Cappadocia", text: "A magical region known for its 'fairy chimney' rock formations. Best experienced from above in a hot air balloon ride." },
+                  { id: 3, img: turkey5, title: "Pamukkale", text: "Home to natural white travertine terraces and ancient thermal pools. An extraordinary site with healing waters and surreal beauty." },
+                  { id: 4, img: turkey6, title: "Ephesus", text: "One of the world’s best-preserved ancient Roman cities. Highlights include the Library of Celsus and the Grand Theatre." },
+                  { id: 5, img: turkey7, title: "Blue Mosque, Istanbul", text: "Also known as the Sultan Ahmed Mosque, it's famous for its six minarets and stunning blue Iznik tiles. A functioning mosque and a tourist favorite." },
+                  { id: 6, img: turkey8, title: "Topkapi Palace", text: "Once the home of Ottoman sultans, now a museum showcasing royal artifacts. Offers panoramic views of the Bosphorus." },
+                  { id: 7, img: turkey9, title: "Mount Ararat", text: "Turkey’s highest peak, believed to be the resting place of Noah’s Ark. A haven for trekking enthusiasts and spiritual seekers." },
+                  { id: 8, img: turkey10, title: "Antalya’s Old Town (Kaleiçi)", text: "A charming blend of Roman, Byzantine, and Ottoman architecture. Its cobbled streets and harbor views offer old-world charm." },
+                  { id: 9, img: turkey11, title: "Troy (Truva)", text: "Famous for its role in the epic Trojan War. Visitors can explore ruins and see a replica of the legendary wooden horse." },
+                ],
       },
       {
         id: 4,
@@ -3027,10 +3262,12 @@ international:[
         img: srilanka1,
         imgs: [
           { id: 1, img: srilanka2 },
-          { id: 2, img: srilanka3 },
-          { id: 3, img: banner3 },
-          { id: 4, img: banner4 },
-          { id: 5, img: banner5 }
+          { id: 2, img: srilanka12 },
+          { id: 3, img: srilanka13 },
+          { id: 4, img: srilanka14 },
+          { id: 5, img: srilanka15 },
+          { id: 6, img: srilanka16 },
+          { id: 7, img: srilanka17 },
         ],
         highlight: [
           { id: 1, text: "Ride the scenic train from Kandy to Ella through misty hills and tea plantations." },
@@ -3152,59 +3389,64 @@ international:[
         topattract: [
           {
             id: 1,
-            img: banner1,
+            img: srilanka3,
             title: "Sigiriya Rock Fortress",
-            text: "Climb a giant rock to see ancient ruins. The view from the top is breathtaking."
+            text:
+              "An ancient UNESCO-listed rock fortress with breathtaking views.",
           },
           {
             id: 2,
-            img: banner2,
-            title: "Kandy Temple of the Tooth",
-            text: "A sacred temple housing Buddha’s relic. Peaceful and rich in history."
+            img: srilanka4,
+            title: "Ella",
+            text:
+              "A hill town known for scenic train rides, hiking, and lush tea plantations.",
           },
           {
             id: 3,
-            img: banner3,
-            title: "Ella Train Ride",
-            text: "Ride through hills, tea gardens, and tunnels. One of the most scenic train journeys in the world."
+            img: srilanka5,
+            title: "Temple of the Tooth Relic, Kandy",
+            text: "A sacred Buddhist site housing Buddha’s tooth relic.",
           },
           {
             id: 4,
-            img: banner4,
+            img: srilanka6,
             title: "Galle Fort",
-            text: "A Dutch-era fort with ocean views, quaint streets, and colonial charm."
+            text:
+              "A colonial-era fort with European-style architecture and coastal charm.",
           },
           {
             id: 5,
-            img: banner5,
-            title: "Nuwara Eliya",
-            text: "Cool weather, tea plantations, and English-style gardens. Nicknamed 'Little England'."
+            img: srilanka7,
+            title: "Yala National Park",
+            text: "Home to leopards, elephants, and diverse wildlife.",
           },
           {
             id: 6,
-            img: banner1,
-            title: "Yala National Park",
-            text: "Home to leopards, elephants, and exotic birds. Go on a thrilling jeep safari."
+            img: srilanka8,
+            title: "Nuwara Eliya",
+            text: "A peaceful town known for its tea gardens and cool climate.",
           },
           {
             id: 7,
-            img: banner2,
-            title: "Dambulla Cave Temple",
-            text: "Colorful Buddha statues and murals inside a rock temple. A peaceful, spiritual experience."
+            img: srilanka9,
+            title: "Mirissa Beach",
+            text:
+              "A tropical beach paradise perfect for whale watching and relaxation.",
           },
           {
             id: 8,
-            img: banner3,
-            title: "Mirissa Beach",
-            text: "Golden sand and turquoise water. A hotspot for whale-watching and relaxing."
+            img: srilanka10,
+            title: "Dambulla Cave Temple",
+            text:
+              "A historic cave temple with intricate Buddhist murals and statues.",
           },
           {
             id: 9,
-            img: banner4,
-            title: "Anuradhapura Ruins",
-            text: "An ancient Buddhist city with massive stupas and heritage monuments."
-          }
-        ]
+            img: srilanka11,
+            title: "Adam’s Peak",
+            text: "A sacred mountain trek with stunning sunrise views.",
+          },
+        ],
       },
       {
         id: 5,
@@ -3214,10 +3456,13 @@ international:[
         img: greece1,
         imgs: [
           { id: 1, img: greece2 },
-          { id: 2, img: banner2 },
-          { id: 3, img: banner3 },
-          { id: 4, img: banner4 },
-          { id: 5, img: banner5 }
+          { id: 2, img: greece12 },
+          { id: 3, img: greece13 },
+          { id: 4, img: greece14 },
+          { id: 5, img: greece15 },
+          { id: 6, img: greece16 },
+          { id: 7, img: greece17 },
+
         ],
         highlight: [
           { id: 1, text: "Wander through ancient Athens, visiting the Acropolis and charming Plaka neighborhood." },
@@ -3332,62 +3577,17 @@ international:[
             }
           ]
         },
-        topattract: [
-          {
-            id: 1,
-            img: banner1,
-            title: "Acropolis of Athens",
-            text: "Walk through the ruins of the ancient citadel and marvel at the Parthenon."
-          },
-          {
-            id: 2,
-            img: banner2,
-            title: "Santorini Sunset",
-            text: "Watch a magical sunset from the cliffside village of Oia."
-          },
-          {
-            id: 3,
-            img: banner3,
-            title: "Mykonos Windmills",
-            text: "Iconic white windmills overlooking the sea – perfect for photos."
-          },
-          {
-            id: 4,
-            img: banner4,
-            title: "Delphi Archaeological Site",
-            text: "Explore the ancient sanctuary that was once the center of the Greek world."
-          },
-          {
-            id: 5,
-            img: banner5,
-            title: "Black Sand Beaches",
-            text: "Relax on Santorini’s unique volcanic beaches with stunning views."
-          },
-          {
-            id: 6,
-            img: banner1,
-            title: "Plaka District",
-            text: "A charming old neighborhood in Athens filled with cafes and shops."
-          },
-          {
-            id: 7,
-            img: banner2,
-            title: "Volcano & Hot Springs Cruise",
-            text: "Sail around the caldera and swim in natural hot springs."
-          },
-          {
-            id: 8,
-            img: banner3,
-            title: "Greek Tavern Night",
-            text: "Enjoy live music, traditional dance, and delicious Greek food."
-          },
-          {
-            id: 9,
-            img: banner4,
-            title: "National Archaeological Museum",
-            text: "See some of the most significant artifacts from Greek history."
-          }
-        ]
+        topattract:[
+          { id: 1, img: greece3, title: "Acropolis of Athens", text: "An ancient citadel stands tall over Athens, showcasing the Parthenon and other historical treasures. A must-visit for its rich history and stunning views of the city." },
+          { id: 2, img: greece4, title: "Santorini", text: "Famous for its cliff-side white buildings and blue-domed churches. Enjoy world-famous sunsets, volcanic beaches, and romantic charm." },
+          { id: 3, img: greece5, title: "Delphi", text: "Once believed to be the center of the ancient world, Delphi offers sacred ruins and mystical legends. The Temple of Apollo and the mountain views are unforgettable." },
+          { id: 4, img: greece6, title: "Meteora Monasteries", text: "These historic monasteries are built atop sky-high rock formations. A spiritual and scenic wonder that leaves visitors in awe." },
+          { id: 5, img: greece7, title: "Crete", text: "Greece’s largest island is full of diverse landscapes and ancient stories. Discover beaches, mountains, and the ruins of the Minoan civilization." },
+          { id: 6, img: greece8, title: "Rhodes Old Town", text: "A medieval city surrounded by ancient walls and cobbled streets. Wander through palaces, old churches, and the Street of the Knights." },
+          { id: 7, img: greece9, title: "Mykonos Windmills", text: "Iconic white windmills overlooking the Aegean Sea. A picturesque highlight in the lively island of Mykonos." },
+          { id: 8, img: greece10, title: "Corfu Town", text: "A charming mix of Venetian, French, and British influences. Explore narrow alleys, colorful buildings, and seaside cafes." },
+          { id: 9, img: greece11, title: "Mount Olympus", text: "The legendary home of the Greek gods. Perfect for hiking, myth lovers, and scenic nature views." },
+        ],
       },
       {
         id: 6,
@@ -3396,11 +3596,14 @@ international:[
         desc: "Experience the perfect harmony of tradition and innovation in Japan. From the historic temples of Kyoto to the dazzling lights of Tokyo, every city offers a unique story. Witness cherry blossoms, savor authentic sushi, and enjoy seamless travel on bullet trains during your unforgettable Mesmerizing Japan adventure.",
         img: japan2,
         imgs: [
-          { id: 1, img: banner1 },
-          { id: 2, img: banner2 },
-          { id: 3, img: banner3 },
-          { id: 4, img: banner4 },
-          { id: 5, img: banner5 }
+          { id: 1, img: japan1 },
+          { id: 2, img: japan12 },
+          { id: 3, img: japan13 },
+          { id: 4, img: japan14 },
+          { id: 5, img: japan15 },
+          { id: 6, img: japan16 },
+          { id: 7, img: japan17 },
+
         ],
         highlight: [
           { id: 1, text: "Witness cherry blossom festivals in Kyoto’s temples and parks during springtime magic." },
@@ -3527,59 +3730,68 @@ international:[
         topattract: [
           {
             id: 1,
-            img: banner1,
-            title: "Mount Fuji",
-            text: "Japan’s most famous volcano. Great for climbing or just viewing."
+            img: japan3,
+            title: "Tokyo Tower",
+            text:
+              "Inspired by the Eiffel Tower, Tokyo Tower offers panoramic views of the bustling metropolis.",
           },
           {
             id: 2,
-            img: banner2,
-            title: "Tokyo Tower",
-            text: "A red tower offering city views. Visit for photos and lights at night."
+            img: japan4,
+            title: "Senso-ji Temple",
+            text:
+              "Tokyo’s oldest temple, located in Asakusa, is known for its vibrant shopping street, Nakamise-dori.",
           },
           {
             id: 3,
-            img: banner3,
-            title: "Kyoto Temples",
-            text: "See golden pavilions and Zen gardens. It’s a calm place with tradition."
+            img: japan5,
+            title: "Shibuya Crossing",
+            text:
+              "It is one of the busiest pedestrian crossings in the world and is a symbol of Tokyo's energy.",
           },
           {
             id: 4,
-            img: banner4,
-            title: "Cherry Blossom Parks",
-            text: "Pink flowers bloom in spring. Enjoy hanami (flower viewing) with locals."
+            img: japan6,
+            title: "Tokyo Skytree",
+            text:
+              "The tallest tower in Japan, with observation decks offering views of Mount Fuji on clear days.",
           },
           {
             id: 5,
-            img: banner5,
-            title: "Osaka Castle",
-            text: "A beautiful castle with gardens. Learn about Japan’s samurai history."
+            img: japan7,
+            title: "Meiji Shrine",
+            text:
+              "A peaceful forested area and spiritual haven in the heart of the city.",
           },
           {
             id: 6,
-            img: banner1,
-            title: "Nara Deer Park",
-            text: "Friendly deer walk around freely. You can feed them special biscuits."
+            img: japan8,
+            title: "Ginza District",
+            text:
+              "Tokyo’s upscale shopping and entertainment hub with luxury stores and gourmet dining.",
           },
           {
             id: 7,
-            img: banner2,
-            title: "Shibuya Crossing (Tokyo)",
-            text: "The world’s busiest pedestrian street. Cross with hundreds at once!"
+            img: japan9,
+            title: "Odaiba",
+            text:
+              "A futuristic island offering shopping malls, attractions, and views of Rainbow Bridge.",
           },
           {
             id: 8,
-            img: banner3,
-            title: "Hiroshima Peace Park",
-            text: "Remember the past and hope for peace. See the Atomic Dome and the museum."
+            img: japan10,
+            title: "Akihabara",
+            text:
+              "Heaven for tech and anime lovers, with countless stores dedicated to electronics, manga, and games.",
           },
           {
             id: 9,
-            img: banner4,
-            title: "Arashiyama Bamboo Grove",
-            text: "Tall bamboo trees form a green tunnel. A peaceful walk in nature."
-          }
-        ]
+            img: japan11,
+            title: "Tsukiji Outer Market",
+            text:
+              "Famous for fresh seafood, sushi, and traditional Japanese street food.",
+          },
+        ],
       },
       {
         id: 7,
@@ -3588,11 +3800,14 @@ international:[
         desc: "Dive into Thailand’s vibrant culture, beautiful beaches, and bustling cities. Explore Bangkok’s temples, relax in Phuket, and discover Chiang Mai’s rich heritage. From street food feasts to tropical island escapes, the Thailand Tour delivers endless excitement, relaxation, and cultural experiences in one colorful, unforgettable journey.",
         img: thailand3,
         imgs: [
-          { id: 1, img: banner1 },
-          { id: 2, img: banner2 },
-          { id: 3, img: banner3 },
-          { id: 4, img: banner4 },
-          { id: 5, img: banner5 }
+          { id: 1, img: thailand1 },
+          { id: 2, img: thailand2 },
+          { id: 3, img: thailand12 },
+          { id: 4, img: thailand13 },
+          { id: 5, img: thailand14 },
+                    { id: 6, img: thailand15 },
+                              { id: 7, img: thailand16 },
+          { id: 8, img: thailand17 }
         ],
         highlight: [
           { id: 1, text: "Visit Bangkok’s ornate Grand Palace and experience vibrant street life and floating markets." },
@@ -3704,59 +3919,66 @@ international:[
         topattract: [
           {
             id: 1,
-            img: banner1,
-            title: "Grand Palace (Bangkok)",
-            text: "A royal palace with golden halls. Full of Thai culture and history."
+            img: thailand3,
+            title: "The Bangkok Grand Palace",
+            text:
+              "A majestic complex showcasing Thai royal heritage and stunning architecture.",
           },
           {
             id: 2,
-            img: banner2,
-            title: "Wat Arun (Bangkok)",
-            text: "A tall temple by the river. Climb for views and take photos."
+            img: thailand4,
+            title: "Phuket & Phi Phi Islands",
+            text:
+              "Famous for turquoise waters, beaches, and island-hopping adventures.",
           },
           {
             id: 3,
-            img: banner3,
-            title: "Phuket Beaches",
-            text: "Sunny beaches with clear blue water. Great for swimming, sunbathing, and fun."
+            img: thailand5,
+            title: "Chiang Mai’s Temples",
+            text:
+              "An ancient city with impressive Buddhist temples and rich traditions.",
           },
           {
             id: 4,
-            img: banner4,
-            title: "Phi Phi Islands",
-            text: "Famous for their beauty and boat tours. Snorkel, dive, or relax on white sand."
+            img: thailand6,
+            title: "Ayutthaya Historical Park",
+            text:
+              "A UNESCO World Heritage site featuring ancient ruins of Thailand’s old capital.",
           },
           {
             id: 5,
-            img: banner5,
-            title: "Chiang Mai Temples",
-            text: "Peaceful temples in the north hills. See monks and learn meditation."
+            img: thailand7,
+            title: "Floating Markets",
+            text:
+              "Colorful markets where locals sell goods from boats on the rivers.",
           },
           {
             id: 6,
-            img: banner1,
-            title: "Floating Markets",
-            text: "Buy fruits and snacks from boats. A colorful and tasty experience."
+            img: thailand8,
+            title: "Railay Beach",
+            text:
+              "A breathtaking coastal gem known for rock climbing and crystal-clear waters.",
           },
           {
             id: 7,
-            img: banner2,
-            title: "Ayutthaya Ruins",
-            text: "Old temples from Thailand’s past. Take a bike ride through history."
+            img: thailand9,
+            title: "Chatuchak Market",
+            text:
+              "One of the world’s largest street markets offering food, crafts, and fashion.",
           },
           {
             id: 8,
-            img: banner3,
-            title: "Pattaya Nightlife",
-            text: "Enjoy shows, food, and music at night. A fun spot for tourists."
+            img: thailand10,
+            title: "Sukhothai Historical Park",
+            text: "A scenic park filled with ancient Thai ruins and temples.",
           },
           {
             id: 9,
-            img: banner4,
-            title: "Elephant Sanctuaries",
-            text: "Meet and help rescued elephants. No riding, only kindness and care."
-          }
-        ]
+            img: thailand11,
+            title: "Damnoen Saduak Floating Market",
+            text: "A lively water market showcasing Thai traditions.",
+          },
+        ],
       },
       {
         id: 8,
@@ -3765,11 +3987,15 @@ international:[
         desc: "Discover the grandeur of Dubai, a city of futuristic skylines, luxurious malls, and desert adventures. Visit the Burj Khalifa, shop in traditional souks, and enjoy thrilling dune bashing. With its blend of modern marvels and Arabian charm, the Dubai Tour offers an unforgettable, glittering experience.",
         img: dubai2,
         imgs: [
-          { id: 1, img: banner1 },
-          { id: 2, img: banner2 },
-          { id: 3, img: banner3 },
-          { id: 4, img: banner4 },
-          { id: 5, img: banner5 }
+          { id: 1, img: dubai1 },
+          { id: 2, img: dubai2 },
+          { id: 3, img: dubai12 },
+          { id: 4, img: dubai13 },
+          { id: 5, img: dubai14 },
+          { id: 6, img: dubai15 },
+          { id: 7, img: dubai16 },
+          { id: 8, img: dubai17 },
+
         ],
         highlight: [
           { id: 1, text: "Visit the iconic Burj Khalifa and enjoy panoramic city views from the observation deck." },
@@ -3839,17 +4065,17 @@ international:[
             { id: 4, heading: "Premium Accommodation", para: "Premium accommodation options tailored to your style and budget." }
           ]
         },
-        topattract: [
-          { id: 1, img: banner1, title: "Burj Khalifa", text: "The tallest building in the world. View the city from the top floor." },
-          { id: 2, img: banner2, title: "Dubai Mall", text: "A huge mall with shops, an ice rink, and an aquarium. Fun for shopping and family visits." },
-          { id: 3, img: banner3, title: "Desert Safari", text: "Ride over dunes in a jeep. Enjoy camel rides and a BBQ dinner." },
-          { id: 4, img: banner4, title: "Palm Jumeirah", text: "An island shaped like a palm tree. See luxury hotels and beaches." },
-          { id: 5, img: banner5, title: "Dubai Fountain Show", text: "Water dances with lights and music. It’s right next to the Burj Khalifa." },
-          { id: 6, img: banner1, title: "Dubai Marina", text: "A modern area with tall towers and boats. Great for evening walks and food." },
-          { id: 7, img: banner2, title: "Jumeirah Mosque", text: "A beautiful white mosque open to all. Learn about Islamic culture and architecture." },
-          { id: 8, img: banner3, title: "Global Village", text: "See cultures from around the world. Buy food and crafts from many countries." },
-          { id: 9, img: banner4, title: "Museum of the Future", text: "A new building with amazing design. Shows how life might be in the future." }
-        ]
+        topattract:  [
+          { id: 1, img: dubai3, title: "Burj Khalifa", text: "The world’s tallest building offers unmatched views from its observation decks. It's an architectural marvel and a symbol of Dubai's ambition." },
+          { id: 2, img: dubai4, title: "Dubai Mall", text: "More than just shopping, this mega mall features an aquarium, ice rink, VR Park, and endless entertainment options." },
+          { id: 3, img: dubai5, title: "Desert Safari", text: "Experience dune bashing, camel rides, and a traditional Bedouin-style camp complete with belly dancing and Arabian cuisine." },
+          { id: 4, img: dubai6, title: "Palm Jumeirah", text: "A man-made island shaped like a palm tree, home to luxury hotels, private residences, and waterfront attractions." },
+          { id: 5, img: dubai7, title: "Dubai Fountain", text: "Located at the base of Burj Khalifa, this choreographed fountain show is a mesmerizing blend of water, music, and lights." },
+          { id: 6, img: dubai8, title: "Dubai Marina", text: "A modern waterfront district perfect for yacht cruises, dining, and high-rise views." },
+          { id: 7, img: dubai9, title: "Global Village", text: "An outdoor cultural and entertainment destination featuring pavilions from around the world, food, shopping, and live shows." },
+          { id: 8, img: dubai10, title: "Al Fahidi Historical District", text: "Discover Dubai's roots with preserved buildings, museums, and art galleries in this charming heritage neighborhood." },
+          { id: 9, img: dubai11, title: "Ain Dubai", text: "The world’s tallest observation wheel is on Bluewaters Island, offering incredible panoramic views of the city and sea." },
+        ],
       },
       {
         id: 9,
@@ -3858,11 +4084,15 @@ international:[
         desc: "Uncover Singapore’s charm with its stunning gardens, futuristic architecture, and multicultural neighborhoods. Wander through Marina Bay Sands, explore vibrant Little India and Chinatown, and enjoy the thrills at Sentosa Island. The Singapore Tour perfectly blends urban sophistication, cultural heritage, and green innovation into one seamless experience.",
         img: singapore3,
         imgs: [
-          { id: 1, img: banner1 },
-          { id: 2, img: banner2 },
-          { id: 3, img: banner3 },
-          { id: 4, img: banner4 },
-          { id: 5, img: banner5 }
+          { id: 1, img: singapore1 },
+          { id: 2, img: singapore2 },
+          { id: 3, img: singapore12 },
+          { id: 4, img: singapore13 },
+          { id: 5, img: singapore14 },
+          { id: 6, img: singapore15 },
+          { id: 7, img: singapore16 },
+          { id: 8, img: singapore17 },
+
         ],
         highlight: [
           { id: 1, text: "Explore the futuristic Gardens by the Bay, featuring Supertree Grove and Cloud Forest." },
@@ -3954,16 +4184,70 @@ international:[
           ]
         },
         topattract: [
-          { id: 1, img: banner1, title: "Marina Bay Sands", text: "An iconic hotel with a rooftop pool. Great city views and photo spots." },
-          { id: 2, img: banner2, title: "Gardens by the Bay", text: "Huge tree-shaped structures that glow at night. See nature and art come together." },
-          { id: 3, img: banner3, title: "Sentosa Island", text: "An island for fun and relaxation. Visit beaches, resorts, and theme parks." },
-          { id: 4, img: banner4, title: "Merlion Park", text: "A lionfish statue by the sea. It’s a famous symbol of Singapore." },
-          { id: 5, img: banner5, title: "Singapore Zoo", text: "Open-air zoo with animal shows. Great for families and kids." },
-          { id: 6, img: banner1, title: "Universal Studios Singapore", text: "Enjoy rides, shows, and movie fun. Located on Sentosa Island." },
-          { id: 7, img: banner2, title: "Chinatown", text: "Colorful streets with food and temples. Shop for souvenirs and try local snacks." },
-          { id: 8, img: banner3, title: "Little India", text: "Bright shops, spices, and Indian culture. Visit temples and enjoy tasty meals." },
-          { id: 9, img: banner4, title: "Singapore Flyer", text: "A giant wheel with city views. See Singapore from the sky." }
-        ]
+          {
+            id: 1,
+            img: singapore3,
+            title: "Marina Bay Sands",
+            text:
+              "A world-famous hotel and observation deck offering breathtaking city views.",
+          },
+          {
+            id: 2,
+            img: singapore4,
+            title: "Gardens by the Bay",
+            text:
+              "A futuristic nature park with towering Supertrees and mesmerizing light shows.",
+          },
+          {
+            id: 3,
+            img: singapore5,
+            title: "Sentosa Island",
+            text:
+              "A playground of entertainment featuring beaches, resorts, and adventure parks.",
+          },
+          {
+            id: 4,
+            img: singapore6,
+            title: "Universal Studios Singapore",
+            text:
+              "Southeast Asia’s favorite theme park with thrilling rides and attractions.",
+          },
+          {
+            id: 5,
+            img: singapore7,
+            title: "Orchard Road",
+            text:
+              "Singapore’s shopping haven, filled with high-end boutiques and luxury malls.",
+          },
+          {
+            id: 6,
+            img: singapore8,
+            title: "Singapore Flyer",
+            text:
+              "A giant observation wheel with panoramic views of the skyline.",
+          },
+          {
+            id: 7,
+            img: singapore9,
+            title: "Chinatown & Little India",
+            text:
+              "Rich cultural districts offering traditional cuisine and heritage landmarks.",
+          },
+          {
+            id: 8,
+            img: singapore10,
+            title: "Singapore Zoo & Night Safari",
+            text:
+              "One of the world’s best wildlife experiences, home to exotic animals.",
+          },
+          {
+            id: 9,
+            img: singapore11,
+            title: "Clarke Quay",
+            text:
+              "The vibrant riverside destination for nightlife, dining, and boat cruises.",
+          },
+        ],
       },  
 ]
 }

@@ -64,23 +64,21 @@ import andman16 from "@/assets/andman/16.webp";
 import andman17 from "@/assets/andman/17.webp";
 
 // Assam
-import assam1 from "@/assets/assam/1.jpg";
-// import assam2 from "@/assets/assam/2.jpg";
-// import assam3 from "@/assets/assam/3.jpg";
-// import assam4 from "@/assets/assam/4.jpg";
-// import assam5 from "@/assets/assam/5.jpg";
-// import assam6 from "@/assets/assam/6.jpg";
-// import assam7 from "@/assets/assam/7.jpg";
-// import assam8 from "@/assets/assam/8.jpg";
-// import assam9 from "@/assets/assam/9.jpg";
-// import assam10 from "@/assets/assam/10.jpg";
-// import assam11 from "@/assets/assam/11.jpg";
-// import assam12 from "@/assets/assam/12.jpg";
-// import assam13 from "@/assets/assam/13.jpg";
-// import assam14 from "@/assets/assam/14.jpg";
-// import assam15 from "@/assets/assam/15.jpg";
-// import assam16 from "@/assets/assam/16.jpg";
-// import assam17 from "@/assets/assam/17.jpg";
+import assam1 from "@/assets/assam/1.webp";
+import assam2 from "@/assets/assam/2.webp";
+import assam3 from "@/assets/assam/3.webp";
+import assam4 from "@/assets/assam/4.webp";
+import assam5 from "@/assets/assam/5.webp";
+import assam6 from "@/assets/assam/6.webp";
+import assam7 from "@/assets/assam/7.webp";
+import assam8 from "@/assets/assam/8.webp";
+import assam9 from "@/assets/assam/9.webp";
+import assam10 from "@/assets/assam/10.webp";
+import assam11 from "@/assets/assam/11.webp";
+import assam12 from "@/assets/assam/12.webp";
+import assam13 from "@/assets/assam/13.webp";
+import assam14 from "@/assets/assam/14.webp";
+import assam15 from "@/assets/assam/15.webp";
 
 // Azerbaijan
 import azerbaizan1 from "@/assets/azerbaizan/1.webp";
@@ -159,23 +157,21 @@ import bhutan16 from "@/assets/bhutan/16.webp";
 import bhutan17 from "@/assets/bhutan/17.webp";
 
 // Darjeeling
-import darjeeling1 from "@/assets/darjeeling/1.jpg";
-// import darjeeling2 from "@/assets/darjeeling/2.jpg";
-// import darjeeling3 from "@/assets/darjeeling/3.jpg";
-// import darjeeling4 from "@/assets/darjeeling/4.jpg";
-// import darjeeling5 from "@/assets/darjeeling/5.jpg";
-// import darjeeling6 from "@/assets/darjeeling/6.jpg";
-// import darjeeling7 from "@/assets/darjeeling/7.jpg";
-// import darjeeling8 from "@/assets/darjeeling/8.jpg";
-// import darjeeling9 from "@/assets/darjeeling/9.jpg";
-// import darjeeling10 from "@/assets/darjeeling/10.jpg";
-// import darjeeling11 from "@/assets/darjeeling/11.jpg";
-// import darjeeling12 from "@/assets/darjeeling/12.jpg";
-// import darjeeling13 from "@/assets/darjeeling/13.jpg";
-// import darjeeling14 from "@/assets/darjeeling/14.jpg";
-// import darjeeling15 from "@/assets/darjeeling/15.jpg";
-// import darjeeling16 from "@/assets/darjeeling/16.jpg";
-// import darjeeling17 from "@/assets/darjeeling/17.jpg";
+import darjeeling1 from "@/assets/darjeeling/1.webp";
+import darjeeling2 from "@/assets/darjeeling/2.webp";
+import darjeeling3 from "@/assets/darjeeling/3.webp";
+import darjeeling4 from "@/assets/darjeeling/4.webp";
+import darjeeling5 from "@/assets/darjeeling/5.webp";
+import darjeeling6 from "@/assets/darjeeling/6.webp";
+import darjeeling7 from "@/assets/darjeeling/7.webp";
+import darjeeling8 from "@/assets/darjeeling/8.webp";
+import darjeeling9 from "@/assets/darjeeling/9.webp";
+import darjeeling10 from "@/assets/darjeeling/10.webp";
+import darjeeling11 from "@/assets/darjeeling/11.webp";
+import darjeeling12 from "@/assets/darjeeling/12.webp";
+import darjeeling13 from "@/assets/darjeeling/13.webp";
+import darjeeling14 from "@/assets/darjeeling/14.webp";
+import darjeeling15 from "@/assets/darjeeling/15.webp";
 
 // Dubai
 import dubai1 from "@/assets/dubai/1.webp";
@@ -520,23 +516,21 @@ import sikkimdarjeeling16 from "@/assets/sikkim&darjeeling/16.webp";
 import sikkimdarjeeling17 from "@/assets/sikkim&darjeeling/17.webp";
 
 // South India
-import southindia1 from "@/assets/south-india/1.jpg";
-// import southindia2 from "@/assets/south-india/2.jpg";
-// import southindia3 from "@/assets/south-india/3.jpg";
-// import southindia4 from "@/assets/south-india/4.jpg";
-// import southindia5 from "@/assets/south-india/5.jpg";
-// import southindia6 from "@/assets/south-india/6.jpg";
-// import southindia7 from "@/assets/south-india/7.jpg";
-// import southindia8 from "@/assets/south-india/8.jpg";
-// import southindia9 from "@/assets/south-india/9.jpg";
-// import southindia10 from "@/assets/south-india/10.jpg";
-// import southindia11 from "@/assets/south-india/11.jpg";
-// import southindia12 from "@/assets/south-india/12.jpg";
-// import southindia13 from "@/assets/south-india/13.jpg";
-// import southindia14 from "@/assets/south-india/14.jpg";
-// import southindia15 from "@/assets/south-india/15.jpg";
-// import southindia16 from "@/assets/south-india/16.jpg";
-// import southindia17 from "@/assets/south-india/17.jpg";
+import southindia1 from "@/assets/south-india/1.webp";
+import southindia2 from "@/assets/south-india/2.webp";
+import southindia3 from "@/assets/south-india/3.webp";
+import southindia4 from "@/assets/south-india/4.webp";
+import southindia5 from "@/assets/south-india/5.webp";
+import southindia6 from "@/assets/south-india/6.webp";
+import southindia7 from "@/assets/south-india/7.webp";
+import southindia8 from "@/assets/south-india/8.webp";
+import southindia9 from "@/assets/south-india/9.webp";
+import southindia10 from "@/assets/south-india/10.webp";
+import southindia11 from "@/assets/south-india/11.webp";
+import southindia12 from "@/assets/south-india/12.webp";
+import southindia13 from "@/assets/south-india/13.webp";
+import southindia14 from "@/assets/south-india/14.webp";
+import southindia15 from "@/assets/south-india/15.webp";
 
 // Singapore
 import singapore1 from "@/assets/singapore/1.webp";
@@ -651,6 +645,23 @@ import turkey15 from "@/assets/turkey/15.webp";
 import turkey16 from "@/assets/turkey/16.webp";
 import turkey17 from "@/assets/turkey/17.webp";
 
+// jodhpur
+import jodhpur1 from "@/assets/jodhpur/1.webp";
+import jodhpur2 from "@/assets/jodhpur/2.webp";
+import jodhpur3 from "@/assets/jodhpur/3.webp";
+import jodhpur4 from "@/assets/jodhpur/4.webp";
+import jodhpur5 from "@/assets/jodhpur/5.webp";
+import jodhpur6 from "@/assets/jodhpur/6.webp";
+import jodhpur7 from "@/assets/jodhpur/7.webp";
+import jodhpur8 from "@/assets/jodhpur/8.webp";
+import jodhpur9 from "@/assets/jodhpur/9.webp";
+import jodhpur10 from "@/assets/jodhpur/10.webp";
+import jodhpur11 from "@/assets/jodhpur/11.webp";
+import jodhpur12 from "@/assets/jodhpur/12.webp";
+import jodhpur13 from "@/assets/jodhpur/13.webp";
+import jodhpur14 from "@/assets/jodhpur/14.webp";
+import jodhpur15 from "@/assets/jodhpur/15.webp";
+
 // Venice
 import venice1 from "@/assets/venice/1.webp";
 import venice2 from "@/assets/venice/2.webp";
@@ -707,13 +718,13 @@ export {
   nav1, nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11,
 
   // Destination Images
-  andman1,andman2,andman3,andman4,andman5,andman6,andman7,andman8,andman9,andman10,andman11,andman12,andman13,andman14,andman15,andman16,andman17,
-  assam1, 
+  andman1, andman2, andman3, andman4, andman5, andman6, andman7, andman8, andman9, andman10, andman11, andman12, andman13, andman14, andman15, andman16, andman17,
+  assam1, assam2, assam3, assam4, assam5, assam6, assam7, assam8, assam9, assam10, assam11, assam12, assam13, assam14, assam15,
   azerbaizan1, azerbaizan2, azerbaizan3, azerbaizan4, azerbaizan5, azerbaizan6, azerbaizan7, azerbaizan8, azerbaizan9, azerbaizan10, azerbaizan11, azerbaizan12, azerbaizan13, azerbaizan14, azerbaizan15, azerbaizan16, azerbaizan17,
   baku1, baku2, baku3, baku4, baku5, baku6, baku7, baku8, baku9, baku10, baku11, baku12, baku13, baku14, baku15, baku16, baku17,
   bali1, bali2, bali3, bali4, bali5, bali6, bali7, bali8, bali9, bali10, bali11, bali12, bali13, bali14, bali15, bali16, bali17,
   bhutan1, bhutan2, bhutan3, bhutan4, bhutan5, bhutan6, bhutan7, bhutan8, bhutan9, bhutan10, bhutan11, bhutan12, bhutan13, bhutan14, bhutan15, bhutan16, bhutan17,
-  darjeeling1,
+  darjeeling1, darjeeling2, darjeeling3, darjeeling4, darjeeling5, darjeeling6, darjeeling7, darjeeling8, darjeeling9, darjeeling10, darjeeling11, darjeeling12, darjeeling13, darjeeling14, darjeeling15,
   dubai1, dubai2, dubai3, dubai4, dubai5, dubai6, dubai7, dubai8, dubai9, dubai10, dubai11, dubai12, dubai13, dubai14, dubai15, dubai16, dubai17,
   goa1, goa2, goa3, goa4, goa5, goa6, goa7, goa8, goa9, goa10, goa11, goa12, goa13, goa14, goa15, goa16, goa17,
   greece1, greece2, greece3, greece4, greece5, greece6, greece7, greece8, greece9, greece10, greece11, greece12, greece13, greece14, greece15, greece16, greece17,
@@ -730,15 +741,15 @@ export {
   newyork1, newyork2, newyork3, newyork4, newyork5, newyork6, newyork7, newyork8, newyork9, newyork10, newyork11, newyork12, newyork13, newyork14, newyork15, newyork16, newyork17,
   paris1, paris2, paris3, paris4, paris5, paris6, paris7, paris8, paris9, paris10, paris11, paris12, paris13, paris14, paris15, paris16, paris17,
   rajasthan1, rajasthan2, rajasthan3, rajasthan4, rajasthan5, rajasthan6, rajasthan7, rajasthan8, rajasthan9, rajasthan10, rajasthan11, rajasthan12, rajasthan13, rajasthan14, rajasthan15, rajasthan16, rajasthan17,
+  jodhpur1, jodhpur2, jodhpur3, jodhpur4, jodhpur5, jodhpur6, jodhpur7, jodhpur8, jodhpur9, jodhpur10, jodhpur11, jodhpur12, jodhpur13, jodhpur14, jodhpur15,
   rome1, rome2, rome3, rome4, rome5, rome6, rome7, rome8, rome9, rome10, rome11, rome12, rome13, rome14, rome15, rome16, rome17,
   sikkimdarjeeling1, sikkimdarjeeling2, sikkimdarjeeling3, sikkimdarjeeling4, sikkimdarjeeling5, sikkimdarjeeling6, sikkimdarjeeling7, sikkimdarjeeling8, sikkimdarjeeling9, sikkimdarjeeling10, sikkimdarjeeling11, sikkimdarjeeling12, sikkimdarjeeling13, sikkimdarjeeling14, sikkimdarjeeling15, sikkimdarjeeling16, sikkimdarjeeling17,
-  southindia1, 
+  southindia1, southindia2, southindia3, southindia4, southindia5, southindia6, southindia7, southindia8, southindia9, southindia10, southindia11, southindia12, southindia13, southindia14, southindia15,
   singapore1, singapore2, singapore3, singapore4, singapore5, singapore6, singapore7, singapore8, singapore9, singapore10, singapore11, singapore12, singapore13, singapore14, singapore15, singapore16, singapore17,
   srilanka1, srilanka2, srilanka3, srilanka4, srilanka5, srilanka6, srilanka7, srilanka8, srilanka9, srilanka10, srilanka11, srilanka12, srilanka13, srilanka14, srilanka15, srilanka16, srilanka17,
   switzerland1, switzerland2, switzerland3, switzerland4, switzerland5, switzerland6, switzerland7, switzerland8, switzerland9, switzerland10, switzerland11, switzerland12, switzerland13, switzerland14, switzerland15, switzerland16, switzerland17,
   thailand1, thailand2, thailand3, thailand4, thailand5, thailand6, thailand7, thailand8, thailand9, thailand10, thailand11, thailand12, thailand13, thailand14, thailand15, thailand16, thailand17,
-   triangle1, triangle2, triangle3, triangle4, triangle5, triangle6, triangle7, triangle8,
-  triangle9, triangle10, triangle11, triangle12, triangle13, triangle14, triangle15, triangle16,
+  triangle1, triangle2, triangle3, triangle4, triangle5, triangle6, triangle7, triangle8, triangle9, triangle10, triangle11, triangle12, triangle13, triangle14, triangle15, triangle16,
   turkey1, turkey2, turkey3, turkey4, turkey5, turkey6, turkey7, turkey8, turkey9, turkey10, turkey11, turkey12, turkey13, turkey14, turkey15, turkey16, turkey17,
   venice1, venice2, venice3, venice4, venice5, venice6, venice7, venice8, venice9, venice10, venice11, venice12, venice13, venice14, venice15, venice16, venice17,
   vietnam1, vietnam2, vietnam3, vietnam4, vietnam5, vietnam6, vietnam7, vietnam8, vietnam9, vietnam10, vietnam11, vietnam12, vietnam13, vietnam14, vietnam15, vietnam16, vietnam17

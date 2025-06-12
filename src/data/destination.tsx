@@ -16,7 +16,6 @@ import {
   andman15,
   andman16,
   andman17,
-  assam1,
   azerbaizan1,
   azerbaizan2,
   azerbaizan3,
@@ -85,7 +84,6 @@ import {
   bhutan15,
   bhutan16,
   bhutan17,
-  darjeeling1,
   dubai1,
   dubai2,
   dubai3,
@@ -599,7 +597,7 @@ export const Destinationdata = {
           {
             id: 8,
             img: triangle9,
-            title: "Amer Fort, Jaipur:",
+            title: "Amber Fort, Jaipur:",
             text:
               "Amer Fort aka Amber Fort is a magnificent fort located on a hilltop, majestically flaunting the Rajasthani architectural styles. It was declared as a UNESCO World Heritage Site in 2013.",
           },
@@ -2317,7 +2315,7 @@ export const Destinationdata = {
       img: turkey1,
       about: {
         title: "About Turkey",
-        img: turkey1,
+        img: turkey2,
         para:
           "Turkey bridges Asia and Europe, blending ancient history with modern life. From grand mosques and bazaars to breathtaking landscapes and ruins, it's a country full of wonders. Whether you're soaking in a thermal pool or walking the streets of Istanbul, Turkey offers unforgettable cultural and scenic experiences.",
       },
@@ -2421,7 +2419,7 @@ export const Destinationdata = {
       img: switzerland1,
       about: {
         title: "About Switzerland",
-        img: switzerland1,
+        img: switzerland2,
         para:
           "Switzerland is a land of stunning Alpine beauty, precision, and charm. Famous for its picturesque towns, snowy peaks, and chocolate, it offers a serene yet exhilarating travel experience. From exploring glaciers to riding scenic trains, Switzerland is a must-visit for nature lovers and adventurers.",
       },
@@ -2475,7 +2473,7 @@ export const Destinationdata = {
       img: maldives1,
       about: {
         title: "About Maldives",
-        img: maldives1,
+        img: maldives2,
         para:
           "The Maldives is a tropical paradise in the Indian Ocean, known for its crystal-clear waters, overwater villas, and abundant marine life. It's the perfect destination for romance and relaxation. Whether you're snorkeling among coral reefs or lounging on a private beach, the Maldives promises pure bliss.",
       },
@@ -2527,7 +2525,7 @@ export const Destinationdata = {
       img: baku1,
       about: {
         title: "About Baku",
-        img: baku1,
+        img: baku2,
         para:
           "Baku, the capital of Azerbaijan, is where ancient history meets futuristic architecture. Situated on the Caspian Sea, it boasts a rich mix of culture, cuisine, and stunning design. From UNESCO-listed old towns to dazzling flame towers, Baku is an emerging destination worth exploring.",
       },
@@ -2579,7 +2577,7 @@ export const Destinationdata = {
       img: bhutan1,
       about: {
         title: "Bhutan - The Last Himalayan Kingdom",
-        img: bhutan1,
+        img: bhutan2,
         para:
           "In the Eastern Himalayas, Bhutan is a land where tradition and modernity coexist harmoniously. Known for its breathtaking landscapes, rich culture, and commitment to gross national happiness, Bhutan offers travelers a unique and serene experience.",
       },
@@ -2646,7 +2644,7 @@ export const Destinationdata = {
       img: malaysia1,
       about: {
         title: "Malaysia -A Tapestry of Cultures and Natural Wonders",
-        img: malaysia1,
+        img: malaysia2,
         para:
           "Malaysia is a vibrant blend of modern cities, colonial architecture, lush rainforests, and pristine beaches. From the bustling streets of Kuala Lumpur to the serene islands of Langkawi, Malaysia offers a diverse array of experiences for every traveler.",
       },
@@ -2713,7 +2711,7 @@ export const Destinationdata = {
       img: nepal1,
       about: {
         title: "Nepal -A Land of Mountains, Culture & Spirituality",
-        img: nepal1,
+        img: nepal2,
         para:
           "Nepal is a breathtaking mix of Himalayan peaks, ancient temples, and rich traditions. From Mount Everest to the serene beauty of Pokhara, Nepal offers adventure and cultural immersion for all travelers.",
       },
@@ -3494,7 +3492,7 @@ export const Destinationdata = {
       img: azerbaizan1,
       about: {
         title: "Azerbaijan -The Jewel of the Caucasus",
-        img: azerbaizan1,
+        img: azerbaizan2,
         para:
           "Azerbaijan blends modern architecture, historical landmarks, stunning landscapes, and rich culture. From Baku’s futuristic skyline to Gobustan’s ancient petroglyphs, Azerbaijan is a hidden gem of travel.",
       },
