@@ -1,4 +1,4 @@
-import {  about2, about3, banner1, banner2, banner3, banner4, banner5, banner6, banner7, cl1, cli1, cli2, cli3, faq, logo2,nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11, about } from "@/assets";
+import {  about2, about3, banner1, banner2, banner3, banner4, banner5, banner6, banner7, cl1, cli1, cli2, cli3, faq, logo2,nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11, about, thailand3, srilanka6, bali4, singapore8 } from "@/assets";
 import { BsFillAirplaneFill } from "react-icons/bs";
 import {  FaMapLocationDot, FaPassport} from "react-icons/fa6";
 import { GiDeadEye } from "react-icons/gi";
@@ -13,7 +13,7 @@ import { MdAttachEmail, MdWifiCalling3, } from "react-icons/md";
 export const headercountry=[{
   id:1,
   img:nav1,
-label:"Azerbaizan",
+label:"Azerbaijan",
 slug:"/destination/azerbaijan?categorys=international"
 },
 {
@@ -183,25 +183,25 @@ export const HomeBannerData=
   export const homepackagedata ={
     title:"Best Travel Packages",
     para:"We specialize in curating unforgettable travel experiences and ensure every trip is hassle-free and filled with cherished memories.",
-    section1:{img:banner1,
+    section1:{img:thailand3,
       title: "Thailand",
       para: "Discover rich culture, ancient temples, vibrant markets,",
       btntext: "Explore Packages",
       href: "/",
     },
-    section2:{img:banner2,
+    section2:{img:srilanka6,
       title: "Sri Lanka",
       para: "Discover rich culture, ancient temples, vibrant markets,",
       btntext: "Explore Packages",
       href: "/",
     },
-    section3:{img:banner4,
+    section3:{img:bali4,
       title: "Bali",
       para: "Discover rich culture, ancient temples, vibrant markets,",
       btntext: "Explore Packages",
       href: "/",
     },
-    section4:{img:banner3,
+    section4:{img:singapore8,
       title: "Singapore",
       para: "Discover rich culture, ancient temples, vibrant markets,",
       btntext: "Explore Packages",
