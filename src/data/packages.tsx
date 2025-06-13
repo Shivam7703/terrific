@@ -2512,7 +2512,7 @@ whychoose:{
         }
       ]
     },
-    topAttraction: [
+    topattract: [
           {
             id: 1,
             img: sikkimdarjeeling3,
@@ -2934,7 +2934,7 @@ international:[
             }
           ]
         },
-        topAttraction: [
+        topattract: [
           {
             id: 1,
             img: vietnam3,
@@ -3134,7 +3134,7 @@ international:[
             }
           ]
         },
-        topAttraction: [
+        topattract: [
           { id: 1, img: bali3, title: "Uluwatu Temple", text: "Perched on a cliff with the Indian Ocean below, this temple offers mesmerizing sunsets. Don’t miss the traditional Kecak fire dance at dusk." },
           { id: 2, img: bali4, title: "Tegallalang Rice Terraces", text: "Lush green landscapes with beautifully stepped rice paddies. A perfect spot for photos and peaceful walks in nature." },
           { id: 3, img: bali5, title: "Ubud Monkey Forest", text: "A mystical forest sanctuary with ancient temples and curious monkeys. It’s a serene and slightly wild experience in the heart of Ubud." },
@@ -3242,7 +3242,7 @@ international:[
             }
           ]
         },
-        topAttraction: [
+        topattract: [
                   { id: 1, img: turkey3, title: "Hagia Sophia, Istanbul", text: "This architectural wonder has served as a cathedral, mosque, and now a museum. Its majestic dome and mosaics reflect centuries of history." },
                   { id: 2, img: turkey4, title: "Cappadocia", text: "A magical region known for its 'fairy chimney' rock formations. Best experienced from above in a hot air balloon ride." },
                   { id: 3, img: turkey5, title: "Pamukkale", text: "Home to natural white travertine terraces and ancient thermal pools. An extraordinary site with healing waters and surreal beauty." },

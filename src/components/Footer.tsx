@@ -90,14 +90,11 @@ export default function Footer({ footer }: any) {
           </ul>
         </div>
         <div className="col-span-2 flex flex-col gap-y-2 md:pl-10 mt-5">
-          <h4 className="my-2 text-xl font-semibold">{footer?.list2?.title}</h4>
+          <h4 className="my-2 text-xl font-semibold">{footer?.list3?.title}</h4>
           <ul className="space-y-2">
             {footer?.list3?.links?.map((d: any, i: number) => (
               <li key={i}>
-                <Link
-                  href={d?.href}
-                  className=" transition:all text-base text-zinc-200 duration-300 hover:text-color2 "
-                >
+                <Link href={d?.href}  className=" transition:all text-base text-zinc-200 duration-300 hover:text-color2">
                   {"-"} {d?.label}
                 </Link>
               </li>
