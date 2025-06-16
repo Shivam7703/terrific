@@ -26,9 +26,22 @@ import banner7 from "@/assets/home/Bannner7.jpg";
 
 // Miscellaneous Home Assets
 import cloude from "@/assets/home/cloude.png";
-import cli1 from "@/assets/home/cl-1.png";
-import cli2 from "@/assets/home/cl-2.png";
-import cli3 from "@/assets/home/cl-3.png";
+import cli1 from "@/assets/home/l1.png";
+import cli2 from "@/assets/home/l2.png";
+import cli3 from "@/assets/home/l3.png";
+import cli4 from "@/assets/home/l4.png";
+import cli5 from "@/assets/home/l5.png";
+import cli6 from "@/assets/home/l6.png";
+import cli7 from "@/assets/home/l7.png";
+import cli8 from "@/assets/home/l8.png";
+import cli9 from "@/assets/home/l9.png";
+import cli10 from "@/assets/home/l10.png";
+import cli11 from "@/assets/home/l11.png";
+import cli12 from "@/assets/home/l12.png";
+import cli13 from "@/assets/home/l13.png";
+import cli14 from "@/assets/home/l14.png";
+
+
 import cl1 from "@/assets/home/test-1.jpg";
 import faq from "@/assets/home/faq.png";
 import footerimg from "@/assets/home/footer.png";
@@ -709,7 +722,7 @@ export {
   banner1, banner2, banner3, banner4, banner5, banner6, banner7,
 
   // Cloud / misc
-  cloude, cl1, cli1, cli2, cli3, faq, footerimg, contact,
+  cloude, cl1, cli1, cli2, cli3, cli4, cli5, cli6, cli7, cli8, cli9, cli10, cli11, cli12, cli13, cli14, faq, footerimg, contact,
 
   // Home Section
   about, about2, about3, why, why2,

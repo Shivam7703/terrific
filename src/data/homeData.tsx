@@ -1,4 +1,4 @@
-import {  about2, about3, banner1, banner2, banner3, banner4, banner5, banner6, banner7, cl1, cli1, cli2, cli3, faq, logo2,nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11, about, thailand3, srilanka6, bali4, singapore8 } from "@/assets";
+import {  about2, about3, banner1, banner2, banner3, banner4, banner5, banner6, banner7, cl1, cli1, cli2, cli3, cli4, cli5, cli6, cli7, cli8, cli9, cli10, cli11, cli12, cli13, cli14, faq, logo2,nav1,nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11, about, thailand3, srilanka6, bali4, singapore8} from "@/assets";
 import { BsFillAirplaneFill } from "react-icons/bs";
 import {  FaMapLocationDot, FaPassport} from "react-icons/fa6";
 import { GiDeadEye } from "react-icons/gi";
@@ -285,20 +285,53 @@ export const HomeBannerData=
   },
   {
     id:3,
-    img:cli1
+    img:cli3
   },
   {
     id:4,
-    img:cli3
+    img:cli4
   },
 {
   id:5,
-  img:cli2
+  img:cli5
 },
 {
   id:6,
-  img:cli3
-}] 
+  img:cli6
+},
+{
+  id:7,
+  img:cli7
+},
+{
+  id:8,
+  img:cli8
+},
+{
+  id:9,
+  img:cli9
+},
+{
+  id:10,
+  img:cli10
+},
+{
+  id:11,
+  img:cli11
+},
+{
+  id:12,
+  img:cli12
+},
+{
+  id:13,
+  img:cli13
+},
+{
+  id:14,
+  img:cli14
+}
+]
 
 export  const testimonialData = {
   title:"What our client Says",

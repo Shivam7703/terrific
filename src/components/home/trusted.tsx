@@ -23,7 +23,7 @@ function Trusted({ data }: any) {
               <Image
                 src={bnr.img}
                 alt={`banner-image-${bnr.id}`}
-                className="w-52 h-9 object-contain"
+                className="w-auto mr-12 h-14 object-contain"
                 width={208} 
                 height={36} 
               />
