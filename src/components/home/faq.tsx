@@ -36,7 +36,7 @@ export default function FaqSection() {
                   >
                     {city.que}
 
-                    <FaChevronDown className={` duration-300 ${expandedCity === city.id ? "rotate-180 text-color1" :"text-zinc-700"}`} />
+                    <FaChevronDown className={`min-w-9 duration-300 ${expandedCity === city.id ?  "rotate-180 text-color1" :"text-zinc-700"}`} />
                    
                   </div>
 
@@ -44,7 +44,7 @@ export default function FaqSection() {
                   <div
                     className={`overflow-hidden transition-all duration-1000 ${
                       expandedCity === city.id
-                        ? "max-h-14 mt-3 space-y-4"
+                        ? "max-h-28 mt-3 space-y-4"
                         : "max-h-0"
                     }`}
                   >
